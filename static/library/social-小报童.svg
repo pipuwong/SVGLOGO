@@ -1,0 +1,15 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="24" cy="24" r="20" fill="#B14B43"/>
+<rect x="13" y="14" width="11" height="3" fill="white"/>
+<path d="M25 12H34C34 12 34 14 34 15C34 18 33 20 30 20C30 19 30 18 30 17C30.5 17 31 16 31 15C29.1562 15 25 15 25 15V12Z" fill="white"/>
+<path d="M25 21H34C34 21 34 23 34 24C34 31 33 33.5 29.5 36C29 34.5 28.8438 34 28.5 33C31 30.5 31 26 31 24C28.5 24 25 24 25 24V21Z" fill="white"/>
+<rect x="13" y="19" width="11" height="3" fill="white"/>
+<rect x="13" y="25" width="11" height="3" fill="white"/>
+<rect x="13" y="30" width="11" height="3" fill="white"/>
+<rect x="20" y="11" width="10" height="3" transform="rotate(90 20 11)" fill="white"/>
+<rect x="28" y="15" width="21" height="3" transform="rotate(90 28 15)" fill="white"/>
+<path d="M29.5 26.5C30.5 30 33 32.5 34.5 34L33 36C30.5 34 28 29.5 27.5 27L29.5 26.5Z" fill="white"/>
+<rect x="20" y="27" width="9" height="3" transform="rotate(90 20 27)" fill="white"/>
+<path d="M17.5 19L17.5 28L15 28L15 19L17.5 19Z" fill="white"/>
+<path d="M22 19L22 28L19.5 28L19.5 19L22 19Z" fill="white"/>
+</svg>
