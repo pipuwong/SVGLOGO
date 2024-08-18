@@ -26,6 +26,9 @@
  * ```
  */
 declare module '$env/static/private' {
+	export const SVGL_API_REQUESTS: string;
+	export const UPSTASH_REDIS_URL: string;
+	export const UPSTASH_REDIS_TOKEN: string;
 	export const NVM_INC: string;
 	export const MANPATH: string;
 	export const TERM_PROGRAM: string;
@@ -124,6 +127,9 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
+		SVGL_API_REQUESTS: string;
+		UPSTASH_REDIS_URL: string;
+		UPSTASH_REDIS_TOKEN: string;
 		NVM_INC: string;
 		MANPATH: string;
 		TERM_PROGRAM: string;

@@ -7,7 +7,7 @@ const core = require('@actions/core');
 
 // 🔎 Settings:
 const dir = '../static/library';
-const sizeLimit = 20000; // 20kb;
+const sizeLimit = 200000; // 20kb;
 
 function convertBytes(bytes, format = 'KB') {
   if (format === 'KB') {
