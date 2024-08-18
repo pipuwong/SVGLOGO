@@ -2,6 +2,12 @@ import type { iSVG } from '../types/svg';
 
 export const svgs: iSVG[] = [
   {
+    "title": "SVGLOGO",
+    "category": "热门工具",
+    "route": "/library/SVGLOGO.svg",
+    "url": "svglogo.top"
+  },
+  {
     "title": "北京银行",
     "category": "国内银行",
     "route": "/library/bank-北京银行 BOB.svg",
