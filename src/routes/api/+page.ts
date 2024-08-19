@@ -2,7 +2,7 @@ import { error } from '@sveltejs/kit';
 
 export async function load() {
   try {
-    const documentTitle = 'api';
+    const documentTitle = 'about';
     const post = await import(`../../docs/${documentTitle}.md`);
     return {
       content: post.default,

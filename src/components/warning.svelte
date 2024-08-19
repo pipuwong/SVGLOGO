@@ -15,16 +15,9 @@
     <div class="flex items-center space-x-2">
       <AlertTriangleIcon size={18} strokeWidth={2} class="mr-1" />
       <p>
-        All svgs provides the link to the product or company that owns it, <strong
-          >please contact them</strong
-        >
-        if you are going to use their logo. If you are the owner of an svg and do not want it to appear
-        here, please
-        <a
-          target="_blank"
-          class="underline underline-offset-4 decoration-dotted decoration-neutral-500"
-          href="https://github.com/pheralb/svgl/issues/new">create an issue</a
-        > on Github.
+        本网站展示的矢量图形均为网络搜集、整理，仅供学习参考，不保证其权威性、准确性。其版权均严格归属于各自对应公司机构。<strong
+          >严禁未经授权的复制、修改、传播或商业使用。</strong>
+          本网站无法对用户使用LOGO后的具体行为及其法律后果承担责任。
       </p>
     </div>
     <button
@@ -35,7 +28,7 @@
       }}
     >
       <Check size={14} strokeWidth={2} />
-      <span>Accept</span>
+      <span>我知道了</span>
     </button>
   </div>
 {/if}

@@ -46,7 +46,7 @@
 </script>
 
 <svelte:head>
-  <title>{category} logos - Svgl</title>
+  <title>{category} SVGLOGO </title>
 </svelte:head>
 
 <Container>

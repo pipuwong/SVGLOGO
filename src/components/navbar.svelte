@@ -9,16 +9,22 @@
   import XIcon from './xIcon.svelte';
   import GithubIcon from './githubIcon.svelte';
   import HuaziLogo from './HuaziLogo.svelte';
-    import Huazilogo from './HuaziLogo.svelte';
+  import Huazilogo from './HuaziLogo.svelte';
 
   const externalLinks = [
     // {
-    //   name: 'API',
+    //   name: '关于',
     //   url: '/api',
     //   icon: CloudyIcon,
     //   external: false,
     //   label: "Go to the SVGL's API section"
     // },
+    {
+      name: '关于',
+      url: '/api',
+      external: false,
+      label: "关于本站"
+    },
     // {
     //   name: 'Extensions',
     //   url: 'https://github.com/pheralb/svgl?tab=readme-ov-file#-extensions',
@@ -93,22 +99,22 @@
         {/each}
       </div>
       <div class="flex items-center space-x-4">
-        <a
+        <!-- <a
           href="https://twitter.com/HeyHuazi"
           target="_blank"
           class="flex items-center space-x-1 opacity-80 hover:opacity-100 transition-opacity"
           title="Twitter"
         >
           <XIcon iconSize={16} />
-        </a>
-        <a
+        </a> -->
+        <!-- <a
           href="https://svgl.app/git"
           target="_blank"
           class="flex items-center space-x-1 opacity-80 hover:opacity-100 transition-opacity"
           title="GitHub"
         >
           <GithubIcon iconSize={19} />
-        </a>
+        </a> -->
         <a
           href="https://huazi.space/"
           target="_blank"

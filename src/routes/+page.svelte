@@ -93,7 +93,7 @@
 </script>
 
 <svelte:head>
-  <title>A beautiful library with SVG logos - Svgl</title>
+  <title>收录国内矢量 LOGO - SVGLOGO</title>
 </svelte:head>
 
 <Search

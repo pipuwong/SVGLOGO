@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>{data.meta.title} - SVGL</title>
+  <title>{data.meta.title}-SVGLOGO</title>
   <meta property="og:type" content="article" />
   <meta property="og:title" content={data.meta.title} />
   <meta property="og:description" content={data.meta.description} />
@@ -18,21 +18,21 @@
       <h1
         class="mb-4 text-4xl font-bold tracking-tight leading-none text-neutral-900 md:text-5xl lg:text-6xl dark:text-white"
       >
-        API Reference
+        关于本站
       </h1>
-      <span class="relative inline-block overflow-hidden rounded-full p-[1px] shadow-sm">
+      <!-- <span class="relative inline-block overflow-hidden rounded-full p-[1px] shadow-sm">
         <span
           class="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#f4f4f5_0%,#f4f4f5_50%,#737373_100%)] dark:bg-[conic-gradient(from_90deg_at_50%_50%,#121212_0%,#121212_50%,#737373_100%)]"
         />
         <div
           class="inline-flex h-full w-full cursor-default items-center justify-center rounded-full bg-neutral-100 dark:bg-neutral-900 px-3 py-1 text-xs font-medium dark:text-white backdrop-blur-3xl border border-neutral-100 dark:border-neutral-800 font-mono"
         >
-          beta
+          By@Huazi
         </div>
-      </span>
+      </span> -->
     </div>
     <p class="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
-      The API reference is a detailed documentation of all the endpoints available in the API.
+      SVGLOGO 将专注于收录国内矢量 LOGO
     </p>
   </div>
 </section>
