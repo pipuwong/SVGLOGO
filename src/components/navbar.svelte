@@ -34,10 +34,10 @@
     // },
     {
       name: '提交图标',
-      url: 'https://github.com/pheralb/svgl#-getting-started',
+      url: 'https://tally.so/r/3qOv78',
       icon: ArrowUpRight,
       external: true,
-      label: "Submit logo and go to the SVGL's getting started section"
+      label: "提交或者反馈你想要的图标"
     }
   ];
 </script>

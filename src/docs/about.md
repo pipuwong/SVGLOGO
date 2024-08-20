@@ -10,7 +10,7 @@ description: 专注收录国内矢量 LOGO
 
 ## 关于
 本站将专注收录国内矢量 LOGO 素材，目前包含国内社媒、大学校徽、国内银行及热门工具。<br>
-欢迎 [提交or反馈](https://markdown.com.cn) 你想要的 LOGO <br>
+欢迎 [提交or反馈](https://tally.so/r/3qOv78) 你想要的 LOGO <br>
 你可以在[svgl](https://svgl.app/) 找到国外热门矢量 LOGO，本站也基于此开源项目开发。
 
 ## 支持我
@@ -27,6 +27,8 @@ https://github.com/pheralb/svgl <br>
 https://www.figma.com/community/file/916515339708288305 
 
 ## 更新日志
+### 2024.08.21
+➕ 增加 114 所大学校徽
 ### 2024.08.18
 测试版本上线
 
