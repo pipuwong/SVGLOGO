@@ -9,8 +9,9 @@ description: 专注收录国内矢量 LOGO
 
 
 ## 关于
-本站将专注收录国内矢量 LOGO 素材，目前包含国内社媒、大学校徽、国内银行及热门工具。
-欢迎 [提交or反馈](https://markdown.com.cn) 你想要的 LOGO
+本站将专注收录国内矢量 LOGO 素材，目前包含国内社媒、大学校徽、国内银行及热门工具。<br>
+欢迎 [提交or反馈](https://markdown.com.cn) 你想要的 LOGO <br>
+你可以在[svgl](https://svgl.app/) 找到国外热门矢量 LOGO，本站也基于此开源项目开发。
 
 ## 支持我
 通过 微信、支付宝 支持我持续更新
