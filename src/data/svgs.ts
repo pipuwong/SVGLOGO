@@ -354,8 +354,8 @@ export const svgs: iSVG[] = [
 {
   "title": "中央美术学院",
   "category": "大学校徽",
-  "route": "/library/中央美术学院 CAFA.svg",
-  "wordmark": "",
+  "route": "/library/中央美术学院 CAFA-wordmark.svg",
+  "wordmark": "/library/中央美术学院 CAFA-wordmark.svg",
   "url": "中央美术学院"
 },
 {
@@ -669,7 +669,7 @@ export const svgs: iSVG[] = [
 {
   "title": "浙江工业大学",
   "category": "大学校徽",
-  "route": "/library/浙江工业大学 ZJUT.svg",
+  "route": "/library/浙江工业大学.svg",
   "wordmark": "/library/浙江工业大学 ZJUT-wordmark.svg",
   "url": "浙江工业大学"
 },
@@ -811,13 +811,6 @@ export const svgs: iSVG[] = [
     "category": "热门工具",
     "route": "/library/SVGLOGO.svg",
     "url": "svglogo.top"
-  },
-  {
-    "title": "北京银行",
-    "category": "国内银行",
-    "route": "/library/bank-北京银行 BOB.svg",
-    "wordmark": "/library/bank-北京银行 BOB-wordmark.svg",
-    "url": "Website"
   },
   {
     "title": "微信",
