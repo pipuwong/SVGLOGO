@@ -37,7 +37,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   do {
     $$settled = true;
     $$result.head = previous_head;
-    $$rendered = `${$$result.head += `<!-- HEAD_svelte-eruwv6_START -->${$$result.title = `<title>${escape(category)} logos - Svgl</title>`, ""}<!-- HEAD_svelte-eruwv6_END -->`, ""} ${validate_component(Container, "Container").$$render($$result, {}, {}, {
+    $$rendered = `${$$result.head += `<!-- HEAD_svelte-1pbjpki_START -->${$$result.title = `<title>${escape(category)} SVGLOGO </title>`, ""}<!-- HEAD_svelte-1pbjpki_END -->`, ""} ${validate_component(Container, "Container").$$render($$result, {}, {}, {
       default: () => {
         return `${validate_component(Search, "Search").$$render(
           $$result,

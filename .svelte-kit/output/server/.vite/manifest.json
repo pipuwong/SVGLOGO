@@ -111,14 +111,13 @@
       "_environment.js"
     ]
   },
-  "src/docs/api.md": {
-    "file": "chunks/api.js",
-    "name": "api",
-    "src": "src/docs/api.md",
+  "src/docs/about.md": {
+    "file": "chunks/about.js",
+    "name": "about",
+    "src": "src/docs/about.md",
     "isDynamicEntry": true,
     "imports": [
-      "_ssr.js",
-      "_cn.js"
+      "_ssr.js"
     ]
   },
   "src/routes/+error.svelte": {
@@ -151,7 +150,7 @@
       "_Icon.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.HjWmlFlb.css"
+      "_app/immutable/assets/_layout.BfQbnA-j.css"
     ]
   },
   "src/routes/+page.svelte": {
@@ -188,7 +187,7 @@
       "_index.js"
     ],
     "dynamicImports": [
-      "src/docs/api.md"
+      "src/docs/about.md"
     ]
   },
   "src/routes/api/categories/+server.ts": {

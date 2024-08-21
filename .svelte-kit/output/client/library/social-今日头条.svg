@@ -1,14 +1,1 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4 13.25L44 11V35L4 37V13.25Z" fill="#FF353C"/>
-<path d="M9.5 19.5V17L15 17.5V20L9.5 19.5Z" fill="white"/>
-<path d="M9.5 23.5V21L15 21.5V24L9.5 23.5Z" fill="white"/>
-<path d="M15.5 25.5C17.0074 22.0876 16.5 16 16.5 16H19C19 16 19.8161 22.0258 18.5 25.5C17.1712 29.0076 12.5 33 12.5 33H8.5C8.5 33 13.8811 29.1648 15.5 25.5Z" fill="white"/>
-<path d="M20.5 32.5L18.25 29L21 28.75L23.5 32.5H20.5Z" fill="white"/>
-<path d="M25 18.5L27 15L30 16L39 15.5V18L35.5 20.5L40 21V23.5L32 22.5L24.5 24.5V22L29 21L25 18.5Z" fill="white"/>
-<path d="M31 23.5H33.5V32H31V23.5Z" fill="white"/>
-<path d="M24.5 32L27 28H30L27.5 32H24.5Z" fill="white"/>
-<path d="M37.5 31.5L35 28H38L40.5 31.5H37.5Z" fill="white"/>
-<path d="M8 28V26L23.5 25V27L8 28Z" fill="white"/>
-<path d="M24.5 27.5V25.5L40 24.5V26.5L24.5 27.5Z" fill="white"/>
-<path d="M29 18L36 17.5L32.5 19.5L29 18Z" fill="#FF353C"/>
-</svg>
+<svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 13.25 44 11v24L4 37V13.25Z" fill="#FF353C"/><path d="M9.5 19.5V17l5.5.5V20l-5.5-.5ZM9.5 23.5V21l5.5.5V24l-5.5-.5Z" fill="#fff"/><path d="M15.5 25.5c1.507-3.412 1-9.5 1-9.5H19s.816 6.026-.5 9.5c-1.329 3.508-6 7.5-6 7.5h-4s5.381-3.835 7-7.5ZM20.5 32.5 18.25 29l2.75-.25 2.5 3.75h-3ZM25 18.5l2-3.5 3 1 9-.5V18l-3.5 2.5 4.5.5v2.5l-8-1-7.5 2V22l4.5-1-4-2.5Z" fill="#fff"/><path d="M31 23.5h2.5V32H31v-8.5ZM24.5 32l2.5-4h3l-2.5 4h-3ZM37.5 31.5 35 28h3l2.5 3.5h-3ZM8 28v-2l15.5-1v2L8 28Z" fill="#fff"/><path d="M24.5 27.5v-2l15.5-1v2l-15.5 1Z" fill="#fff"/><path d="m29 18 7-.5-3.5 2L29 18Z" fill="#FF353C"/></svg>

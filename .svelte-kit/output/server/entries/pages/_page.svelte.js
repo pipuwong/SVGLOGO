@@ -73,7 +73,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   do {
     $$settled = true;
     $$result.head = previous_head;
-    $$rendered = `${$$result.head += `<!-- HEAD_svelte-1ud54tf_START -->${$$result.title = `<title>A beautiful library with SVG logos - Svgl</title>`, ""}<!-- HEAD_svelte-1ud54tf_END -->`, ""} ${validate_component(Search, "Search").$$render(
+    $$rendered = `${$$result.head += `<!-- HEAD_svelte-lz3zdk_START -->${$$result.title = `<title>收录国内矢量 LOGO - SVGLOGO</title>`, ""}<!-- HEAD_svelte-lz3zdk_END -->`, ""} ${validate_component(Search, "Search").$$render(
       $$result,
       {
         clearSearch: () => clearSearch(),

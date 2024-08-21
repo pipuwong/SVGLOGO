@@ -10,8 +10,8 @@ const __variableDynamicImportRuntimeHelper = (glob, path) => {
 };
 async function load() {
   try {
-    const documentTitle = "api";
-    const post = await __variableDynamicImportRuntimeHelper(/* @__PURE__ */ Object.assign({ "../../docs/api.md": () => import("../../../chunks/api.js") }), `../../docs/${documentTitle}.md`);
+    const documentTitle = "about";
+    const post = await __variableDynamicImportRuntimeHelper(/* @__PURE__ */ Object.assign({ "../../docs/about.md": () => import("../../../chunks/about.js") }), `../../docs/${documentTitle}.md`);
     return {
       content: post.default,
       meta: post.metadata

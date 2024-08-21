@@ -1,6 +1,1 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="20" cy="14" r="7.5" fill="white" stroke="#F26414" stroke-width="3"/>
-<circle cx="33.5" cy="15.5" r="6" fill="white" stroke="#F26414" stroke-width="3"/>
-<path d="M18.2505 31.8519L17.4255 33.0519L18.2505 31.8519L11.6331 27.3024C10.306 26.3901 8.5 27.3402 8.5 28.9505V38.0495C8.5 39.6598 10.3061 40.6099 11.6331 39.6976L18.2505 35.1481C19.4064 34.3534 19.4064 32.6466 18.2505 31.8519Z" fill="white" stroke="#F26414" stroke-width="3"/>
-<rect x="18.5" y="25.5" width="21" height="16" rx="3.5" fill="white" stroke="#F26414" stroke-width="3"/>
-</svg>
+<svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="14" r="7.5" fill="#fff" stroke="#F26414" stroke-width="3"/><circle cx="33.5" cy="15.5" r="6" fill="#fff" stroke="#F26414" stroke-width="3"/><path d="m18.25 31.852-.825 1.2.825-1.2-6.617-4.55c-1.327-.912-3.133.038-3.133 1.649v9.099c0 1.61 1.806 2.56 3.133 1.648l6.617-4.55a2 2 0 0 0 0-3.296Z" fill="#fff" stroke="#F26414" stroke-width="3"/><rect x="18.5" y="25.5" width="21" height="16" rx="3.5" fill="#fff" stroke="#F26414" stroke-width="3"/></svg>
