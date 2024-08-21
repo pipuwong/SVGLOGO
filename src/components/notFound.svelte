@@ -6,24 +6,24 @@
 
 <div class="mt-6 flex w-full flex-col items-center justify-center text-gray-600 dark:text-gray-400">
   <PackageOpen size={40} class="mb-4" />
-  <p class="text-xl mb-1 font-medium">Couldn't find the Icon</p>
+  <p class="text-xl mb-1 font-medium">找不到图标</p>
   <p class="text-md mb-4 font-mono">"{notFoundTerm}"</p>
   <div class="flex items-center space-x-1">
     <a
-      href="https://github.com/pheralb/svgl?tab=readme-ov-file#-getting-started"
+      href="https://tally.so/r/3qOv78"
       target="_blank"
       class={buttonStyles}
     >
-      <span>Submit logo</span>
+      <span>提交 logo</span>
       <ArrowUpRight size={16} />
     </a>
-    <a
+    <!-- <a
       href="https://github.com/pheralb/svgl/issues/new?assignees=pheralb&labels=request&projects=&template=request-svg-.md&title=%5BRequest%5D%3A"
       target="_blank"
       class={buttonStyles}
     >
       <span>Request Icon</span>
       <ArrowUpRight size={16} />
-    </a>
+    </a> -->
   </div>
 </div>
