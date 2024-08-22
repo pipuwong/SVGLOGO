@@ -9,12 +9,13 @@ description: 专注收录国内矢量 LOGO
 
 
 ## 关于
-本站将专注收录国内矢量 LOGO 素材，目前包含国内社媒、大学校徽、国内银行及热门工具。<br>
+本站将专注收录国内矢量 LOGO 素材，目前包含国内社媒、大学校徽、气象预警及工具产品等。<br>
+正持续收录中……<br>
 欢迎 [提交or反馈](https://tally.so/r/3qOv78) 你想要的 LOGO <br>
 你可以在[svgl](https://svgl.app/) 找到国外热门矢量 LOGO，本站也基于此开源项目开发。
 
 ## 支持我
-通过 微信、支付宝 支持我持续更新
+👋 嗨！我是 **Huazi** 你可以通过**微信**、**支付宝**支持我持续更新
 ![打赏码](https://huazispace.s3.bitiful.net/SVGLOGO/reward.png "打赏码")
 
 ## 版权
@@ -22,11 +23,13 @@ description: 专注收录国内矢量 LOGO
 
 ## 感谢以下朋友和和开源项目
 感谢 **@猫柚 @小柒** 教我如何部署项目 <br>
-https://www.figma.com/community/file/1135955101876419749/social-media-logos <br>
-https://github.com/pheralb/svgl <br>
-https://www.figma.com/community/file/916515339708288305 
+本站基于开源项目 [svgl](https://github.com/pheralb/svgl) 开发制作<br>
+[中国大学矢量校徽合集](https://www.figma.com/community/file/916515339708288305) @普鲁文<br>
+[预警信号ICON](https://www.figma.com/community/file/1133299341246601360) @岩鸣杨子<br>
 
 ## 更新日志
+### 2024.08.22
+➕ 增加气象预警图标
 ### 2024.08.21
 ➕ 增加 114 所大学校徽
 ### 2024.08.18
