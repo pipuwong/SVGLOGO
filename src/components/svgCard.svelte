@@ -137,13 +137,13 @@
       <CopySvg {iconSize} {iconStroke} {svgInfo} isInFigma={false} isWordmarkSvg={false} />
     {/if}
 
-    <DownloadSvg
+    <!-- <DownloadSvg
       {svgInfo}
       isDarkTheme={() => {
         const dark = document.documentElement.classList.contains('dark');
         return dark;
       }}
-    />
+    /> -->
 
     <!-- <a
       href={svgInfo.url}

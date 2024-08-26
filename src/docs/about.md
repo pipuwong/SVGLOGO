@@ -28,6 +28,8 @@ description: 专注收录国内矢量 LOGO
 [预警信号ICON](https://www.figma.com/community/file/1133299341246601360) @岩鸣杨子<br>
 
 ## 更新日志
+### 2024.08.27
+下载SVG 功能异常，暂时隐藏，可临时用在线复制 SVG
 ### 2024.08.26
 ➕ 增加小牛翻译、彩云小译、火山引擎 @Lainbo<br>
 ➕ 增加优酷
