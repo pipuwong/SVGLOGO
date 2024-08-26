@@ -105,12 +105,12 @@
     <DialogContent class="max-w-[630px]">
       <DialogHeader>
         <DialogTitle>Download {svgInfo.title}</DialogTitle>
-        <DialogDescription>This logo has multiple options to download.</DialogDescription>
+        <DialogDescription>此 LOGO 有多种下载选项。</DialogDescription>
       </DialogHeader>
 
       <div
         class={cn(
-          'flex flex-col space-y-2 mt-4 h-full',
+          'flex flex-col space-y-2 mt-4 h-auto',
           'md:space-y-0 md:flex-row md:space-x-2 md:items-center md:justify-center'
         )}
       >
@@ -119,7 +119,7 @@
             <img
               src={isDarkTheme() ? svgInfo.route : svgInfo.route}
               alt={svgInfo.title}
-              class="h-8 my-4"
+              class="h-auto my-4"
             />
             <button
               title="Download logo"
@@ -193,7 +193,7 @@
             <img
               src={isDarkTheme() ? svgInfo.wordmark : svgInfo.wordmark}
               alt={svgInfo.title}
-              class="h-8 my-4"
+              class="h-auto my-4"
             />
             <button
               title="Download Wordmark logo"

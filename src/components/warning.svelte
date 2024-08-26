@@ -28,7 +28,7 @@
       }}
     >
       <Check size={14} strokeWidth={2} />
-      <span>我知道了</span>
+      <span>好的</span>
     </button>
   </div>
 {/if}
