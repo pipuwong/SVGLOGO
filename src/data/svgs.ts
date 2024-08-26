@@ -2283,6 +2283,13 @@ export const svgs: iSVG[] = [
     "url": "中国石油大学（华东）"
   },
   {
+    "title": "优酷",
+    "category": "工具产品",
+    "route": "/library/优酷.svg",
+    "wordmark": "/library/优酷-wordmark.svg",
+    "url": "https://www.youku.com/"
+  },
+  {
     "title": "火山引擎",
     "category": "工具产品",
     "route": "/library/tools/火山引擎.svg",
