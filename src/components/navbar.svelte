@@ -21,7 +21,7 @@
     // },
     {
       name: '关于',
-      url: '/api',
+      url: '/about',
       external: false,
       label: "关于本站"
     },

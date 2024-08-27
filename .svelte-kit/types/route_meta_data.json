@@ -3,18 +3,9 @@
 		"src/routes/+layout.server.ts",
 		"src/routes/+layout.server.ts"
 	],
-	"/api": [
-		"src/routes/api/+page.ts",
+	"/about": [
+		"src/routes/about/+page.ts",
 		"src/routes/+layout.server.ts"
-	],
-	"/api/categories": [
-		"src/routes/api/categories/+server.ts"
-	],
-	"/api/svgs": [
-		"src/routes/api/svgs/+server.ts"
-	],
-	"/api/svgs/svgr": [
-		"src/routes/api/svgs/svgr/+server.ts"
 	],
 	"/directory/[slug]": [
 		"src/routes/directory/[slug]/+page.ts",

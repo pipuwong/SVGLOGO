@@ -13,7 +13,7 @@ export const server_loads = [0];
 
 export const dictionary = {
 		"/": [3],
-		"/api": [4],
+		"/about": [4],
 		"/directory/[slug]": [5,[2]]
 	};
 

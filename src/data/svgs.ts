@@ -1,1482 +1,1487 @@
 import type { iSVG } from '../types/svg';
 
 export const svgs: iSVG[] = [
+  // 国内企业
+
+
+  // 气象预警
   {
     "title": "霾-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/霾-橙.svg",
+    "route": "/library/weather/霾-橙.svg",
     "url": "霾-橙"
   },
   {
     "title": "霾-红",
     "category": "气象预警",
-    "route": "/library/气象预警/霾-红.svg",
+    "route": "/library/weather/霾-红.svg",
     "url": "霾-红"
   },
   {
     "title": "霾-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/霾-蓝.svg",
+    "route": "/library/weather/霾-蓝.svg",
     "url": "霾-蓝"
   },
   {
     "title": "霾-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/霾-黄.svg",
+    "route": "/library/weather/霾-黄.svg",
     "url": "霾-黄"
   },
   {
     "title": "严寒-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/严寒-橙.svg",
+    "route": "/library/weather/严寒-橙.svg",
     "url": "严寒-橙"
   },
   {
     "title": "严寒-红",
     "category": "气象预警",
-    "route": "/library/气象预警/严寒-红.svg",
+    "route": "/library/weather/严寒-红.svg",
     "url": "严寒-红"
   },
   {
     "title": "严寒-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/严寒-蓝.svg",
+    "route": "/library/weather/严寒-蓝.svg",
     "url": "严寒-蓝"
   },
   {
     "title": "严寒-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/严寒-黄.svg",
+    "route": "/library/weather/严寒-黄.svg",
     "url": "严寒-黄"
   },
   {
     "title": "低温-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/低温-橙.svg",
+    "route": "/library/weather/低温-橙.svg",
     "url": "低温-橙"
   },
   {
     "title": "低温-红",
     "category": "气象预警",
-    "route": "/library/气象预警/低温-红.svg",
+    "route": "/library/weather/低温-红.svg",
     "url": "低温-红"
   },
   {
     "title": "低温-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/低温-蓝.svg",
+    "route": "/library/weather/低温-蓝.svg",
     "url": "低温-蓝"
   },
   {
     "title": "低温-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/低温-黄.svg",
+    "route": "/library/weather/低温-黄.svg",
     "url": "低温-黄"
   },
   {
     "title": "其他-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/其他-橙.svg",
+    "route": "/library/weather/其他-橙.svg",
     "url": "其他-橙"
   },
   {
     "title": "其他-红",
     "category": "气象预警",
-    "route": "/library/气象预警/其他-红.svg",
+    "route": "/library/weather/其他-红.svg",
     "url": "其他-红"
   },
   {
     "title": "其他-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/其他-蓝.svg",
+    "route": "/library/weather/其他-蓝.svg",
     "url": "其他-蓝"
   },
   {
     "title": "其他-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/其他-黄.svg",
+    "route": "/library/weather/其他-黄.svg",
     "url": "其他-黄"
   },
   {
     "title": "内涝-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/内涝-橙.svg",
+    "route": "/library/weather/内涝-橙.svg",
     "url": "内涝-橙"
   },
   {
     "title": "内涝-红",
     "category": "气象预警",
-    "route": "/library/气象预警/内涝-红.svg",
+    "route": "/library/weather/内涝-红.svg",
     "url": "内涝-红"
   },
   {
     "title": "内涝-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/内涝-蓝.svg",
+    "route": "/library/weather/内涝-蓝.svg",
     "url": "内涝-蓝"
   },
   {
     "title": "内涝-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/内涝-黄.svg",
+    "route": "/library/weather/内涝-黄.svg",
     "url": "内涝-黄"
   },
   {
     "title": "冰冻-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/冰冻-橙.svg",
+    "route": "/library/weather/冰冻-橙.svg",
     "url": "冰冻-橙"
   },
   {
     "title": "冰冻-红",
     "category": "气象预警",
-    "route": "/library/气象预警/冰冻-红.svg",
+    "route": "/library/weather/冰冻-红.svg",
     "url": "冰冻-红"
   },
   {
     "title": "冰冻-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/冰冻-蓝.svg",
+    "route": "/library/weather/冰冻-蓝.svg",
     "url": "冰冻-蓝"
   },
   {
     "title": "冰冻-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/冰冻-黄.svg",
+    "route": "/library/weather/冰冻-黄.svg",
     "url": "冰冻-黄"
   },
   {
     "title": "冰雹-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/冰雹-橙.svg",
+    "route": "/library/weather/冰雹-橙.svg",
     "url": "冰雹-橙"
   },
   {
     "title": "冰雹-红",
     "category": "气象预警",
-    "route": "/library/气象预警/冰雹-红.svg",
+    "route": "/library/weather/冰雹-红.svg",
     "url": "冰雹-红"
   },
   {
     "title": "冰雹-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/冰雹-蓝.svg",
+    "route": "/library/weather/冰雹-蓝.svg",
     "url": "冰雹-蓝"
   },
   {
     "title": "冰雹-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/冰雹-黄.svg",
+    "route": "/library/weather/冰雹-黄.svg",
     "url": "冰雹-黄"
   },
   {
     "title": "台风-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/台风-橙.svg",
+    "route": "/library/weather/台风-橙.svg",
     "url": "台风-橙"
   },
   {
     "title": "台风-红",
     "category": "气象预警",
-    "route": "/library/气象预警/台风-红.svg",
+    "route": "/library/weather/台风-红.svg",
     "url": "台风-红"
   },
   {
     "title": "台风-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/台风-蓝.svg",
+    "route": "/library/weather/台风-蓝.svg",
     "url": "台风-蓝"
   },
   {
     "title": "台风-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/台风-黄.svg",
+    "route": "/library/weather/台风-黄.svg",
     "url": "台风-黄"
   },
   {
     "title": "大雪-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/大雪-橙.svg",
+    "route": "/library/weather/大雪-橙.svg",
     "url": "大雪-橙"
   },
   {
     "title": "大雪-红",
     "category": "气象预警",
-    "route": "/library/气象预警/大雪-红.svg",
+    "route": "/library/weather/大雪-红.svg",
     "url": "大雪-红"
   },
   {
     "title": "大雪-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/大雪-蓝.svg",
+    "route": "/library/weather/大雪-蓝.svg",
     "url": "大雪-蓝"
   },
   {
     "title": "大雪-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/大雪-黄.svg",
+    "route": "/library/weather/大雪-黄.svg",
     "url": "大雪-黄"
   },
   {
     "title": "大雾-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/大雾-橙.svg",
+    "route": "/library/weather/大雾-橙.svg",
     "url": "大雾-橙"
   },
   {
     "title": "大雾-红",
     "category": "气象预警",
-    "route": "/library/气象预警/大雾-红.svg",
+    "route": "/library/weather/大雾-红.svg",
     "url": "大雾-红"
   },
   {
     "title": "大雾-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/大雾-蓝.svg",
+    "route": "/library/weather/大雾-蓝.svg",
     "url": "大雾-蓝"
   },
   {
     "title": "大雾-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/大雾-黄.svg",
+    "route": "/library/weather/大雾-黄.svg",
     "url": "大雾-黄"
   },
   {
     "title": "大风-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/大风-橙.svg",
+    "route": "/library/weather/大风-橙.svg",
     "url": "大风-橙"
   },
   {
     "title": "大风-红",
     "category": "气象预警",
-    "route": "/library/气象预警/大风-红.svg",
+    "route": "/library/weather/大风-红.svg",
     "url": "大风-红"
   },
   {
     "title": "大风-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/大风-蓝.svg",
+    "route": "/library/weather/大风-蓝.svg",
     "url": "大风-蓝"
   },
   {
     "title": "大风-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/大风-黄.svg",
+    "route": "/library/weather/大风-黄.svg",
     "url": "大风-黄"
   },
   {
     "title": "寒冷-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/寒冷-橙.svg",
+    "route": "/library/weather/寒冷-橙.svg",
     "url": "寒冷-橙"
   },
   {
     "title": "寒冷-红",
     "category": "气象预警",
-    "route": "/library/气象预警/寒冷-红.svg",
+    "route": "/library/weather/寒冷-红.svg",
     "url": "寒冷-红"
   },
   {
     "title": "寒冷-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/寒冷-蓝.svg",
+    "route": "/library/weather/寒冷-蓝.svg",
     "url": "寒冷-蓝"
   },
   {
     "title": "寒冷-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/寒冷-黄.svg",
+    "route": "/library/weather/寒冷-黄.svg",
     "url": "寒冷-黄"
   },
   {
     "title": "寒潮-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/寒潮-橙.svg",
+    "route": "/library/weather/寒潮-橙.svg",
     "url": "寒潮-橙"
   },
   {
     "title": "寒潮-红",
     "category": "气象预警",
-    "route": "/library/气象预警/寒潮-红.svg",
+    "route": "/library/weather/寒潮-红.svg",
     "url": "寒潮-红"
   },
   {
     "title": "寒潮-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/寒潮-蓝.svg",
+    "route": "/library/weather/寒潮-蓝.svg",
     "url": "寒潮-蓝"
   },
   {
     "title": "寒潮-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/寒潮-黄.svg",
+    "route": "/library/weather/寒潮-黄.svg",
     "url": "寒潮-黄"
   },
   {
     "title": "干旱-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/干旱-橙.svg",
+    "route": "/library/weather/干旱-橙.svg",
     "url": "干旱-橙"
   },
   {
     "title": "干旱-红",
     "category": "气象预警",
-    "route": "/library/气象预警/干旱-红.svg",
+    "route": "/library/weather/干旱-红.svg",
     "url": "干旱-红"
   },
   {
     "title": "干旱-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/干旱-蓝.svg",
+    "route": "/library/weather/干旱-蓝.svg",
     "url": "干旱-蓝"
   },
   {
     "title": "干旱-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/干旱-黄.svg",
+    "route": "/library/weather/干旱-黄.svg",
     "url": "干旱-黄"
   },
   {
     "title": "暴雨-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/暴雨-橙.svg",
+    "route": "/library/weather/暴雨-橙.svg",
     "url": "暴雨-橙"
   },
   {
     "title": "暴雨-红",
     "category": "气象预警",
-    "route": "/library/气象预警/暴雨-红.svg",
+    "route": "/library/weather/暴雨-红.svg",
     "url": "暴雨-红"
   },
   {
     "title": "暴雨-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/暴雨-蓝.svg",
+    "route": "/library/weather/暴雨-蓝.svg",
     "url": "暴雨-蓝"
   },
   {
     "title": "暴雨-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/暴雨-黄.svg",
+    "route": "/library/weather/暴雨-黄.svg",
     "url": "暴雨-黄"
   },
   {
     "title": "暴雪-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/暴雪-橙.svg",
+    "route": "/library/weather/暴雪-橙.svg",
     "url": "暴雪-橙"
   },
   {
     "title": "暴雪-红",
     "category": "气象预警",
-    "route": "/library/气象预警/暴雪-红.svg",
+    "route": "/library/weather/暴雪-红.svg",
     "url": "暴雪-红"
   },
   {
     "title": "暴雪-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/暴雪-蓝.svg",
+    "route": "/library/weather/暴雪-蓝.svg",
     "url": "暴雪-蓝"
   },
   {
     "title": "暴雪-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/暴雪-黄.svg",
+    "route": "/library/weather/暴雪-黄.svg",
     "url": "暴雪-黄"
   },
   {
     "title": "沙尘-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘-橙.svg",
+    "route": "/library/weather/沙尘-橙.svg",
     "url": "沙尘-橙"
   },
   {
     "title": "沙尘-红",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘-红.svg",
+    "route": "/library/weather/沙尘-红.svg",
     "url": "沙尘-红"
   },
   {
     "title": "沙尘-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘-蓝.svg",
+    "route": "/library/weather/沙尘-蓝.svg",
     "url": "沙尘-蓝"
   },
   {
     "title": "沙尘-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘-黄.svg",
+    "route": "/library/weather/沙尘-黄.svg",
     "url": "沙尘-黄"
   },
   {
     "title": "海浪-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/海浪-橙.svg",
+    "route": "/library/weather/海浪-橙.svg",
     "url": "海浪-橙"
   },
   {
     "title": "海浪-红",
     "category": "气象预警",
-    "route": "/library/气象预警/海浪-红.svg",
+    "route": "/library/weather/海浪-红.svg",
     "url": "海浪-红"
   },
   {
     "title": "海浪-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/海浪-蓝.svg",
+    "route": "/library/weather/海浪-蓝.svg",
     "url": "海浪-蓝"
   },
   {
     "title": "海浪-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/海浪-黄.svg",
+    "route": "/library/weather/海浪-黄.svg",
     "url": "海浪-黄"
   },
   {
     "title": "灰霾-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/灰霾-橙.svg",
+    "route": "/library/weather/灰霾-橙.svg",
     "url": "灰霾-橙"
   },
   {
     "title": "灰霾-红",
     "category": "气象预警",
-    "route": "/library/气象预警/灰霾-红.svg",
+    "route": "/library/weather/灰霾-红.svg",
     "url": "灰霾-红"
   },
   {
     "title": "灰霾-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/灰霾-蓝.svg",
+    "route": "/library/weather/灰霾-蓝.svg",
     "url": "灰霾-蓝"
   },
   {
     "title": "灰霾-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/灰霾-黄.svg",
+    "route": "/library/weather/灰霾-黄.svg",
     "url": "灰霾-黄"
   },
   {
     "title": "臭氧-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/臭氧-橙.svg",
+    "route": "/library/weather/臭氧-橙.svg",
     "url": "臭氧-橙"
   },
   {
     "title": "臭氧-红",
     "category": "气象预警",
-    "route": "/library/气象预警/臭氧-红.svg",
+    "route": "/library/weather/臭氧-红.svg",
     "url": "臭氧-红"
   },
   {
     "title": "臭氧-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/臭氧-蓝.svg",
+    "route": "/library/weather/臭氧-蓝.svg",
     "url": "臭氧-蓝"
   },
   {
     "title": "臭氧-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/臭氧-黄.svg",
+    "route": "/library/weather/臭氧-黄.svg",
     "url": "臭氧-黄"
   },
   {
     "title": "降温-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/降温-橙.svg",
+    "route": "/library/weather/降温-橙.svg",
     "url": "降温-橙"
   },
   {
     "title": "降温-红",
     "category": "气象预警",
-    "route": "/library/气象预警/降温-红.svg",
+    "route": "/library/weather/降温-红.svg",
     "url": "降温-红"
   },
   {
     "title": "降温-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/降温-蓝.svg",
+    "route": "/library/weather/降温-蓝.svg",
     "url": "降温-蓝"
   },
   {
     "title": "降温-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/降温-黄.svg",
+    "route": "/library/weather/降温-黄.svg",
     "url": "降温-黄"
   },
   {
     "title": "雪灾-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/雪灾-橙.svg",
+    "route": "/library/weather/雪灾-橙.svg",
     "url": "雪灾-橙"
   },
   {
     "title": "雪灾-红",
     "category": "气象预警",
-    "route": "/library/气象预警/雪灾-红.svg",
+    "route": "/library/weather/雪灾-红.svg",
     "url": "雪灾-红"
   },
   {
     "title": "雪灾-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/雪灾-蓝.svg",
+    "route": "/library/weather/雪灾-蓝.svg",
     "url": "雪灾-蓝"
   },
   {
     "title": "雪灾-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/雪灾-黄.svg",
+    "route": "/library/weather/雪灾-黄.svg",
     "url": "雪灾-黄"
   },
   {
     "title": "雷暴-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/雷暴-橙.svg",
+    "route": "/library/weather/雷暴-橙.svg",
     "url": "雷暴-橙"
   },
   {
     "title": "雷暴-红",
     "category": "气象预警",
-    "route": "/library/气象预警/雷暴-红.svg",
+    "route": "/library/weather/雷暴-红.svg",
     "url": "雷暴-红"
   },
   {
     "title": "雷暴-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/雷暴-蓝.svg",
+    "route": "/library/weather/雷暴-蓝.svg",
     "url": "雷暴-蓝"
   },
   {
     "title": "雷暴-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/雷暴-黄.svg",
+    "route": "/library/weather/雷暴-黄.svg",
     "url": "雷暴-黄"
   },
   {
     "title": "雷电-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/雷电-橙.svg",
+    "route": "/library/weather/雷电-橙.svg",
     "url": "雷电-橙"
   },
   {
     "title": "雷电-红",
     "category": "气象预警",
-    "route": "/library/气象预警/雷电-红.svg",
+    "route": "/library/weather/雷电-红.svg",
     "url": "雷电-红"
   },
   {
     "title": "雷电-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/雷电-蓝.svg",
+    "route": "/library/weather/雷电-蓝.svg",
     "url": "雷电-蓝"
   },
   {
     "title": "雷电-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/雷电-黄.svg",
+    "route": "/library/weather/雷电-黄.svg",
     "url": "雷电-黄"
   },
   {
     "title": "霜冻-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/霜冻-橙.svg",
+    "route": "/library/weather/霜冻-橙.svg",
     "url": "霜冻-橙"
   },
   {
     "title": "霜冻-红",
     "category": "气象预警",
-    "route": "/library/气象预警/霜冻-红.svg",
+    "route": "/library/weather/霜冻-红.svg",
     "url": "霜冻-红"
   },
   {
     "title": "霜冻-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/霜冻-蓝.svg",
+    "route": "/library/weather/霜冻-蓝.svg",
     "url": "霜冻-蓝"
   },
   {
     "title": "霜冻-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/霜冻-黄.svg",
+    "route": "/library/weather/霜冻-黄.svg",
     "url": "霜冻-黄"
   },
   {
     "title": "高温-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/高温-橙.svg",
+    "route": "/library/weather/高温-橙.svg",
     "url": "高温-橙"
   },
   {
     "title": "高温-红",
     "category": "气象预警",
-    "route": "/library/气象预警/高温-红.svg",
+    "route": "/library/weather/高温-红.svg",
     "url": "高温-红"
   },
   {
     "title": "高温-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/高温-蓝.svg",
+    "route": "/library/weather/高温-蓝.svg",
     "url": "高温-蓝"
   },
   {
     "title": "高温-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/高温-黄.svg",
+    "route": "/library/weather/高温-黄.svg",
     "url": "高温-黄"
   },
   {
     "title": "干热风-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/干热风-橙.svg",
+    "route": "/library/weather/干热风-橙.svg",
     "url": "干热风-橙"
   },
   {
     "title": "干热风-红",
     "category": "气象预警",
-    "route": "/library/气象预警/干热风-红.svg",
+    "route": "/library/weather/干热风-红.svg",
     "url": "干热风-红"
   },
   {
     "title": "干热风-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/干热风-蓝.svg",
+    "route": "/library/weather/干热风-蓝.svg",
     "url": "干热风-蓝"
   },
   {
     "title": "干热风-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/干热风-黄.svg",
+    "route": "/library/weather/干热风-黄.svg",
     "url": "干热风-黄"
   },
   {
     "title": "强对流-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/强对流-橙.svg",
+    "route": "/library/weather/强对流-橙.svg",
     "url": "强对流-橙"
   },
   {
     "title": "强对流-红",
     "category": "气象预警",
-    "route": "/library/气象预警/强对流-红.svg",
+    "route": "/library/weather/强对流-红.svg",
     "url": "强对流-红"
   },
   {
     "title": "强对流-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/强对流-蓝.svg",
+    "route": "/library/weather/强对流-蓝.svg",
     "url": "强对流-蓝"
   },
   {
     "title": "强对流-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/强对流-黄.svg",
+    "route": "/library/weather/强对流-黄.svg",
     "url": "强对流-黄"
   },
   {
     "title": "强降温-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/强降温-橙.svg",
+    "route": "/library/weather/强降温-橙.svg",
     "url": "强降温-橙"
   },
   {
     "title": "强降温-红",
     "category": "气象预警",
-    "route": "/library/气象预警/强降温-红.svg",
+    "route": "/library/weather/强降温-红.svg",
     "url": "强降温-红"
   },
   {
     "title": "强降温-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/强降温-蓝.svg",
+    "route": "/library/weather/强降温-蓝.svg",
     "url": "强降温-蓝"
   },
   {
     "title": "强降温-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/强降温-黄.svg",
+    "route": "/library/weather/强降温-黄.svg",
     "url": "强降温-黄"
   },
   {
     "title": "强降雨-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/强降雨-橙.svg",
+    "route": "/library/weather/强降雨-橙.svg",
     "url": "强降雨-橙"
   },
   {
     "title": "强降雨-红",
     "category": "气象预警",
-    "route": "/library/气象预警/强降雨-红.svg",
+    "route": "/library/weather/强降雨-红.svg",
     "url": "强降雨-红"
   },
   {
     "title": "强降雨-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/强降雨-蓝.svg",
+    "route": "/library/weather/强降雨-蓝.svg",
     "url": "强降雨-蓝"
   },
   {
     "title": "强降雨-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/强降雨-黄.svg",
+    "route": "/library/weather/强降雨-黄.svg",
     "url": "强降雨-黄"
   },
   {
     "title": "沙尘暴-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘暴-橙.svg",
+    "route": "/library/weather/沙尘暴-橙.svg",
     "url": "沙尘暴-橙"
   },
   {
     "title": "沙尘暴-红",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘暴-红.svg",
+    "route": "/library/weather/沙尘暴-红.svg",
     "url": "沙尘暴-红"
   },
   {
     "title": "沙尘暴-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘暴-蓝.svg",
+    "route": "/library/weather/沙尘暴-蓝.svg",
     "url": "沙尘暴-蓝"
   },
   {
     "title": "沙尘暴-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘暴-黄.svg",
+    "route": "/library/weather/沙尘暴-黄.svg",
     "url": "沙尘暴-黄"
   },
   {
     "title": "浓浮尘-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/浓浮尘-橙.svg",
+    "route": "/library/weather/浓浮尘-橙.svg",
     "url": "浓浮尘-橙"
   },
   {
     "title": "浓浮尘-红",
     "category": "气象预警",
-    "route": "/library/气象预警/浓浮尘-红.svg",
+    "route": "/library/weather/浓浮尘-红.svg",
     "url": "浓浮尘-红"
   },
   {
     "title": "浓浮尘-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/浓浮尘-蓝.svg",
+    "route": "/library/weather/浓浮尘-蓝.svg",
     "url": "浓浮尘-蓝"
   },
   {
     "title": "浓浮尘-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/浓浮尘-黄.svg",
+    "route": "/library/weather/浓浮尘-黄.svg",
     "url": "浓浮尘-黄"
   },
   {
     "title": "风暴潮-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/风暴潮-橙.svg",
+    "route": "/library/weather/风暴潮-橙.svg",
     "url": "风暴潮-橙"
   },
   {
     "title": "风暴潮-红",
     "category": "气象预警",
-    "route": "/library/气象预警/风暴潮-红.svg",
+    "route": "/library/weather/风暴潮-红.svg",
     "url": "风暴潮-红"
   },
   {
     "title": "风暴潮-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/风暴潮-蓝.svg",
+    "route": "/library/weather/风暴潮-蓝.svg",
     "url": "风暴潮-蓝"
   },
   {
     "title": "风暴潮-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/风暴潮-黄.svg",
+    "route": "/library/weather/风暴潮-黄.svg",
     "url": "风暴潮-黄"
   },
   {
     "title": "龙卷风-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/龙卷风-橙.svg",
+    "route": "/library/weather/龙卷风-橙.svg",
     "url": "龙卷风-橙"
   },
   {
     "title": "龙卷风-红",
     "category": "气象预警",
-    "route": "/library/气象预警/龙卷风-红.svg",
+    "route": "/library/weather/龙卷风-红.svg",
     "url": "龙卷风-红"
   },
   {
     "title": "龙卷风-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/龙卷风-蓝.svg",
+    "route": "/library/weather/龙卷风-蓝.svg",
     "url": "龙卷风-蓝"
   },
   {
     "title": "龙卷风-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/龙卷风-黄.svg",
+    "route": "/library/weather/龙卷风-黄.svg",
     "url": "龙卷风-黄"
   },
   {
     "title": "低温冻害-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/低温冻害-橙.svg",
+    "route": "/library/weather/低温冻害-橙.svg",
     "url": "低温冻害-橙"
   },
   {
     "title": "低温冻害-红",
     "category": "气象预警",
-    "route": "/library/气象预警/低温冻害-红.svg",
+    "route": "/library/weather/低温冻害-红.svg",
     "url": "低温冻害-红"
   },
   {
     "title": "低温冻害-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/低温冻害-蓝.svg",
+    "route": "/library/weather/低温冻害-蓝.svg",
     "url": "低温冻害-蓝"
   },
   {
     "title": "低温冻害-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/低温冻害-黄.svg",
+    "route": "/library/weather/低温冻害-黄.svg",
     "url": "低温冻害-黄"
   },
   {
     "title": "地质灾害-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/地质灾害-橙.svg",
+    "route": "/library/weather/地质灾害-橙.svg",
     "url": "地质灾害-橙"
   },
   {
     "title": "地质灾害-红",
     "category": "气象预警",
-    "route": "/library/气象预警/地质灾害-红.svg",
+    "route": "/library/weather/地质灾害-红.svg",
     "url": "地质灾害-红"
   },
   {
     "title": "地质灾害-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/地质灾害-蓝.svg",
+    "route": "/library/weather/地质灾害-蓝.svg",
     "url": "地质灾害-蓝"
   },
   {
     "title": "地质灾害-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/地质灾害-黄.svg",
+    "route": "/library/weather/地质灾害-黄.svg",
     "url": "地质灾害-黄"
   },
   {
     "title": "山洪灾害-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/山洪灾害-橙.svg",
+    "route": "/library/weather/山洪灾害-橙.svg",
     "url": "山洪灾害-橙"
   },
   {
     "title": "山洪灾害-红",
     "category": "气象预警",
-    "route": "/library/气象预警/山洪灾害-红.svg",
+    "route": "/library/weather/山洪灾害-红.svg",
     "url": "山洪灾害-红"
   },
   {
     "title": "山洪灾害-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/山洪灾害-蓝.svg",
+    "route": "/library/weather/山洪灾害-蓝.svg",
     "url": "山洪灾害-蓝"
   },
   {
     "title": "山洪灾害-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/山洪灾害-黄.svg",
+    "route": "/library/weather/山洪灾害-黄.svg",
     "url": "山洪灾害-黄"
   },
   {
     "title": "持续低温-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/持续低温-橙.svg",
+    "route": "/library/weather/持续低温-橙.svg",
     "url": "持续低温-橙"
   },
   {
     "title": "持续低温-红",
     "category": "气象预警",
-    "route": "/library/气象预警/持续低温-红.svg",
+    "route": "/library/weather/持续低温-红.svg",
     "url": "持续低温-红"
   },
   {
     "title": "持续低温-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/持续低温-蓝.svg",
+    "route": "/library/weather/持续低温-蓝.svg",
     "url": "持续低温-蓝"
   },
   {
     "title": "持续低温-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/持续低温-黄.svg",
+    "route": "/library/weather/持续低温-黄.svg",
     "url": "持续低温-黄"
   },
   {
     "title": "森林火险-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/森林火险-橙.svg",
+    "route": "/library/weather/森林火险-橙.svg",
     "url": "森林火险-橙"
   },
   {
     "title": "强降雨-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/强降雨-橙.svg",
+    "route": "/library/weather/强降雨-橙.svg",
     "url": "强降雨-橙"
   },
   {
     "title": "强降雨-红",
     "category": "气象预警",
-    "route": "/library/气象预警/强降雨-红.svg",
+    "route": "/library/weather/强降雨-红.svg",
     "url": "强降雨-红"
   },
   {
     "title": "强降雨-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/强降雨-蓝.svg",
+    "route": "/library/weather/强降雨-蓝.svg",
     "url": "强降雨-蓝"
   },
   {
     "title": "强降雨-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/强降雨-黄.svg",
+    "route": "/library/weather/强降雨-黄.svg",
     "url": "强降雨-黄"
   },
   {
     "title": "沙尘暴-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘暴-橙.svg",
+    "route": "/library/weather/沙尘暴-橙.svg",
     "url": "沙尘暴-橙"
   },
   {
     "title": "沙尘暴-红",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘暴-红.svg",
+    "route": "/library/weather/沙尘暴-红.svg",
     "url": "沙尘暴-红"
   },
   {
     "title": "沙尘暴-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘暴-蓝.svg",
+    "route": "/library/weather/沙尘暴-蓝.svg",
     "url": "沙尘暴-蓝"
   },
   {
     "title": "沙尘暴-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/沙尘暴-黄.svg",
+    "route": "/library/weather/沙尘暴-黄.svg",
     "url": "沙尘暴-黄"
   },
   {
     "title": "浓浮尘-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/浓浮尘-橙.svg",
+    "route": "/library/weather/浓浮尘-橙.svg",
     "url": "浓浮尘-橙"
   },
   {
     "title": "浓浮尘-红",
     "category": "气象预警",
-    "route": "/library/气象预警/浓浮尘-红.svg",
+    "route": "/library/weather/浓浮尘-红.svg",
     "url": "浓浮尘-红"
   },
   {
     "title": "浓浮尘-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/浓浮尘-蓝.svg",
+    "route": "/library/weather/浓浮尘-蓝.svg",
     "url": "浓浮尘-蓝"
   },
   {
     "title": "浓浮尘-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/浓浮尘-黄.svg",
+    "route": "/library/weather/浓浮尘-黄.svg",
     "url": "浓浮尘-黄"
   },
   {
     "title": "风暴潮-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/风暴潮-橙.svg",
+    "route": "/library/weather/风暴潮-橙.svg",
     "url": "风暴潮-橙"
   },
   {
     "title": "风暴潮-红",
     "category": "气象预警",
-    "route": "/library/气象预警/风暴潮-红.svg",
+    "route": "/library/weather/风暴潮-红.svg",
     "url": "风暴潮-红"
   },
   {
     "title": "风暴潮-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/风暴潮-蓝.svg",
+    "route": "/library/weather/风暴潮-蓝.svg",
     "url": "风暴潮-蓝"
   },
   {
     "title": "风暴潮-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/风暴潮-黄.svg",
+    "route": "/library/weather/风暴潮-黄.svg",
     "url": "风暴潮-黄"
   },
   {
     "title": "龙卷风-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/龙卷风-橙.svg",
+    "route": "/library/weather/龙卷风-橙.svg",
     "url": "龙卷风-橙"
   },
   {
     "title": "龙卷风-红",
     "category": "气象预警",
-    "route": "/library/气象预警/龙卷风-红.svg",
+    "route": "/library/weather/龙卷风-红.svg",
     "url": "龙卷风-红"
   },
   {
     "title": "龙卷风-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/龙卷风-蓝.svg",
+    "route": "/library/weather/龙卷风-蓝.svg",
     "url": "龙卷风-蓝"
   },
   {
     "title": "龙卷风-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/龙卷风-黄.svg",
+    "route": "/library/weather/龙卷风-黄.svg",
     "url": "龙卷风-黄"
   },
   {
     "title": "低温冻害-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/低温冻害-橙.svg",
+    "route": "/library/weather/低温冻害-橙.svg",
     "url": "低温冻害-橙"
   },
   {
     "title": "低温冻害-红",
     "category": "气象预警",
-    "route": "/library/气象预警/低温冻害-红.svg",
+    "route": "/library/weather/低温冻害-红.svg",
     "url": "低温冻害-红"
   },
   {
     "title": "低温冻害-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/低温冻害-蓝.svg",
+    "route": "/library/weather/低温冻害-蓝.svg",
     "url": "低温冻害-蓝"
   },
   {
     "title": "低温冻害-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/低温冻害-黄.svg",
+    "route": "/library/weather/低温冻害-黄.svg",
     "url": "低温冻害-黄"
   },
   {
     "title": "地质灾害-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/地质灾害-橙.svg",
+    "route": "/library/weather/地质灾害-橙.svg",
     "url": "地质灾害-橙"
   },
   {
     "title": "地质灾害-红",
     "category": "气象预警",
-    "route": "/library/气象预警/地质灾害-红.svg",
+    "route": "/library/weather/地质灾害-红.svg",
     "url": "地质灾害-红"
   },
   {
     "title": "地质灾害-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/地质灾害-蓝.svg",
+    "route": "/library/weather/地质灾害-蓝.svg",
     "url": "地质灾害-蓝"
   },
   {
     "title": "地质灾害-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/地质灾害-黄.svg",
+    "route": "/library/weather/地质灾害-黄.svg",
     "url": "地质灾害-黄"
   },
   {
     "title": "山洪灾害-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/山洪灾害-橙.svg",
+    "route": "/library/weather/山洪灾害-橙.svg",
     "url": "山洪灾害-橙"
   },
   {
     "title": "山洪灾害-红",
     "category": "气象预警",
-    "route": "/library/气象预警/山洪灾害-红.svg",
+    "route": "/library/weather/山洪灾害-红.svg",
     "url": "山洪灾害-红"
   },
   {
     "title": "山洪灾害-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/山洪灾害-蓝.svg",
+    "route": "/library/weather/山洪灾害-蓝.svg",
     "url": "山洪灾害-蓝"
   },
   {
     "title": "山洪灾害-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/山洪灾害-黄.svg",
+    "route": "/library/weather/山洪灾害-黄.svg",
     "url": "山洪灾害-黄"
   },
   {
     "title": "持续低温-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/持续低温-橙.svg",
+    "route": "/library/weather/持续低温-橙.svg",
     "url": "持续低温-橙"
   },
   {
     "title": "持续低温-红",
     "category": "气象预警",
-    "route": "/library/气象预警/持续低温-红.svg",
+    "route": "/library/weather/持续低温-红.svg",
     "url": "持续低温-红"
   },
   {
     "title": "持续低温-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/持续低温-蓝.svg",
+    "route": "/library/weather/持续低温-蓝.svg",
     "url": "持续低温-蓝"
   },
   {
     "title": "持续低温-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/持续低温-黄.svg",
+    "route": "/library/weather/持续低温-黄.svg",
     "url": "持续低温-黄"
   },
   {
     "title": "森林火险-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/森林火险-橙.svg",
+    "route": "/library/weather/森林火险-橙.svg",
     "url": "森林火险-橙"
   },
   {
     "title": "森林火险-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/森林火险-橙.svg",
+    "route": "/library/weather/森林火险-橙.svg",
     "url": "森林火险-橙"
   },
   {
     "title": "森林火险-红",
     "category": "气象预警",
-    "route": "/library/气象预警/森林火险-红.svg",
+    "route": "/library/weather/森林火险-红.svg",
     "url": "森林火险-红"
   },
   {
     "title": "森林火险-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/森林火险-蓝.svg",
+    "route": "/library/weather/森林火险-蓝.svg",
     "url": "森林火险-蓝"
   },
   {
     "title": "森林火险-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/森林火险-黄.svg",
+    "route": "/library/weather/森林火险-黄.svg",
     "url": "森林火险-黄"
   },
   {
     "title": "海上台风-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/海上台风-橙.svg",
+    "route": "/library/weather/海上台风-橙.svg",
     "url": "海上台风-橙"
   },
   {
     "title": "海上台风-红",
     "category": "气象预警",
-    "route": "/library/气象预警/海上台风-红.svg",
+    "route": "/library/weather/海上台风-红.svg",
     "url": "海上台风-红"
   },
   {
     "title": "海上台风-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/海上台风-蓝.svg",
+    "route": "/library/weather/海上台风-蓝.svg",
     "url": "海上台风-蓝"
   },
   {
     "title": "海上台风-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/海上台风-黄.svg",
+    "route": "/library/weather/海上台风-黄.svg",
     "url": "海上台风-黄"
   },
   {
     "title": "海上大雾-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/海上大雾-橙.svg",
+    "route": "/library/weather/海上大雾-橙.svg",
     "url": "海上大雾-橙"
   },
   {
     "title": "海上大雾-红",
     "category": "气象预警",
-    "route": "/library/气象预警/海上大雾-红.svg",
+    "route": "/library/weather/海上大雾-红.svg",
     "url": "海上大雾-红"
   },
   {
     "title": "海上大雾-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/海上大雾-蓝.svg",
+    "route": "/library/weather/海上大雾-蓝.svg",
     "url": "海上大雾-蓝"
   },
   {
     "title": "海上大雾-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/海上大雾-黄.svg",
+    "route": "/library/weather/海上大雾-黄.svg",
     "url": "海上大雾-黄"
   },
   {
     "title": "海上大风-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/海上大风-橙.svg",
+    "route": "/library/weather/海上大风-橙.svg",
     "url": "海上大风-橙"
   },
   {
     "title": "海上大风-红",
     "category": "气象预警",
-    "route": "/library/气象预警/海上大风-红.svg",
+    "route": "/library/weather/海上大风-红.svg",
     "url": "海上大风-红"
   },
   {
     "title": "海上大风-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/海上大风-蓝.svg",
+    "route": "/library/weather/海上大风-蓝.svg",
     "url": "海上大风-蓝"
   },
   {
     "title": "海上大风-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/海上大风-黄.svg",
+    "route": "/library/weather/海上大风-黄.svg",
     "url": "海上大风-黄"
   },
   {
     "title": "海上雷电-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/海上雷电-橙.svg",
+    "route": "/library/weather/海上雷电-橙.svg",
     "url": "海上雷电-橙"
   },
   {
     "title": "海上雷电-红",
     "category": "气象预警",
-    "route": "/library/气象预警/海上雷电-红.svg",
+    "route": "/library/weather/海上雷电-红.svg",
     "url": "海上雷电-红"
   },
   {
     "title": "海上雷电-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/海上雷电-蓝.svg",
+    "route": "/library/weather/海上雷电-蓝.svg",
     "url": "海上雷电-蓝"
   },
   {
     "title": "海上雷电-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/海上雷电-黄.svg",
+    "route": "/library/weather/海上雷电-黄.svg",
     "url": "海上雷电-黄"
   },
   {
     "title": "电线积冰-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/电线积冰-橙.svg",
+    "route": "/library/weather/电线积冰-橙.svg",
     "url": "电线积冰-橙"
   },
   {
     "title": "电线积冰-红",
     "category": "气象预警",
-    "route": "/library/气象预警/电线积冰-红.svg",
+    "route": "/library/weather/电线积冰-红.svg",
     "url": "电线积冰-红"
   },
   {
     "title": "电线积冰-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/电线积冰-蓝.svg",
+    "route": "/library/weather/电线积冰-蓝.svg",
     "url": "电线积冰-蓝"
   },
   {
     "title": "电线积冰-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/电线积冰-黄.svg",
+    "route": "/library/weather/电线积冰-黄.svg",
     "url": "电线积冰-黄"
   },
   {
     "title": "道路冰雪-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/道路冰雪-橙.svg",
+    "route": "/library/weather/道路冰雪-橙.svg",
     "url": "道路冰雪-橙"
   },
   {
     "title": "道路冰雪-红",
     "category": "气象预警",
-    "route": "/library/气象预警/道路冰雪-红.svg",
+    "route": "/library/weather/道路冰雪-红.svg",
     "url": "道路冰雪-红"
   },
   {
     "title": "道路冰雪-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/道路冰雪-蓝.svg",
+    "route": "/library/weather/道路冰雪-蓝.svg",
     "url": "道路冰雪-蓝"
   },
   {
     "title": "道路冰雪-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/道路冰雪-黄.svg",
+    "route": "/library/weather/道路冰雪-黄.svg",
     "url": "道路冰雪-黄"
   },
   {
     "title": "道路结冰-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/道路结冰-橙.svg",
+    "route": "/library/weather/道路结冰-橙.svg",
     "url": "道路结冰-橙"
   },
   {
     "title": "道路结冰-红",
     "category": "气象预警",
-    "route": "/library/气象预警/道路结冰-红.svg",
+    "route": "/library/weather/道路结冰-红.svg",
     "url": "道路结冰-红"
   },
   {
     "title": "道路结冰-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/道路结冰-蓝.svg",
+    "route": "/library/weather/道路结冰-蓝.svg",
     "url": "道路结冰-蓝"
   },
   {
     "title": "道路结冰-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/道路结冰-黄.svg",
+    "route": "/library/weather/道路结冰-黄.svg",
     "url": "道路结冰-黄"
   },
   {
     "title": "雷暴大风-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/雷暴大风-橙.svg",
+    "route": "/library/weather/雷暴大风-橙.svg",
     "url": "雷暴大风-橙"
   },
   {
     "title": "雷暴大风-红",
     "category": "气象预警",
-    "route": "/library/气象预警/雷暴大风-红.svg",
+    "route": "/library/weather/雷暴大风-红.svg",
     "url": "雷暴大风-红"
   },
   {
     "title": "雷暴大风-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/雷暴大风-蓝.svg",
+    "route": "/library/weather/雷暴大风-蓝.svg",
     "url": "雷暴大风-蓝"
   },
   {
     "title": "雷暴大风-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/雷暴大风-黄.svg",
+    "route": "/library/weather/雷暴大风-黄.svg",
     "url": "雷暴大风-黄"
   },
   {
     "title": "雷雨大风-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/雷雨大风-橙.svg",
+    "route": "/library/weather/雷雨大风-橙.svg",
     "url": "雷雨大风-橙"
   },
   {
     "title": "雷雨大风-红",
     "category": "气象预警",
-    "route": "/library/气象预警/雷雨大风-红.svg",
+    "route": "/library/weather/雷雨大风-红.svg",
     "url": "雷雨大风-红"
   },
   {
     "title": "雷雨大风-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/雷雨大风-蓝.svg",
+    "route": "/library/weather/雷雨大风-蓝.svg",
     "url": "雷雨大风-蓝"
   },
   {
     "title": "雷雨大风-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/雷雨大风-黄.svg",
+    "route": "/library/weather/雷雨大风-黄.svg",
     "url": "雷雨大风-黄"
   },
   {
     "title": "空气重污染-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/空气重污染-橙.svg",
+    "route": "/library/weather/空气重污染-橙.svg",
     "url": "空气重污染-橙"
   },
   {
     "title": "空气重污染-红",
     "category": "气象预警",
-    "route": "/library/气象预警/空气重污染-红.svg",
+    "route": "/library/weather/空气重污染-红.svg",
     "url": "空气重污染-红"
   },
   {
     "title": "空气重污染-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/空气重污染-蓝.svg",
+    "route": "/library/weather/空气重污染-蓝.svg",
     "url": "空气重污染-蓝"
   },
   {
     "title": "空气重污染-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/空气重污染-黄.svg",
+    "route": "/library/weather/空气重污染-黄.svg",
     "url": "空气重污染-黄"
   },
   {
     "title": "低温雨雪冰冻-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/低温雨雪冰冻-橙.svg",
+    "route": "/library/weather/低温雨雪冰冻-橙.svg",
     "url": "低温雨雪冰冻-橙"
   },
   {
     "title": "低温雨雪冰冻-红",
     "category": "气象预警",
-    "route": "/library/气象预警/低温雨雪冰冻-红.svg",
+    "route": "/library/weather/低温雨雪冰冻-红.svg",
     "url": "低温雨雪冰冻-红"
   },
   {
     "title": "低温雨雪冰冻-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/低温雨雪冰冻-蓝.svg",
+    "route": "/library/weather/低温雨雪冰冻-蓝.svg",
     "url": "低温雨雪冰冻-蓝"
   },
   {
     "title": "低温雨雪冰冻-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/低温雨雪冰冻-黄.svg",
+    "route": "/library/weather/低温雨雪冰冻-黄.svg",
     "url": "低温雨雪冰冻-黄"
   },
   {
     "title": "森林草原火险-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/森林草原火险-橙.svg",
+    "route": "/library/weather/森林草原火险-橙.svg",
     "url": "森林草原火险-橙"
   },
   {
     "title": "森林草原火险-红",
     "category": "气象预警",
-    "route": "/library/气象预警/森林草原火险-红.svg",
+    "route": "/library/weather/森林草原火险-红.svg",
     "url": "森林草原火险-红"
   },
   {
     "title": "森林草原火险-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/森林草原火险-蓝.svg",
+    "route": "/library/weather/森林草原火险-蓝.svg",
     "url": "森林草原火险-蓝"
   },
   {
     "title": "森林草原火险-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/森林草原火险-黄.svg",
+    "route": "/library/weather/森林草原火险-黄.svg",
     "url": "森林草原火险-黄"
   },
   {
     "title": "海上雷雨大风-橙",
     "category": "气象预警",
-    "route": "/library/气象预警/海上雷雨大风-橙.svg",
+    "route": "/library/weather/海上雷雨大风-橙.svg",
     "url": "海上雷雨大风-橙"
   },
   {
     "title": "海上雷雨大风-红",
     "category": "气象预警",
-    "route": "/library/气象预警/海上雷雨大风-红.svg",
+    "route": "/library/weather/海上雷雨大风-红.svg",
     "url": "海上雷雨大风-红"
   },
   {
     "title": "海上雷雨大风-蓝",
     "category": "气象预警",
-    "route": "/library/气象预警/海上雷雨大风-蓝.svg",
+    "route": "/library/weather/海上雷雨大风-蓝.svg",
     "url": "海上雷雨大风-蓝"
   },
   {
     "title": "海上雷雨大风-黄",
     "category": "气象预警",
-    "route": "/library/气象预警/海上雷雨大风-黄.svg",
+    "route": "/library/weather/海上雷雨大风-黄.svg",
     "url": "海上雷雨大风-黄"
   },
+  // 大学校徽
   {
     "title": "安徽大学",
     "category": "大学校徽",
@@ -2282,255 +2287,265 @@ export const svgs: iSVG[] = [
     "wordmark": "/library/school/中国石油大学（华东） UPC-wordmark.svg",
     "url": "中国石油大学（华东）"
   },
+  // 工具图标
+  {
+    "title": "字节跳动",
+    "category": "工具产品",
+    "route": "/library/company/bytedance.svg",
+    "url": "https://www.bytedance.com/"
+  },
+  {
+    "title": "iconfont",
+    "category": "工具产品",
+    "route": "/library/tools/iconfont.svg",
+    "wordmark": "/library/tools/iconfont_wordmark.svg",
+    "url": "https://www.iconfont.cn/"
+  },
   {
     "title": "优酷",
     "category": "工具产品",
-    "route": "/library/优酷.svg",
-    "wordmark": "/library/优酷-wordmark.svg",
+    "route": "/library/tools/youku.svg",
+    "wordmark": "/library/tools/youku_wordmark.svg",
     "url": "https://www.youku.com/"
   },
   {
     "title": "火山引擎",
     "category": "工具产品",
-    "route": "/library/tools/火山引擎.svg",
-    "url": "火山引擎"
+    "route": "/library/tools/volcengine.svg",
+    "url": "https://www.volcengine.com/"
   },
   {
     "title": "小牛翻译",
     "category": "工具产品",
-    "route": "/library/tools/小牛翻译.svg",
-    "url": "小牛翻译"
+    "route": "/library/tools/niutrans.svg",
+    "url": "https://niutrans.com/t"
   },
   {
     "title": "彩云小译",
     "category": "工具产品",
-    "route": "/library/tools/彩云小译.svg",
-    "url": "彩云小译"
+    "route": "/library/tools/caiyunapp.svg",
+    "url": "https://fanyi.caiyunapp.com/"
   },
   {
-    "title": "即刻",
-    "category": "工具产品",
-    "route": "/library/tools/jike.svg",
-    "wordmark": "/library/tools/jike-wordmark.svg",
-    "url": "即刻"
-  },
-  {
-    "title": "masterGo",
+    "title": "MasterGo 莫高设计",
     "category": "工具产品",
     "route": "/library/tools/masterGo.svg",
-    "wordmark": "/library/tools/masterGo-wordmark.svg",
-    "url": "masterGo"
+    "wordmark": "/library/tools/masterGo_wordmark.svg",
+    "url": "https://mastergo.com/"
   },
   {
     "title": "即时设计",
     "category": "工具产品",
-    "route": "/library/tools/即时设计.svg",
-    "wordmark": "/library/tools/即时设计-wordmark.svg",
-    "url": "即时设计"
+    "route": "/library/tools/jsdesign.svg",
+    "wordmark": "/library/tools/jsdesign_wordmark.svg",
+    "url": "https://js.design/"
   },
   {
     "title": "Moonvy 月维",
     "category": "工具产品",
-    "route": "/library/tools/Moonvy 月维.svg",
-    "wordmark": "/library/tools/Moonvy 月维-wordmark.svg",
-    "url": "Moonvy 月维"
+    "route": "/library/tools/Moonvy.svg",
+    "wordmark": "/library/tools/Moonvy_wordmark.svg",
+    "url": "https://moonvy.com/"
   },
+  // 社交媒体
   {
     "title": "微信",
     "category": "社交媒体",
-    "route": "/library/social/social-微信.svg",
+    "route": "/library/social/weiXin.svg",
     "url": "https://weixin.qq.com/"
   },
   {
     "title": "QQ",
     "category": "社交媒体",
-    "route": "/library/social/social-QQ.svg",
-    "url": "https://weixin.qq.com/"
+    "route": "/library/social/QQ.svg",
+    "url": "https://im.qq.com/"
   },
   {
     "title": "快手",
     "category": "社交媒体",
-    "route": "/library/social/social-快手.svg",
-    "url": "https://weixin.qq.com/"
+    "route": "/library/social/kuaiShou.svg",
+    "wordmark": "/library/social/kuaiShou_wordmark.svg",
+    "url": "https://www.kuaishou.com/"
   },
   {
     "title": "公众号",
     "category": "社交媒体",
-    "route": "/library/social/social-公众号.svg",
-    "url": "https://weixin.qq.com/"
-  },
-  {
-    "title": "YouTube",
-    "category": "社交媒体",
-    "route": "/library/social/social-YouTube.svg",
-    "url": "https://youtube.com/"
+    "route": "/library/social/gongZhongHao.svg",
+    "url": "https://mp.weixin.qq.com/?token=&lang=zh_CN"
   },
   {
     "title": "抖音",
     "category": "社交媒体",
-    "route": "/library/social/social-抖音.svg",
+    "route": "/library/social/douYin.svg",
     "url": "https://douyin.com/"
+  },
+  {
+    "title": "TikTok",
+    "category": "社交媒体",
+    "route": "/library/social/Tiktok.svg",
+    "url": "https://www.TikTok.cn/"
   },
   {
     "title": "小宇宙",
     "category": "社交媒体",
-    "route": "/library/social/social-小宇宙.svg",
+    "route": "/library/social/xiaoYuZhou.svg",
     "url": "https://xiaoyuzhoufm.com/"
   },
   {
     "title": "脉脉",
     "category": "社交媒体",
-    "route": "/library/social/social-blog-1.svg",
-    "url": "https://example.com/"
+    "route": "/library/social/maiMai.svg",
+    "url": "https://maimai.cn/"
   },
   {
     "title": "播客",
     "category": "社交媒体",
-    "route": "/library/social/social-播客.svg",
-    "url": "https://example.com/"
+    "route": "/library/social/applePodcast.svg",
+    "url": "https://podcasts.apple.com/cn/browse"
   },
   {
     "title": "小报童",
     "category": "社交媒体",
-    "route": "/library/social/social-小报童.svg",
-    "url": "https://xiaobaotong.com/"
+    "route": "/library/social/xiaoBot.svg",
+    "url": "https://xiaobot.net/p/DesignStroll"
   },
   {
     "title": "斗鱼",
     "category": "社交媒体",
-    "route": "/library/social/social-斗鱼.svg",
+    "route": "/library/social/douYu.svg",
     "url": "https://douyu.com/"
   },
   {
     "title": "小红书",
     "category": "社交媒体",
-    "route": "/library/social/social-小红书.svg",
+    "route": "/library/social/xiaoHongShu.svg",
     "url": "https://xiaohongshu.com/"
   },
   {
     "title": "Dribbble",
     "category": "社交媒体",
-    "route": "/library/social/social-dribbble.svg",
+    "route": "/library/social/dribbble.svg",
     "url": "https://dribbble.com/"
   },
   {
     "title": "知乎",
     "category": "社交媒体",
-    "route": "/library/social/social-知乎.svg",
+    "route": "/library/social/zhiHu.svg",
     "url": "https://zhihu.com/"
   },
   {
     "title": "懂球帝",
     "category": "社交媒体",
-    "route": "/library/social/social-懂球帝.svg",
+    "route": "/library/social/dongqiudi.svg",
     "url": "https://dongqiudi.com/"
   },
   {
     "title": "Keep",
     "category": "社交媒体",
-    "route": "/library/social/social-keep.svg",
+    "route": "/library/social/keep.svg",
     "url": "https://keep.com/"
   },
   {
     "title": "竹白",
     "category": "社交媒体",
-    "route": "/library/social/social-竹白.svg",
+    "route": "/library/social/zhuBai.svg",
     "url": "https://zhubai.com/"
   },
   {
     "title": "视频号",
     "category": "社交媒体",
-    "route": "/library/social/social-视频号.svg",
-    "url": "https://weixin.qq.com/"
+    "route": "/library/social/shiPingHao.svg",
+    "url": "https://channels.weixin.qq.com/"
   },
   {
     "title": "Lofter",
     "category": "社交媒体",
-    "route": "/library/social/social-lofter.svg",
+    "route": "/library/social/lofter.svg",
     "url": "https://lofter.com/"
   },
   {
     "title": "虎扑",
     "category": "社交媒体",
-    "route": "/library/social/social-虎扑.svg",
+    "route": "/library/social/huPu.svg",
     "url": "https://hupu.com/"
   },
   {
     "title": "今日头条",
     "category": "社交媒体",
-    "route": "/library/social/social-今日头条.svg",
+    "route": "/library/social/jinRiTouTiao.svg",
     "url": "https://toutiao.com/"
   },
   {
     "title": "蜻蜓 FM",
     "category": "社交媒体",
-    "route": "/library/social/social-蜻蜓 FM.svg",
+    "route": "/library/social/qingTingFM.svg",
     "url": "https://qingting.fm/"
   },
   {
     "title": "虎牙",
     "category": "社交媒体",
-    "route": "/library/social/social-虎牙.svg",
+    "route": "/library/social/huYa.svg",
     "url": "https://huya.com/"
   },
   {
     "title": "哔哩哔哩",
     "category": "社交媒体",
-    "route": "/library/social/social-哔哩哔哩.svg",
+    "route": "/library/social/bilibili.svg",
     "url": "https://bilibili.com/"
   },
   {
     "title": "即刻",
     "category": "社交媒体",
-    "route": "/library/social/social-即刻.svg",
-    "url": "https://jike.com/"
+    "route": "/library/tools/jike.svg",
+    "wordmark": "/library/tools/jike_wordmark.svg",
+    "url": "https://web.okjike.com/u/5fd3a866-55a2-4680-a19d-fec6d0d41c91"
   },
   {
     "title": "豆瓣",
     "category": "社交媒体",
-    "route": "/library/social/social-豆瓣.svg",
+    "route": "/library/social/douBan.svg",
     "url": "https://douban.com/"
   },
   {
     "title": "喜马拉雅",
     "category": "社交媒体",
-    "route": "/library/social/social-喜马拉雅.svg",
+    "route": "/library/social/xiMaLaYa.svg",
     "url": "https://ximalaya.com/"
   },
   {
     "title": "钉钉",
     "category": "社交媒体",
-    "route": "/library/social/social-钉钉.svg",
+    "route": "/library/social/dingDing.svg",
     "url": "https://dingtalk.com/"
   },
   {
     "title": "知识星球",
     "category": "社交媒体",
-    "route": "/library/social/social-知识星球.svg",
+    "route": "/library/social/zhiShiXingQiu.svg",
     "url": "https://zsxq.com/"
   },
   {
     "title": "微博",
     "category": "社交媒体",
-    "route": "/library/social/social-微博.svg",
+    "route": "/library/social/weiBo.svg",
     "url": "https://weibo.com/"
   },
   {
     "title": "飞书",
     "category": "社交媒体",
-    "route": "/library/social/social-飞书.svg",
+    "route": "/library/social/feiShu.svg",
     "url": "https://feishu.cn/"
   },
   {
     "title": "西瓜视频",
     "category": "社交媒体",
-    "route": "/library/social/social-西瓜视频.svg",
+    "route": "/library/social/xiGuaShiPing.svg",
     "url": "https://ixigua.com/"
   },
   {
     "title": "SVGLOGO",
     "category": "工具产品",
     "route": "/library/SVGLOGO.svg",
-    "url": "svglogo.top"
+    "url": "https://svglogo.top/"
   }
 ];
