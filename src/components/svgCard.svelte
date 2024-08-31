@@ -137,15 +137,15 @@
       <CopySvg {iconSize} {iconStroke} {svgInfo} isInFigma={false} isWordmarkSvg={false} />
     {/if}
 
-    <!-- <DownloadSvg
+    <DownloadSvg
       {svgInfo}
       isDarkTheme={() => {
         const dark = document.documentElement.classList.contains('dark');
         return dark;
       }}
-    /> -->
-
-    <!-- <a
+    />
+    {#if svgInfo.category !== "气象预警"}
+    <a
       href={svgInfo.url}
       title="Website"
       target="_blank"
@@ -153,7 +153,9 @@
       class="flex items-center space-x-2 rounded-md p-2 duration-100 hover:bg-neutral-200 dark:hover:bg-neutral-700/40"
     >
       <LinkIcon size={iconSize} strokeWidth={iconStroke} />
-    </a> -->
+    </a>
+  {/if}
+  
     {#if svgInfo.wordmark !== undefined}
       <button
         title={wordmarkSvg ? 'Show logo SVG' : 'Show wordmark SVG'}

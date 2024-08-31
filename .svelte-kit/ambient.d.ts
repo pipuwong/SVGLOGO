@@ -87,10 +87,10 @@ declare module '$env/static/private' {
 	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const NVM_BIN: string;
 	export const npm_config_user_agent: string;
-	export const GIT_ASKPASS: string;
-	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const HOMEBREW_CELLAR: string;
 	export const INFOPATH: string;
+	export const GIT_ASKPASS: string;
+	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const SECURITYSESSIONID: string;
 	export const COLORTERM: string;
 	export const npm_config_prefix: string;
@@ -188,10 +188,10 @@ declare module '$env/dynamic/private' {
 		VSCODE_GIT_IPC_HANDLE: string;
 		NVM_BIN: string;
 		npm_config_user_agent: string;
-		GIT_ASKPASS: string;
-		VSCODE_GIT_ASKPASS_NODE: string;
 		HOMEBREW_CELLAR: string;
 		INFOPATH: string;
+		GIT_ASKPASS: string;
+		VSCODE_GIT_ASKPASS_NODE: string;
 		SECURITYSESSIONID: string;
 		COLORTERM: string;
 		npm_config_prefix: string;
