@@ -28,6 +28,10 @@ description: 专注收录国内矢量 LOGO
 [预警信号ICON](https://www.figma.com/community/file/1133299341246601360) @岩鸣杨子<br>
 
 ## 更新日志
+### 2024.09.03
+#### ✨ 增加图标
+QingIcon @Asorn <br>
+浪潮、五粮液、中国石化
 ### 2024.08.31
 #### 📢 公告
 下载 SVG 功能恢复，增加链接（可跳转图标官网）

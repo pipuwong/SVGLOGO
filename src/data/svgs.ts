@@ -3,6 +3,25 @@ import type { iSVG } from '../types/svg';
 export const svgs: iSVG[] = [
   // 国内企业
   {
+    "title": "中国石化",
+    "category": "国内企业",
+    "route": "/library/company/Sinopec.svg",
+    "url": "http://www.sinopec.com/"
+  },
+  {
+    "title": "五粮液",
+    "category": "国内企业",
+    "route": "/library/company/Wuliangye.svg",
+    "wordmark": "/library/company/Wuliangye_wordmark.svg",
+    "url": "https://www.wuliangye.com.cn/"
+  },
+  {
+    "title": "浪潮",
+    "category": "国内企业",
+    "route": "/library/company/inspur.svg",
+    "url": "https://www.inspur.com/"
+  },
+  {
     "title": "字节跳动",
     "category": "国内企业",
     "route": "/library/company/bytedance.svg",
@@ -1925,6 +1944,13 @@ export const svgs: iSVG[] = [
     "url": "https://www.beihua.edu.cn/"
   },
   // 工具图标
+  {
+    "title": "QingIcon",
+    "category": "工具产品",
+    "route": "/library/tools/qingicon.svg",
+    "wordmark": "/library/tools/qing_wordmark.svg",
+    "url": "https://qingicon.com/"
+  },
   {
     "title": "光厂",
     "category": "工具产品",
