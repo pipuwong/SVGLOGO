@@ -1945,6 +1945,13 @@ export const svgs: iSVG[] = [
   },
   // 工具图标
   {
+    "title": "Canva可画",
+    "category": "工具产品",
+    "route": "/library/tools/Canva.svg",
+    "wordmark": "/library/tools/Canva_wordmark.svg",
+    "url": "https://www.canva.cn/"
+  },
+  {
     "title": "QingIcon",
     "category": "工具产品",
     "route": "/library/tools/qingicon.svg",
@@ -2083,6 +2090,7 @@ export const svgs: iSVG[] = [
     "title": "小红书",
     "category": "社交媒体",
     "route": "/library/social/xiaoHongShu.svg",
+    "wordmark": "/library/social/xiaoHongShu_wordmark.svg",
     "url": "https://xiaohongshu.com/"
   },
   {

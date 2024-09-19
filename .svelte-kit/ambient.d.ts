@@ -30,7 +30,6 @@ declare module '$env/static/private' {
 	export const UPSTASH_REDIS_URL: string;
 	export const UPSTASH_REDIS_TOKEN: string;
 	export const NVM_INC: string;
-	export const MANPATH: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const NVM_CD_FLAGS: string;
@@ -131,7 +130,6 @@ declare module '$env/dynamic/private' {
 		UPSTASH_REDIS_URL: string;
 		UPSTASH_REDIS_TOKEN: string;
 		NVM_INC: string;
-		MANPATH: string;
 		TERM_PROGRAM: string;
 		NODE: string;
 		NVM_CD_FLAGS: string;

@@ -116,7 +116,7 @@
           <GithubIcon iconSize={19} />
         </a> -->
         <a
-          href="https://twitter.com/HeyHuazi"
+          href="https://bonjour.bio/huazi"
           target="_blank"
           class="flex items-center space-x-1 opacity-80 hover:opacity-100 transition-opacity"
           title="Huazi"

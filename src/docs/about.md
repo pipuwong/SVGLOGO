@@ -28,6 +28,10 @@ description: 专注收录国内矢量 LOGO
 [预警信号ICON](https://www.figma.com/community/file/1133299341246601360) @岩鸣杨子<br>
 
 ## 更新日志
+### 2024.09.19
+#### ✨ 增加图标
+小红书横版 @Enochayy <br>
+Canva可画
 ### 2024.09.03
 #### ✨ 增加图标
 QingIcon @Asorn <br>
