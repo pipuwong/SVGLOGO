@@ -1943,6 +1943,13 @@ export const svgs: iSVG[] = [
     "route": "/library/school/Beihua_University.svg",
     "url": "https://www.beihua.edu.cn/"
   },
+  {
+    "title": "安徽新华学院",
+    "category": "大学校徽",
+    "route": "/library/school/anhuiXinhuaUniversity.svg",
+    "wordmark": "/library/school/anhuiXinhuaUniversity_wordmark.svg",
+    "url": "https://www.axhu.edu.cn/"
+  },
   // 工具图标
   {
     "title": "Canva可画",
@@ -2077,7 +2084,8 @@ export const svgs: iSVG[] = [
   {
     "title": "小报童",
     "category": "社交媒体",
-    "route": "/library/social/xiaoBot.svg",
+    "route": "/library/social/xiaobot.svg",
+    "wordmark": "/library/social/xiaobot_wordmark.svg",
     "url": "https://xiaobot.net/p/DesignStroll"
   },
   {
