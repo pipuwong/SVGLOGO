@@ -3,6 +3,26 @@ import type { iSVG } from '../types/svg';
 export const svgs: iSVG[] = [
   // 国内企业
   {
+    "title": "广州锦杨科技有限公司",
+    "category": "国内企业",
+    "route": "/library/company/KamyangTechnology.svg",
+    "wordmark": "/library/company/KamyangTechnology_wordmark.svg",
+    "url": "https://www.kamyang.com/"
+  },
+  {
+    "title": "深物业集团",
+    "category": "国内企业",
+    "route": "/library/company/SZPRD.svg",
+    "wordmark": "/library/company/SZPRD_wordmark.svg",
+    "url": "https://www.szwuye.com.cn/"
+  },
+  {
+    "title": "小米",
+    "category": "国内企业",
+    "route": "/library/company/xiaomi.svg",
+    "url": "https://www.mi.com/"
+  },
+  {
     "title": "中国石化",
     "category": "国内企业",
     "route": "/library/company/Sinopec.svg",
@@ -2024,6 +2044,61 @@ export const svgs: iSVG[] = [
     "route": "/library/tools/Moonvy.svg",
     "wordmark": "/library/tools/Moonvy_wordmark.svg",
     "url": "https://moonvy.com/"
+  },
+  {
+    "title": "Motiff 妙多",
+    "category": "工具产品",
+    "route": "/library/tools/Motiff.svg",
+    "wordmark": "/library/tools/Motiff_wordmark.svg",
+    "url": "https://motiff.cn/"
+  },
+  {
+    "title": "Pixso",
+    "category": "工具产品",
+    "route": "/library/tools/Pixso.svg",
+    "wordmark": "/library/tools/Pixso_wordmark.svg",
+    "url": "https://pixso.cn/"
+  },
+  {
+    "title": "Bodardmix",
+    "category": "工具产品",
+    "route": "/library/tools/boardmix.svg",
+    "wordmark": "/library/tools/boardmix_wordmark.svg",
+    "url": "https://boardmix.cn/"
+  },
+  {
+    "title": "墨刀",
+    "category": "工具产品",
+    "route": "/library/tools/Modao.svg",
+    "wordmark": "/library/tools/Modao_wordmark.svg",
+    "url": "https://modao.cc/brand"
+  },
+  {
+    "title": "新枝",
+    "category": "工具产品",
+    "route": "/library/tools/xinzhi.svg",
+    "wordmark": "/library/tools/xinzhi_wordmark.svg",
+    "url": "https://modao.cc/"
+  },
+  {
+    "title": "阿里云盘",
+    "category": "工具产品",
+    "route": "/library/tools/alipan.svg",
+    "wordmark": "/library/tools/alipan_wordmark.svg",
+    "url": "https://www.alipan.com/"
+  },
+  {
+    "title": "百度网盘",
+    "category": "工具产品",
+    "route": "/library/tools/baiducould.svg",
+    "url": "https://pan.baidu.com/"
+  },
+  {
+    "title": "阿里云",
+    "category": "工具产品",
+    "route": "/library/tools/aliyun.svg",
+    "wordmark": "/library/tools/aliyun_wordmark.svg",
+    "url": "https://www.aliyun.com/"
   },
   // 社交媒体
   {

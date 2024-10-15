@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let iconSize: number;
+   export const iconSize = 128;
 </script>
 
 <svg 

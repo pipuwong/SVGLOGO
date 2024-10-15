@@ -28,7 +28,7 @@
       }}
     >
       <Check size={14} strokeWidth={2} />
-      <span>好的</span>
+      <span>好</span>
     </button>
   </div>
 {/if}
