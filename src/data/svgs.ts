@@ -1848,10 +1848,10 @@ export const svgs: iSVG[] = [
     "url": "http://www.cup.edu.cn"
   },
   {
-    "title": "上海科技大学",
+    "title": "上海理工大学",
     "category": "大学校徽",
     "route": "/library/school/USST.svg",
-    "url": "http://www.shanghaitech.edu.cn"
+    "url": "https://www.usst.edu.cn/"
   },
   {
     "title": "北京科技大学",
