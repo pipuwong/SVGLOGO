@@ -30,6 +30,7 @@
 
   // Layout:
   import Navbar from '@/components/navbar.svelte';
+  import { ArrowUpRight } from 'lucide-svelte';
 </script>
 
 <ModeWatcher />
@@ -38,15 +39,16 @@
   <aside
     class={cn(
       'z-50 w-full overflow-y-auto overflow-x-hidden',
-      'dark:border-neutral-800 md:fixed md:left-0 md:h-full md:w-56 md:pb-10',
+      'dark:border-neutral-800 md:fixed md:left-0 md:h-full md:w-56',
       'bg-white dark:bg-neutral-900',
       'backdrop-blur-md opacity-95',
-      'border-r border-neutral-200 dark:border-neutral-800'
+      'border-r border-neutral-200 dark:border-neutral-800',
+      'flex flex-col'
     )}
   >
-    <div class="md:px-3 md:py-6">
+    <div class="h-full md:px-3 md:py-6 flex flex-col">
       <nav
-        class="flex items-center space-x-1 overflow-y-auto md:mb-3 md:flex-col md:space-x-0 md:space-y-1 md:overflow-y-visible px-6 md:px-0 pb-2 pt-2 md:pt-0"
+        class="flex-1 flex items-center space-x-1 overflow-y-auto md:mb-3 md:flex-col md:space-x-0 md:space-y-1 md:overflow-y-visible px-6 md:px-0 pb-2 pt-2 md:pt-0"
       >
         <a
           href="/"
@@ -83,6 +85,42 @@
           </a>
         {/each}
       </nav>
+      <div class="flex flex-col gap-1.5 px-6 md:px-0 py-4 items-center mb-[30px]">
+        <a
+          href="https://xiaobot.net/p/DesignStroll?refer=716d310a-b4f6-4948-be9c-fae68715e1c4"
+          target="_blank"
+          rel="noopener noreferrer"
+          class={cn(
+            sidebarItemStyles,
+            'text-neutral-500 hover:text-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-200',
+            'transition-colors group'
+          )}
+        >
+          设计漫步周刊
+          <ArrowUpRight
+            size={16}
+            strokeWidth={1.5}
+            class="ml-1 transition-transform duration-300 group-hover:-translate-y-[1px] group-hover:translate-x-[1px]"
+          />
+        </a>
+        <a
+          href="https://www.figma.com/community/plugin/1427264808426368845/magic-texthttps://twitter.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          class={cn(
+            sidebarItemStyles,
+            'text-neutral-500 hover:text-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-200',
+            'transition-colors group'
+          )}
+        >
+          MagicText
+          <ArrowUpRight
+            size={16}
+            strokeWidth={1.5}
+            class="ml-1 transition-transform duration-300 group-hover:-translate-y-[1px] group-hover:translate-x-[1px]"
+          />
+        </a>
+      </div>
     </div>
   </aside>
   <div class="ml-0 md:ml-56 pb-6">
