@@ -104,7 +104,7 @@
           />
         </a>
         <a
-          href="https://www.figma.com/community/plugin/1427264808426368845/magic-texthttps://twitter.com/yourusername"
+          href="https://www.figma.com/community/plugin/1427264808426368845/magic-text"
           target="_blank"
           rel="noopener noreferrer"
           class={cn(
@@ -114,6 +114,23 @@
           )}
         >
           MagicText
+          <ArrowUpRight
+            size={16}
+            strokeWidth={1.5}
+            class="ml-1 transition-transform duration-300 group-hover:-translate-y-[1px] group-hover:translate-x-[1px]"
+          />
+        </a>
+        <a
+          href="https://xiaobot.osguider.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class={cn(
+            sidebarItemStyles,
+            'text-neutral-500 hover:text-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-200',
+            'transition-colors group'
+          )}
+        >
+          小报童排行榜
           <ArrowUpRight
             size={16}
             strokeWidth={1.5}
