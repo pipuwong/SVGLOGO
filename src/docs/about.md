@@ -12,8 +12,8 @@ description: 专注收录国内矢量 LOGO
 本站将专注收录国内矢量 LOGO 素材，目前包含国内社媒、大学校徽、气象预警及工具产品等。<br>
 正持续收录中……<br>
 欢迎 [提交or反馈](https://tally.so/r/3qOv78) 你想要的 LOGO <br>
-你可以在[svgl](https://svgl.app/) 找到国外热门矢量 LOGO，本站也基于此开源项目开发。
-
+你可以在[svgl](https://svgl.app/) 找到国外热门矢量 LOGO，本站也基于此开源项目开发。<br>
+还可以在[urongda](https://www.urongda.com/)找到更全的中国大学矢量校徽和相关物料。
 ## 支持我
 👋 嗨！我是 **Huazi** 你可以通过**微信**、**支付宝**支持我持续更新
 ![打赏码](https://huazispace.s3.bitiful.net/SVGLOGO/reward.png "打赏码")
@@ -28,29 +28,35 @@ description: 专注收录国内矢量 LOGO
 [预警信号ICON](https://www.figma.com/community/file/1133299341246601360) @岩鸣杨子<br>
 
 ## 更新日志
+### 2024.11.22
+#### ✨ 增加图标
+夸克网盘 **@angelussun** word、ppt、outlook、excel、OneNote、MicrosoftTeams **@唐宁**
+#### 🐞 修复
+清华大学校徽异常 <br>
+感谢反馈 **@下划线**
 ### 2024.10.15
 #### ✨ 增加图标
-深物业集团 @不如喂猪、广州锦杨科技有限公司 @锦杨科技<br>
+深物业集团 **@不如喂猪** 广州锦杨科技有限公司 **@锦杨科技** <br>
 Motiff、Pixso、Boardmix、墨刀、新枝、阿里云盘、百度网盘、阿里云、小米
-### 感谢这位朋友
-感谢089197这位朋友提交这么多 LOGO，因本站主要收录国内矢量 LOGO，还是以国内的企业工具为主，故未进行更新，对此深表抱歉🙏
+#### 感谢这位朋友
+感谢**089197**这位朋友提交这么多 LOGO，因本站主要收录国内矢量 LOGO，还是以国内的企业工具为主，故未进行更新，对此深表抱歉🙏
 ![089197](https://huazispace.s3.bitiful.net/SVGLOGO/089197.jpg "089197")
 ### 2024.09.29
 #### ✨ 增加图标
 安徽新华学院（花了我4毛钱在素材网站下的，呜呜呜）
 ### 2024.09.19
 #### ✨ 增加图标
-小红书横版 @Enochayy <br>
+小红书横版 **@Enochayy** <br>
 Canva可画
 ### 2024.09.03
 #### ✨ 增加图标
-QingIcon @Asorn <br>
+QingIcon **@Asorn** <br>
 浪潮、五粮液、中国石化
 ### 2024.08.31
 #### 📢 公告
 下载 SVG 功能恢复，增加链接（可跳转图标官网）
 #### ✨ 增加图标
-北华大学 @Leo <br>
+北华大学 **@Leo** <br>
 国家电网、腾讯、中国移动、中国人寿、光厂
 ### 2024.08.27
 #### 📢 公告
@@ -58,11 +64,11 @@ QingIcon @Asorn <br>
 #### 🐞 修复
 LOGO 下载页显示变形
 #### ✨ 增加图标
-字节跳动、TikTok @Lainbo <br>
+字节跳动、TikTok **@Lainbo** <br>
 iconfont
 ### 2024.08.26
 #### ✨ 增加图标
-小牛翻译、彩云小译、火山引擎 @Lainbo <br>
+小牛翻译、彩云小译、火山引擎 **@Lainbo** <br>
 优酷
 ### 2024.08.22
 #### ✨ 增加图标

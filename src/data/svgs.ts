@@ -2100,6 +2100,49 @@ export const svgs: iSVG[] = [
     "wordmark": "/library/tools/aliyun_wordmark.svg",
     "url": "https://www.aliyun.com/"
   },
+  {
+    "title": "夸克网盘",
+    "category": "工具产品",
+    "route": "/library/tools/quarkpan.svg",
+    "wordmark": "/library/tools/quarkpan_wordmark.svg",
+    "url": "https://pan.quark.cn/"
+  },
+  {
+    "title": "Word",
+    "category": "工具产品",
+    "route": "/library/tools/word.svg",
+    "url": "https://www.microsoft.com/zh-cn/microsoft-365/word"
+  },
+  {
+    "title": "PoverPoint",
+    "category": "工具产品",
+    "route": "/library/tools/ppt.svg",
+    "url": "https://www.microsoft.com/zh-cn/microsoft-365/powerpoint"
+  },
+  {
+    "title": "Outlook",
+    "category": "工具产品",
+    "route": "/library/tools/outlook.svg",
+    "url": "https://www.microsoft.com/zh-cn/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"
+  },
+  {
+    "title": "Excel",
+    "category": "工具产品",
+    "route": "/library/tools/excel.svg",
+    "url": "https://www.microsoft.com/zh-cn/microsoft-365/excel"
+  },
+  {
+    "title": "OneNote",
+    "category": "工具产品",
+    "route": "/library/tools/OneNote.svg",
+    "url": "https://www.microsoft.com/zh-cn/microsoft-365/onenote/digital-note-taking-app"
+  },
+  {
+    "title": "MicrosoftTeams",
+    "category": "工具产品",
+    "route": "/library/tools/MicrosoftTeams.svg",
+    "url": "https://www.microsoft.com/zh-cn/microsoft-365/microsoft-teams/group-chat-software"
+  },
   // 社交媒体
   {
     "title": "微信",
