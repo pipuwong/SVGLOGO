@@ -6,32 +6,40 @@
 </div>
 
 <div align="center">
-    <a href="https://svgl.app" target="_blank">
-        Discover
+    <a href="https://svglogo.top/" target="_blank">
+        前往网站
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="https://github.com/pheralb/svgl/issues/new?assignees=pheralb&labels=request&projects=&template=request-svg-.md&title=%5BRequest%5D%3A">
-        Request logo
+    <a href="https://tally.so/r/3qOv78">
+        提交图标
     </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#-getting-started">
-        Submit logo
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#-extensions">
-        Extensions
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="https://svgl.app/api">
-        API
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#%EF%B8%8F-contributing">
-        Contributing
+     <span>&nbsp;✦&nbsp;</span>
+     <a href="https://bonjour.bio/zh/huazi">
+       关于我
     </a>
 </div>
 
-## 🛠️ Stack
+## 关于
+本站将专注收录国内矢量 LOGO 素材，目前包含国内社媒、大学校徽、气象预警及工具产品等。<br>
+正持续收录中……<br>
+欢迎 [提交or反馈](https://tally.so/r/3qOv78) 你想要的 LOGO <br>
+你可以在[svgl](https://svgl.app/) 找到国外热门矢量 LOGO，本站也基于此开源项目开发。<br>
+还可以在[urongda](https://www.urongda.com/)找到更全的中国大学矢量校徽和相关物料。
+## 支持我
+👋 嗨！我是 **Huazi** 你可以通过**微信**、**支付宝**支持我持续更新
+![打赏码](https://huazispace.s3.bitiful.net/SVGLOGO/reward.png "打赏码")
+
+## 版权
+本网站展示的矢量图形均为网络搜集、整理，仅供学习参考，不保证其权威性、准确性。其版权均严格归属于各自对应公司机构。严禁未经授权的复制、修改、传播或商业使用。本网站无法对用户使用LOGO后的具体行为及其法律后果承担责任。
+
+## 感谢以下朋友和和开源项目
+感谢 **@猫柚 @小柒** 教我如何部署项目 <br>
+本站基于开源项目 [svgl](https://github.com/pheralb/svgl) 开发制作<br>
+[中国大学矢量校徽合集](https://www.figma.com/community/file/916515339708288305) @普鲁文<br>
+[预警信号ICON](https://www.figma.com/community/file/1133299341246601360) @岩鸣杨子<br>
+
+
+## 🛠️ 技术栈
 
 - [**Sveltekit**](https://kit.svelte.dev/) - Web development, streamlined.
 - [**Typescript**](https://www.typescriptlang.org/) - JavaScript with syntax for types.
@@ -47,7 +55,7 @@
 - [**@upstash/redis** + **@upstash/ratelimit**](https://upstash.com/) - Serverless Redis for developers.
 - [**Vitest**](https://vitest.dev/) - Blazing Fast Unit Test Framework.
 
-## 🚀 Getting Started
+## 🚀 启动项目
 
 > [!IMPORTANT]
 > Before submitting the SVG, **make sure that you have permission** or that the license of the SVG allows you to add it to svgl. If you are not sure, please contact the company or author.
@@ -75,11 +83,6 @@ pnpm install
 
 3. Go to the [**`static/library`**](https://github.com/pheralb/svgl/blob/main/static/library) folder and add your `.svg` logo.
 
-> [!WARNING]
->
-> - Remember to optimize SVG for web, you can use [SVGOMG](https://jakearchibald.github.io/svgomg/).
-> - When you optimize the SVG, make sure that the `viewBox` is not removed.
-> - The size limit for each .svg is **20kb**.
 
 4. Go to the [**`src/data/svgs.ts`**](https://github.com/pheralb/svgl/blob/main/src/data/svgs.ts) and add the information about your logo, following the structure:
 

@@ -142,10 +142,10 @@ declare module '$env/static/private' {
 	export const NVM_BIN: string;
 	export const npm_package_scripts_fix_viewbox: string;
 	export const npm_config_user_agent: string;
-	export const HOMEBREW_CELLAR: string;
-	export const INFOPATH: string;
 	export const GIT_ASKPASS: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
+	export const HOMEBREW_CELLAR: string;
+	export const INFOPATH: string;
 	export const npm_package_dependencies_clsx: string;
 	export const npm_package_scripts_host: string;
 	export const npm_package_devDependencies__types_downloadjs: string;
@@ -302,10 +302,10 @@ declare module '$env/dynamic/private' {
 		NVM_BIN: string;
 		npm_package_scripts_fix_viewbox: string;
 		npm_config_user_agent: string;
-		HOMEBREW_CELLAR: string;
-		INFOPATH: string;
 		GIT_ASKPASS: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
+		HOMEBREW_CELLAR: string;
+		INFOPATH: string;
 		npm_package_dependencies_clsx: string;
 		npm_package_scripts_host: string;
 		npm_package_devDependencies__types_downloadjs: string;

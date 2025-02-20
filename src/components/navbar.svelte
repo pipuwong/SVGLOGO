@@ -38,7 +38,14 @@
       icon: ArrowUpRight,
       external: true,
       label: "提交或者反馈你想要的图标"
-    }
+    },
+    {
+      name: '',
+      url: 'https://github.com/HeyHuazi/SVGLOGO',
+      icon: GithubIcon,
+      external: true,
+      label: "github"
+    },
   ];
 </script>
 

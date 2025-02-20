@@ -1,6 +1,358 @@
 import type { iSVG } from '../types/svg';
 
 export const svgs: iSVG[] = [
+  // 2025.02.20
+  {
+    "title": "阿玛尼",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/ArmaniCaiZhuang.svg",
+    "url": "https://www.giorgioarmanibeauty.com."
+  },
+  {
+    "title": "欧珀莱",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/aupres.svg",
+    "url": "https://www.aupres.com.cn/"
+  },
+  {
+    "title": "雅漾",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/avene.svg",
+    "url": "https://www.aveneusa.com/"
+  },
+  {
+    "title": "碧兒泉",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/biotherm.svg",
+    "url": "https://www.biotherm.com/"
+  },
+  {
+    "title": "Bobbi Brown 芭比波朗",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/bobbibrown.svg",
+    "url": "https://www.bobbibrown.com.cn/"
+  },
+  {
+    "title": "香奈儿 CHANEL",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/chanel.svg",
+    "url": "https://www.chanel.cn/cn/"
+  },
+  {
+    "title": "娇韵诗 Clarins",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/Clarins.svg",
+    "url": "https://www.clarins.com.cn/"
+  },
+  {
+    "title": "肌肤之钥",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/cledepeau.svg",
+    "wordmark": "/library/cosmetic/cledepeau_wordmark.svg",
+    "url": "https://www.cledepeau-beaute.com.cn/"
+  },
+  {
+    "title": "迪奥 dior",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/dior.svg",
+    "url": "https://www.dior.cn/zh_cn"
+  },
+  {
+    "title": "雅诗兰黛 Estee Lauder",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/esteelauder.svg",
+    "url": "https://www.esteelauder.com.cn/"
+  },
+  {
+    "title": "樊文花",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/fanwenhua.svg",
+    "url": "http://www.fawa1988.com/"
+  },
+  {
+    "title": "纪梵希",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/givenchy.svg",
+    "wordmark": "/library/cosmetic/givenchy_wordmark.svg",
+    "url": "https://www.givenchy.com/int/en/homepage"
+  },
+  {
+    "title": "法国娇兰 Guerlain",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/guerlain.svg",
+    "url": "https://www.guerlain.com.cn/"
+  },
+  {
+    "title": "HR 赫莲娜",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/HelenaRubinstein.svg",
+    "url": "https://www.helenarubinstein.cn/"
+  },
+  {
+    "title": "悦诗风吟 Innisfree ",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/Innisfree.svg",
+    "url": "https://www.innisfree.cn/"
+  },
+  {
+    "title": "茵芙莎IPSA",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/ipsa.svg",
+    "url": "https://www.ipsa.com.cn/"
+  },
+  {
+    "title": "茱莉蔻Jurlique",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/Jurlique.svg",
+    "url": "https://www.jurlique.com.cn/"
+  },
+  {
+    "title": "科颜氏Kiehl's",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/kiehls.svg",
+    "url": "https://www.kiehls.com.cn/"
+  },
+  {
+    "title": "欧舒丹 L'OCCITANE",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/loccitane.svg",
+    "url": "https://www.loccitane.cn/"
+  },
+  {
+    "title": "巴黎欧莱雅",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/loreal.svg",
+    "url": "https://www.lorealparis.com.cn/"
+  },
+  {
+    "title": "海蓝之谜",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/lamer.svg",
+    "url": "https://www.lamer.com.cn/"
+  },
+  {
+    "title": "兰蔻Lancome",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/lancome.svg",
+    "url": "https://www.lancome.com.cn/"
+  },
+  {
+    "title": "兰芝 Laneige ",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/laneige.svg",
+    "url": "https://www.laneige.com.cn/"
+  },
+  {
+    "title": "M·A·C",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/mac.svg",
+    "url": "https://www.maccosmetics.com.cn/"
+  },
+  {
+    "title": "makeupforever",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/makeupforever.svg",
+    "url": "https://www.makeupforever.com/"
+  },
+  {
+    "title": "梦妆 Mamonde",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/mamonde.svg",
+    "url": "https://www.mamonde.com.cn/index.html"
+  },
+  {
+    "title": "毛戈平 MAOGEPING",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/maogeping.svg",
+    "url": "https://www.maogepingbeauty.com/"
+  },
+  {
+    "title": "MARUBI丸美",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/marubi.svg",
+    "url": "https://www.marubi.cn/"
+  },
+  {
+    "title": "玉兰油 OLAY",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/olay.svg",
+    "url": "https://www.olay.com.cn/"
+  },
+  {
+    "title": "悦木之源",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/origns.svg",
+    "url": "https://www.origins.com.cn/"
+  },
+  {
+    "title": "珀莱雅 PROYA",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/proya.svg",
+    "url": "https://www.proya.com/"
+  },
+  {
+    "title": "SHISEIDO 资生堂",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/shiseido.svg",
+    "url": "https://www.shiseido.com.cn/"
+  },
+  {
+    "title": "Shu Uemura植村秀",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/ShuUemura.svg",
+    "url": "https://www.shuuemura.com.cn/"
+  },
+  {
+    "title": "Shu Uemura植村秀",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/ShuUemura.svg",
+    "url": "https://www.shuuemura.com.cn/"
+  },
+  {
+    "title": "Sisley法国希思黎",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/Sisley.svg",
+    "url": "https://www.sisley.com.cn/"
+  },
+  {
+    "title": "SK-II",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/skii.svg",
+    "url": "https://www.skii.com.cn/"
+  },
+  {
+    "title": "雪花秀 sulwhasoo",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/sulwhasoo.svg",
+    "url": "https://www.sulwhasoo.com.cn/index.html"
+  },
+  {
+    "title": "TOM FORD",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/tomford.svg",
+    "url": "https://www.tomford.com/"
+  },
+  {
+    "title": "Whoo 后",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/whoo.svg",
+    "url": "https://www.whoo.com.cn/"
+  },
+  {
+    "title": "YSL圣罗兰",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/ysl.svg",
+    "wordmark": "/library/school/ysl_wordmark.svg",
+    "url": "https://www.yslbeautycn.com/"
+  },
+  {
+    "title": "羽西",
+    "category": "美妆品牌",
+    "route": "/library/cosmetic/yuxi.svg",
+    "url": "https://www.yuesai.com/mob/index.html"
+  },
+  {
+    "title": "潮宏基",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/chaohongji.svg",
+    "url": "http://www.chjchina.com/"
+  },
+  {
+    "title": "DR",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/darryring.svg",
+    "url": "https://www.darryring.com/"
+  },
+  {
+    "title": "老凤祥",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/laofengxiang.svg",
+    "url": "https://www.laofengxiang.com/"
+  },
+  {
+    "title": "老庙",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/laomiao.svg",
+    "url": "https://www.laomiao.com.cn/"
+  },
+  {
+    "title": "六福珠宝",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/liufuzhubao.svg",
+    "url": "https://www.lukfook.com/"
+  },
+  {
+    "title": "明牌珠宝",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/mingpaizhubao.svg",
+    "url": "https://www.mingr.com/nmingr-mingr/#/index"
+  },
+  {
+    "title": "pandora",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/pandora.svg",
+    "url": "https://cn.pandora.net.cn/"
+  },
+  {
+    "title": "润石珊瑚",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/runshishanhu.svg",
+    "url": "https://www.bestone.net/"
+  },
+  {
+    "title": "施华洛世奇",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/swarovski.svg",
+    "url": "https://www.swarovski.com.cn/zh-CN/"
+  },
+  {
+    "title": "通灵珠宝",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/tonglingzhubao.svg",
+    "url": "https://www.leysen1855.com/"
+  },
+  {
+    "title": "中福珠宝",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/zhongfuzhubao.svg",
+    "url": "https://www.zfhjjt.cn/"
+  },
+  {
+    "title": "中国珠宝",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/zhongguozhubao.svg",
+    "url": "https://www.sinogem.com.cn/"
+  },
+  {
+    "title": "周大福传承",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/zhoudafuzhuangcheng.svg",
+    "url": "https://www.ctf.com.cn/zh-hans/jewelry/series/info_7819.html"
+  },
+  {
+    "title": "周大福",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/zhoudafu.svg",
+    "url": "https://www.ctf.com.cn/"
+  },
+  {
+    "title": "周大生",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/zhoudasheng.svg",
+    "url": "https://www.chowtaiseng.com/"
+  },
+  {
+    "title": "周生生",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/zhoushengsheng.svg",
+    "url": "https://www.chowsangsang.com/tc/home"
+  },
+  {
+    "title": "谢瑞麟",
+    "category": "黄金珠宝",
+    "route": "/library/goldJewelry/xieruilin.svg",
+    "url": "https://corporate.tslj.com/tc/about/vision.php"
+  },
 
   // 2025.02.10
   {
