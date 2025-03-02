@@ -9,6 +9,15 @@ import { ModeWatcher, mode } from "mode-watcher";
 import { sidebarCategoryCountStyles } from "@/ui/styles";
 import { sidebarItemStyles } from "@/ui/styles";
 import { onMount } from 'svelte';
+import { X } from "lucide-svelte";
+
+// 广告弹窗状态
+let showAdPopup = true;
+const closeAdPopup = () => {
+  showAdPopup = false;
+};
+
+// 移除原有的 onMount 检查广告显示逻辑
 
 // Get categories:
 import { svgs } from "@/data/svgs";
@@ -113,7 +122,7 @@ onMount(async () => {
       <div
         class="mb-[30px] flex flex-col items-center gap-1.5 px-6 py-4 md:px-0"
       >
-        <a
+        <!-- <a
           href="https://xiaobot.net/p/DesignStroll?refer=716d310a-b4f6-4948-be9c-fae68715e1c4"
           target="_blank"
           rel="noopener noreferrer"
@@ -163,7 +172,7 @@ onMount(async () => {
             strokeWidth={1.5}
             class="ml-1 transition-transform duration-300 group-hover:-translate-y-[1px] group-hover:translate-x-[1px]"
           />
-        </a>
+        </a> -->
         <div
           id="statistic"
           class={cn(
@@ -183,6 +192,32 @@ onMount(async () => {
       </div>
     </div>
   </aside>
+  
+  <!-- 广告弹窗 -->
+  {#if showAdPopup}
+    <div class="hidden md:block fixed bottom-4 left-4 w-48 bg-white dark:bg-neutral-800 rounded-lg shadow-lg border border-neutral-200 dark:border-neutral-700 overflow-hidden z-[100]">
+      <button
+        on:click={closeAdPopup}
+        class="absolute top-2 right-2 p-1 hover:bg-neutral-100 dark:hover:bg-neutral-700 rounded-full bg-white/80 dark:bg-neutral-800/80 z-10"
+        aria-label="关闭广告"
+      >
+        <X size={10} class="text-neutral-600 dark:text-neutral-400" />
+      </button>
+      
+      <div class="w-full">
+        <a href="https://xiaobot.net/p/DesignStroll?refer=716d310a-b4f6-4948-be9c-fae68715e1c4" target="_blank" rel="noopener noreferrer">
+          <img 
+            src="https://huazispace.s3.bitiful.net/2025/02/5fe4e4e7b9f554b781ef566a9adc80f2.png"
+            alt="设计漫步周刊" 
+            class="w-full h-auto"
+          />
+        </a>
+      </div>
+      
+
+    </div>
+  {/if}
+  
   <div class="ml-0 pb-6 md:ml-56">
     <Warning />
     <Transition pathname={data.pathname}>

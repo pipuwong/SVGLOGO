@@ -35,6 +35,7 @@
     {
       name: '提交图标',
       url: 'https://tally.so/r/3qOv78',
+      // url: 'https://i7kd0opf28.feishu.cn/share/base/form/shrcnb7jawVrJTZ335o2buBOvqg',
       icon: ArrowUpRight,
       external: true,
       label: "提交或者反馈你想要的图标"

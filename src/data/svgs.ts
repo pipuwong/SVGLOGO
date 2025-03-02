@@ -21,7 +21,7 @@ export const svgs: iSVG[] = [
     "url": "https://www.aveneusa.com/"
   },
   {
-    "title": "碧兒泉",
+    "title": "碧欧泉",
     "category": "美妆品牌",
     "route": "/library/cosmetic/biotherm.svg",
     "url": "https://www.biotherm.com/"
@@ -628,6 +628,7 @@ export const svgs: iSVG[] = [
     "title": "字节跳动",
     "category": "国内企业",
     "route": "/library/company/bytedance.svg",
+    "wordmark": "/library/company/bytedance_wordmark.svg",
     "url": "https://www.bytedance.com/"
   },
   {
