@@ -195,7 +195,7 @@ onMount(async () => {
   
   <!-- 广告弹窗 -->
   {#if showAdPopup}
-    <div class="hidden md:block fixed bottom-4 left-4 w-48 bg-white dark:bg-neutral-800 rounded-lg shadow-lg border border-neutral-200 dark:border-neutral-700 overflow-hidden z-[100]">
+    <div class="hidden md:block fixed bottom-12 left-4 w-48 bg-white dark:bg-neutral-800 rounded-lg shadow-lg border border-neutral-200 dark:border-neutral-700 overflow-hidden z-[100]">
       <button
         on:click={closeAdPopup}
         class="absolute top-2 right-2 p-1 hover:bg-neutral-100 dark:hover:bg-neutral-700 rounded-full bg-white/80 dark:bg-neutral-800/80 z-10"

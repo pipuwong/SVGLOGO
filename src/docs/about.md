@@ -12,8 +12,7 @@ description: 专注收录国内矢量 LOGO
 本站将专注收录国内矢量 LOGO 素材，目前包含国内社媒、大学校徽、气象预警及工具产品等。<br>
 正持续收录中……<br>
 欢迎 [提交or反馈](https://tally.so/r/3qOv78) 你想要的 LOGO <br>
-你可以在[svgl](https://svgl.app/) 找到国外热门矢量 LOGO，本站也基于此开源项目开发。<br>
-还可以在[urongda](https://www.urongda.com/)找到更全的中国大学矢量校徽和相关物料。
+你可以在[svgl](https://svgl.app/) 找到国外热门矢量 LOGO，本站也基于此开源项目开发。
 ## 支持我
 👋 嗨！我是 **Huazi** 你可以通过**微信**、**支付宝**支持我持续更新
 ![打赏码](https://huazispace.s3.bitiful.net/SVGLOGO/reward.png "打赏码")
@@ -28,6 +27,11 @@ description: 专注收录国内矢量 LOGO
 [预警信号ICON](https://www.figma.com/community/file/1133299341246601360) @岩鸣杨子<br>
 
 ## 更新日志
+### 2025.03.09
+#### ✨ 增加图标
+150+ 银行logo <br>
+小鹅通@Rain
+#### 🐞 修复
 ### 2025.03.03
 #### 🐞 修复
 碧兒泉-->碧欧泉

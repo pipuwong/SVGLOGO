@@ -1,12 +1,1087 @@
 import type { iSVG } from '../types/svg';
 
 export const svgs: iSVG[] = [
+  // 2025.03.09
+  {
+    "title": "西安银行",
+    "category": "金融支付",
+    "route": "/library/pay/XABANK.svg",
+    "wordmark": "/library/pay/XABANK_wordmark.svg",
+    "url": "https://www.xacbank.com/"
+  },
+  {
+    "title": "桂林银行",
+    "category": "金融支付",
+    "route": "/library/pay/GLBANK.svg",
+    "wordmark": "/library/pay/GLBANK_wordmark.svg",
+    "url": "https://www.guilinbank.com.cn/"
+  },
+  {
+    "title": "泰安银行",
+    "category": "金融支付",
+    "route": "/library/pay/TACCB.svg",
+    "wordmark": "/library/pay/TACCB_wordmark.svg",
+    "url": "https://www.taccb.com.cn/"
+  },
+  {
+    "title": "浙江稠州商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/CZCB.svg",
+    "wordmark": "/library/pay/CZCB_wordmark.svg",
+    "url": "https://www.czcb.com.cn/"
+  },
+  {
+    "title": "营口沿海银行",
+    "category": "金融支付",
+    "route": "/library/pay/YKYHB.svg",
+    "url": "http://www.coastalbank.cn/"
+  },
+  {
+    "title": "晋中银行",
+    "category": "金融支付",
+    "route": "/library/pay/JZB.svg",
+    "url": "https://www.shxibank.com/"
+  },
+  {
+    "title": "青海银行",
+    "category": "金融支付",
+    "route": "/library/pay/QHBANK.svg",
+    "wordmark": "/library/pay/QHBANK_wordmark.svg",
+    "url": "http://www.bankqh.com/"
+  },
+  {
+    "title": "雅安市商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/YACCB.svg",
+    "wordmark": "/library/pay/YACCB_wordmark.svg",
+    "url": "https://www.yaccb.cn/"
+  },
+  {
+    "title": "广州银行",
+    "category": "金融支付",
+    "route": "/library/pay/GZCB.svg",
+    "wordmark": "/library/pay/GZCB_wordmark.svg",
+    "url": "http://www.gzcb.com.cn/"
+  },
+  {
+    "title": "德州银行",
+    "category": "金融支付",
+    "route": "/library/pay/DZBANK.svg",
+    "wordmark": "/library/pay/DZBANK_wordmark.svg",
+    "url": "https://www.dzbchina.com/"
+  },
+  {
+    "title": "湖州银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOHZ.svg",
+    "wordmark": "/library/pay/BOHZ_wordmark.svg",
+    "url": "http://www.hzccb.com/"
+  },
+  {
+    "title": "抚顺银行",
+    "category": "金融支付",
+    "route": "/library/pay/FSCB.svg",
+    "wordmark": "/library/pay/FSCB_wordmark.svg",
+    "url": "https://www.bankoffs.com.cn/"
+  },
+  {
+    "title": "唐山银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOTS.svg",
+    "wordmark": "/library/pay/BOTS_wordmark.svg",
+    "url": "https://www.ts-bank.cn/"
+  },
+  {
+    "title": "昆仑银行",
+    "category": "金融支付",
+    "route": "/library/pay/KLB.svg",
+    "wordmark": "/library/pay/KLB_wordmark.svg",
+    "url": "https://www.klb.cn/"
+  },
+  {
+    "title": "长城华西银行",
+    "category": "金融支付",
+    "route": "/library/pay/GWB.svg",
+    "wordmark": "/library/pay/GWB_wordmark.svg",
+    "url": "https://www.gwbank.com.cn/"
+  },
+  {
+    "title": "洛阳银行",
+    "category": "金融支付",
+    "route": "/library/pay/BLY.svg",
+    "wordmark": "/library/pay/BLY_wordmark.svg",
+    "url": "http://www.bankofluoyang.com.cn/"
+  },
+  {
+    "title": "江西银行",
+    "category": "金融支付",
+    "route": "/library/pay/JXB.svg",
+    "wordmark": "/library/pay/JXB_wordmark.svg",
+    "url": "https://www.jx-bank.com/"
+  },
+  {
+    "title": "苏州银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOSZ.svg",
+    "wordmark": "/library/pay/BOSZ_wordmark.svg",
+    "url": "http://www.suzhoubank.com/"
+  },
+  {
+    "title": "大连银行",
+    "category": "金融支付",
+    "route": "/library/pay/DLB.svg",
+    "wordmark": "/library/pay/DLB_wordmark.svg",
+    "url": "http://www.bankofdl.com/"
+  },
+  {
+    "title": "沧州银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOCZ.svg",
+    "wordmark": "/library/pay/BOCZ_wordmark.svg",
+    "url": "https://www.bankcz.com/"
+  },
+  {
+    "title": "长安银行",
+    "category": "金融支付",
+    "route": "/library/pay/CABANK.svg",
+    "wordmark": "/library/pay/CABANK_wordmark.svg",
+    "url": "https://www.ccabchina.com/"
+  },
+  {
+    "title": "柳州银行",
+    "category": "金融支付",
+    "route": "/library/pay/LZCCB.svg",
+    "wordmark": "/library/pay/LZCCB_wordmark.svg",
+    "url": "http://www.bolz.cn/"
+  },
+  {
+    "title": "威海市商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/WHCCB.svg",
+    "wordmark": "/library/pay/WHCCB_wordmark.svg",
+    "url": "https://www.whccb.com/"
+  },
+  {
+    "title": "浙江民泰商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/MTBANK.svg",
+    "wordmark": "/library/pay/MTBANK_wordmark.svg",
+    "url": "https://www.mintaibank.com/"
+  },
+  {
+    "title": "营口银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOYK.svg",
+    "wordmark": "/library/pay/BOYK_wordmark.svg",
+    "url": "http://www.bankofyk.com/"
+  },
+  {
+    "title": "阳泉市商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/YQCCB.svg",
+    "wordmark": "/library/pay/YQCCB_wordmark.svg",
+    "url": "https://www.shxibank.com/"
+  },
+  {
+    "title": "西藏银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOXZ.svg",
+    "wordmark": "/library/pay/BOXZ_wordmark.svg",
+    "url": "https://www.xzbc.com.cn/"
+  },
+  {
+    "title": "宜宾市商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/YBCCB.svg",
+    "wordmark": "/library/pay/YBCCB_wordmark.svg",
+    "url": "http://www.ybccb.com/"
+  },
+  {
+    "title": "东莞银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOD.svg",
+    "wordmark": "/library/pay/BOD_wordmark.svg",
+    "url": "https://www.dongguanbank.cn/"
+  },
+  {
+    "title": "东营银行",
+    "category": "金融支付",
+    "route": "/library/pay/DYCCB.svg",
+    "wordmark": "/library/pay/DYCCB_wordmark.svg",
+    "url": "https://www.dyccb.net/"
+  },
+  {
+    "title": "嘉兴银行",
+    "category": "金融支付",
+    "route": "/library/pay/JXBANK.svg",
+    "wordmark": "/library/pay/JXBANK_wordmark.svg",
+    "url": "https://www.bojx.com/"
+  },
+  {
+    "title": "阜阳银行",
+    "category": "金融支付",
+    "route": "/library/pay/FXCB.svg",
+    "wordmark": "/library/pay/FXCB_wordmark.svg",
+    "url": "https://www.fuxinbank.com/"
+  },
+  {
+    "title": "邢台银行",
+    "category": "金融支付",
+    "route": "/library/pay/XTB.svg",
+    "wordmark": "/library/pay/XTB_wordmark.svg",
+    "url": "https://xtbank.com/"
+  },
+  {
+    "title": "哈密市商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/HMCCB.svg",
+    "wordmark": "/library/pay/HMCCB_wordmark.svg",
+    "url": "http://www.hmccb.com/"
+  },
+  {
+    "title": "乐山市商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/LSCCB.svg",
+    "wordmark": "/library/pay/LSCCB_wordmark.svg",
+    "url": "http://www.lsccb.com/"
+  },
+  {
+    "title": "焦作中旅银行",
+    "category": "金融支付",
+    "route": "/library/pay/CTS.svg",
+    "wordmark": "/library/pay/CTS_wordmark.svg",
+    "url": "http://www.jzctb.com/"
+  },
+  {
+    "title": "九江银行",
+    "category": "金融支付",
+    "route": "/library/pay/JJCCB.svg",
+    "wordmark": "/library/pay/JJCCB_wordmark.svg",
+    "url": "http://www.jjccb.com/"
+  },
+  {
+    "title": "江苏长江商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/JSCJCB.svg",
+    "wordmark": "/library/pay/JSCJCB_wordmark.svg",
+    "url": "http://www.cjccb.com/"
+  },
+  {
+    "title": "锦州银行",
+    "category": "金融支付",
+    "route": "/library/pay/JZBANK.svg",
+    "wordmark": "/library/pay/JZBANK_wordmark.svg",
+    "url": "https://jinzhoubank.com/jzbank/index.html"
+  },
+  {
+    "title": "承德银行",
+    "category": "金融支付",
+    "route": "/library/pay/CDBANK.svg",
+    "wordmark": "/library/pay/CDBANK_wordmark.svg",
+    "url": "https://www.chengdebank.com/"
+  },
+  {
+    "title": "云南红塔银行",
+    "category": "金融支付",
+    "route": "/library/pay/YNHTBANK.svg",
+    "wordmark": "/library/pay/YNHTBANK_wordmark.svg",
+    "url": "https://www.ynhtbank.com/"
+  },
+  {
+    "title": "广西北部湾银行",
+    "category": "金融支付",
+    "route": "/library/pay/BGB.svg",
+    "wordmark": "/library/pay/BGB_wordmark.svg",
+    "url": "https://www.bankofbbg.com/"
+  },
+  {
+    "title": "日照银行",
+    "category": "金融支付",
+    "route": "/library/pay/RZB.svg",
+    "wordmark": "/library/pay/RZB_wordmark.svg",
+    "url": "https://www.bankofrizhao.com.cn/"
+  },
+  {
+    "title": "温州银行",
+    "category": "金融支付",
+    "route": "/library/pay/WZBANK.svg",
+    "wordmark": "/library/pay/WZBANK_wordmark.svg",
+    "url": "http://www.wzcb.com.cn/"
+  },
+  {
+    "title": "铁岭银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOTL.svg",
+    "wordmark": "/library/pay/BOTL_wordmark.svg",
+    "url": "https://www.bankoftieling.com/"
+  },
+  {
+    "title": "晋城银行",
+    "category": "金融支付",
+    "route": "/library/pay/JINCHB.svg",
+    "wordmark": "/library/pay/JINCHB_wordmark.svg",
+    "url": "https://www.shxibank.com/"
+  },
+  {
+    "title": "石嘴山银行",
+    "category": "金融支付",
+    "route": "/library/pay/SZSBK.svg",
+    "wordmark": "/library/pay/SZSBK_wordmark.svg",
+    "url": "http://www.szsccb.com/"
+  },
+  {
+    "title": "遂宁银行",
+    "category": "金融支付",
+    "route": "/library/pay/SNBANK.svg",
+    "wordmark": "/library/pay/SNBANK_wordmark.svg",
+    "url": "https://www.snccb.com/"
+  },
+  {
+    "title": "湖北银行",
+    "category": "金融支付",
+    "route": "/library/pay/HBC.svg",
+    "wordmark": "/library/pay/HBC_wordmark.svg",
+    "url": "http://www.hubeibank.cn/"
+  },
+  {
+    "title": "青岛银行",
+    "category": "金融支付",
+    "route": "/library/pay/QDCCB.svg",
+    "wordmark": "/library/pay/QDCCB_wordmark.svg",
+    "url": "https://www.qdccb.com/"
+  },
+  {
+    "title": "宁波东海银行",
+    "category": "金融支付",
+    "route": "/library/pay/NDHB.svg",
+    "wordmark": "/library/pay/NDHB_wordmark.svg",
+    "url": "http://www.ndhb.cn/"
+  },
+  {
+    "title": "丹东银行",
+    "category": "金融支付",
+    "route": "/library/pay/BODD.svg",
+    "wordmark": "/library/pay/BODD_wordmark.svg",
+    "url": "http://dandongbank.com/"
+  },
+  {
+    "title": "秦皇岛银行",
+    "category": "金融支付",
+    "route": "/library/pay/QHDBANK.svg",
+    "wordmark": "/library/pay/QHDBANK_wordmark.svg",
+    "url": "https://www.qhdbank.cn/"
+  },
+  {
+    "title": "乌鲁木齐市商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/UCCB.svg",
+    "wordmark": "/library/pay/UCCB_wordmark.svg",
+    "url": "http://www.uccb.com.cn/"
+  },
+  {
+    "title": "达州银行",
+    "category": "金融支付",
+    "route": "/library/pay/DCCB.svg",
+    "wordmark": "/library/pay/DCCB_wordmark.svg",
+    "url": "https://dzccb.com.cn/"
+  },
+  {
+    "title": "平顶山银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOP.svg",
+    "wordmark": "/library/pay/BOP_wordmark.svg",
+    "url": "http://www.pdsb.cn/"
+  },
+  {
+    "title": "厦门国际银行",
+    "category": "金融支付",
+    "route": "/library/pay/XMINTB.svg",
+    "wordmark": "/library/pay/XMINTB_wordmark.svg",
+    "url": "https://www.xib.com.cn/"
+  },
+  {
+    "title": "南京银行",
+    "category": "金融支付",
+    "route": "/library/pay/NJCB.svg",
+    "wordmark": "/library/pay/NJCB_wordmark.svg",
+    "url": "https://www.njcb.com.cn/"
+  },
+  {
+    "title": "盛京银行",
+    "category": "金融支付",
+    "route": "/library/pay/SJBANK.svg",
+    "wordmark": "/library/pay/SJBANK_wordmark.svg",
+    "url": "https://www.shengjingbank.com.cn/"
+  },
+  {
+    "title": "保定银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOBD.svg",
+    "wordmark": "/library/pay/BOBD_wordmark.svg",
+    "url": "http://www.bd-bank.com.cn/"
+  },
+  {
+    "title": "曲靖市商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/QJCCCB.svg",
+    "wordmark": "/library/pay/QJCCCB_wordmark.svg",
+    "url": "https://www.qjccb.com/"
+  },
+  {
+    "title": "珠海华润银行",
+    "category": "金融支付",
+    "route": "/library/pay/RBOZ.svg",
+    "wordmark": "/library/pay/RBOZ_wordmark.svg",
+    "url": "https://www.crbank.com.cn/"
+  },
+  {
+    "title": "齐商银行",
+    "category": "金融支付",
+    "route": "/library/pay/QSB.svg",
+    "wordmark": "/library/pay/QSB_wordmark.svg",
+    "url": "https://www.qsbank.cc/"
+  },
+  {
+    "title": "台州银行",
+    "category": "金融支付",
+    "route": "/library/pay/TZBANK.svg",
+    "wordmark": "/library/pay/TZBANK_wordmark.svg",
+    "url": "https://www.tzbank.com/"
+  },
+  {
+    "title": "盘锦银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOPJ.svg",
+    "wordmark": "/library/pay/BOPJ_wordmark.svg",
+    "url": "http://www.bankofpj.com/"
+  },
+  {
+    "title": "大同银行",
+    "category": "金融支付",
+    "route": "/library/pay/DTB.svg",
+    "wordmark": "/library/pay/DTB_wordmark.svg",
+    "url": "http://www.dtccb.com/"
+  },
+  {
+    "title": "宁夏银行",
+    "category": "金融支付",
+    "route": "/library/pay/NXBANK.svg",
+    "wordmark": "/library/pay/NXBANK_wordmark.svg",
+    "url": "http://www.bankofnx.com.cn/"
+  },
+  {
+    "title": "四川天府银行",
+    "category": "金融支付",
+    "route": "/library/pay/SCTFB.svg",
+    "wordmark": "/library/pay/SCTFB_wordmark.svg",
+    "url": "https://www.tf.cn/tfyh/index.html"
+  },
+  {
+    "title": "汉口银行",
+    "category": "金融支付",
+    "route": "/library/pay/HKB.svg",
+    "wordmark": "/library/pay/HKB_wordmark.svg",
+    "url": "http://www.hkbchina.com/"
+  },
+  {
+    "title": "莱商银行",
+    "category": "金融支付",
+    "route": "/library/pay/LSBANK.svg",
+    "wordmark": "/library/pay/LSBANK_wordmark.svg",
+    "url": "https://www.lsbankchina.com/"
+  },
+  {
+    "title": "宁波通商银行",
+    "category": "金融支付",
+    "route": "/library/pay/NBCMB.svg",
+    "wordmark": "/library/pay/NBCMB_wordmark.svg",
+    "url": "https://www.ncbank.cn/"
+  },
+  {
+    "title": "朝阳银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOCY.svg",
+    "wordmark": "/library/pay/BOCY_wordmark.svg",
+    "url": "https://www.cycb.com/"
+  },
+  {
+    "title": "廊坊银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOLF.svg",
+    "wordmark": "/library/pay/BOLF_wordmark.svg",
+    "url": "https://www.lccb.com.cn/"
+  },
+  {
+    "title": "新疆银行",
+    "category": "金融支付",
+    "route": "/library/pay/XJB.svg",
+    "wordmark": "/library/pay/XJB_wordmark.svg",
+    "url": "https://www.xjbank.com/"
+  },
+  {
+    "title": "成都银行",
+    "category": "金融支付",
+    "route": "/library/pay/CDCB.svg",
+    "wordmark": "/library/pay/CDCB_wordmark.svg",
+    "url": "https://www.bocd.com.cn/"
+  },
+  {
+    "title": "郑州银行",
+    "category": "金融支付",
+    "route": "/library/pay/ZZBANK.svg",
+    "wordmark": "/library/pay/ZZBANK_wordmark.svg",
+    "url": "http://www.zzbank.cn/"
+  },
+  {
+    "title": "厦门银行",
+    "category": "金融支付",
+    "route": "/library/pay/XMBANK.svg",
+    "wordmark": "/library/pay/XMBANK_wordmark.svg",
+    "url": "http://www.xmccb.com/"
+  },
+  {
+    "title": "江苏银行",
+    "category": "金融支付",
+    "route": "/library/pay/JSBANK.svg",
+    "wordmark": "/library/pay/JSBANK_wordmark.svg",
+    "url": "http://www.jsbchina.cn/"
+  },
+  {
+    "title": "乌海银行",
+    "category": "金融支付",
+    "route": "/library/pay/WHBANK.svg",
+    "wordmark": "/library/pay/WHBANK_wordmark.svg",
+    "url": "https://www.wuhaicb.com/"
+  },
+  {
+    "title": "河北银行",
+    "category": "金融支付",
+    "route": "/library/pay/BHB.svg",
+    "wordmark": "/library/pay/BHB_wordmark.svg",
+    "url": "https://hebbank.com/"
+  },
+  {
+    "title": "兰州银行",
+    "category": "金融支付",
+    "route": "/library/pay/LZBANK.svg",
+    "wordmark": "/library/pay/LZBANK_wordmark.svg",
+    "url": "https://www.lzbank.com/"
+  },
+  {
+    "title": "重庆三峡银行",
+    "category": "金融支付",
+    "route": "/library/pay/CCQTGB.svg",
+    "wordmark": "/library/pay/CCQTGB_wordmark.svg",
+    "url": "https://www.ccqtgb.com/"
+  },
+  {
+    "title": "烟台银行",
+    "category": "金融支付",
+    "route": "/library/pay/YTB.svg",
+    "wordmark": "/library/pay/YTB_wordmark.svg",
+    "url": "https://www.yantaibank.net/"
+  },
+  {
+    "title": "徽商银行",
+    "category": "金融支付",
+    "route": "/library/pay/HSBANK.svg",
+    "wordmark": "/library/pay/HSBANK_wordmark.svg",
+    "url": "http://www.hsbank.com.cn/"
+  },
+  {
+    "title": "哈尔滨银行",
+    "category": "金融支付",
+    "route": "/library/pay/HRBCB.svg",
+    "wordmark": "/library/pay/HRBCB_wordmark.svg",
+    "url": "https://www.hrbb.com.cn/"
+  },
+  {
+    "title": "富滇银行",
+    "category": "金融支付",
+    "route": "/library/pay/FDBANK.svg",
+    "wordmark": "/library/pay/FDBANK_wordmark.svg",
+    "url": "http://www.fudian-bank.com/"
+  },
+  {
+    "title": "广东南粤银行",
+    "category": "金融支付",
+    "route": "/library/pay/NYBANK.svg",
+    "wordmark": "/library/pay/NYBANK_wordmark.svg",
+    "url": "https://www.gdnybank.com/"
+  },
+  {
+    "title": "临商银行",
+    "category": "金融支付",
+    "route": "/library/pay/LSBC.svg",
+    "wordmark": "/library/pay/LSBC_wordmark.svg",
+    "url": "http://www.lsbchina.com/"
+  },
+  {
+    "title": "绍兴银行",
+    "category": "金融支付",
+    "route": "/library/pay/SXCB.svg",
+    "wordmark": "/library/pay/SXCB_wordmark.svg",
+    "url": "http://www.sxccb.com/"
+  },
+  {
+    "title": "辽阳银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOLY.svg",
+    "wordmark": "/library/pay/BOLY_wordmark.svg",
+    "url": "https://www.liaoshen-bank.com/"
+  },
+  {
+    "title": "晋商银行",
+    "category": "金融支付",
+    "route": "/library/pay/JSB.svg",
+    "wordmark": "/library/pay/JSB_wordmark.svg",
+    "url": "https://www.jshbank.com/"
+  },
+  {
+    "title": "新疆汇和银行",
+    "category": "金融支付",
+    "route": "/library/pay/XJHB.svg",
+    "wordmark": "/library/pay/XJHB_wordmark.svg",
+    "url": "http://www.bohuihe.com/"
+  },
+  {
+    "title": "绵阳市商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/MYCCB.svg",
+    "wordmark": "/library/pay/MYCCB_wordmark.svg",
+    "url": "https://www.mycc-bank.com/"
+  },
+  {
+    "title": "长沙银行",
+    "category": "金融支付",
+    "route": "/library/pay/BSCB.svg",
+    "wordmark": "/library/pay/BSCB_wordmark.svg",
+    "url": "http://cscb.cn/"
+  },
+  {
+    "title": "齐鲁银行",
+    "category": "金融支付",
+    "route": "/library/pay/QLBANK.svg",
+    "wordmark": "/library/pay/QLBANK_wordmark.svg",
+    "url": "https://www.qlbchina.com/"
+  },
+  {
+    "title": "宁波银行",
+    "category": "金融支付",
+    "route": "/library/pay/NBCB.svg",
+    "wordmark": "/library/pay/NBCB_wordmark.svg",
+    "url": "https://www.nbcb.com.cn/"
+  },
+  {
+    "title": "本溪市商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/BCCB.svg",
+    "wordmark": "/library/pay/BCCB_wordmark.svg",
+    "url": "http://www.bankofbx.com/"
+  },
+  {
+    "title": "衡水银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOHS.svg",
+    "wordmark": "/library/pay/BOHS_wordmark.svg",
+    "url": "http://www.hengshuibank.com/"
+  },
+  {
+    "title": "贵州银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOGZ.svg",
+    "wordmark": "/library/pay/BOGZ_wordmark.svg",
+    "url": "https://www.bgzchina.com/"
+  },
+  {
+    "title": "四川银行",
+    "category": "金融支付",
+    "route": "/library/pay/SCB.svg",
+    "wordmark": "/library/pay/SCB_wordmark.svg",
+    "url": "https://www.scbank.cn/"
+  },
+  {
+    "title": "中原银行",
+    "category": "金融支付",
+    "route": "/library/pay/ZYBANK.svg",
+    "wordmark": "/library/pay/ZYBANK_wordmark.svg",
+    "url": "https://www.zybank.com.cn/"
+  },
+  {
+    "title": "泉州银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOQZ.svg",
+    "wordmark": "/library/pay/BOQZ_wordmark.svg",
+    "url": "https://www.qzccbank.com/"
+  },
+  {
+    "title": "上海银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOSC.svg",
+    "wordmark": "/library/pay/BOSC_wordmark.svg",
+    "url": "https://ibank.bankofshanghai.com/"
+  },
+  {
+    "title": "鄂尔多斯银行",
+    "category": "金融支付",
+    "route": "/library/pay/ORDOSB.svg",
+    "wordmark": "/library/pay/ORDOSB_wordmark.svg",
+    "url": "https://www.ordosbank.com/"
+  },
+  {
+    "title": "天津银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOTJ.svg",
+    "wordmark": "/library/pay/BOTJ_wordmark.svg",
+    "url": "https://www.bankoftianjin.com/"
+  },
+  {
+    "title": "甘肃银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOGS.svg",
+    "wordmark": "/library/pay/BOGS_wordmark.svg",
+    "url": "https://www.gsbankchina.com/"
+  },
+  {
+    "title": "海南银行",
+    "category": "金融支付",
+    "route": "/library/pay/HNB.svg",
+    "wordmark": "/library/pay/HNB_wordmark.svg",
+    "url": "https://www.hnbankchina.com.cn/"
+  },
+  {
+    "title": "潍坊银行",
+    "category": "金融支付",
+    "route": "/library/pay/WFCCB.svg",
+    "wordmark": "/library/pay/WFCCB_wordmark.svg",
+    "url": "https://www.bankwf.com/"
+  },
+  {
+    "title": "泰隆银行",
+    "category": "金融支付",
+    "route": "/library/pay/TLCB.svg",
+    "wordmark": "/library/pay/TLCB_wordmark.svg",
+    "url": "https://www.zjtlcb.com/"
+  },
+  {
+    "title": "吉林银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOJL.svg",
+    "wordmark": "/library/pay/BOJL_wordmark.svg",
+    "url": "https://www.jlbank.com.cn/"
+  },
+  {
+    "title": "长治银行",
+    "category": "金融支付",
+    "route": "/library/pay/CZB.svg",
+    "wordmark": "/library/pay/CZB_wordmark.svg",
+    "url": "https://www.czccb.com/"
+  },
+  {
+    "title": "自贡银行",
+    "category": "金融支付",
+    "route": "/library/pay/ZGBANK.svg",
+    "wordmark": "/library/pay/ZGBANK_wordmark.svg",
+    "url": "https://www.zgbank.com.cn/"
+  },
+  {
+    "title": "广东华兴银行",
+    "category": "金融支付",
+    "route": "/library/pay/GHB.svg",
+    "wordmark": "/library/pay/GHB_wordmark.svg",
+    "url": "https://www.ghbank.com.cn/"
+  },
+  {
+    "title": "济宁银行",
+    "category": "金融支付",
+    "route": "/library/pay/JNBANK.svg",
+    "wordmark": "/library/pay/JNBANK_wordmark.svg",
+    "url": "https://www.jn-bank.com/"
+  },
+  {
+    "title": "金华银行",
+    "category": "金融支付",
+    "route": "/library/pay/JHCCB.svg",
+    "wordmark": "/library/pay/JHCCB_wordmark.svg",
+    "url": "https://www.jhccb.com.cn/"
+  },
+  {
+    "title": "葫芦岛银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOHLD.svg",
+    "wordmark": "/library/pay/BOHLD_wordmark.svg",
+    "url": "https://www.bankofhld.com/"
+  },
+  {
+    "title": "张家口银行",
+    "category": "金融支付",
+    "route": "/library/pay/ZJKCCB.svg",
+    "wordmark": "/library/pay/ZJKCCB_wordmark.svg",
+    "url": "https://www.zjkccb.com/"
+  },
+  {
+    "title": "库尔勒市商业银行",
+    "category": "金融支付",
+    "route": "/library/pay/KCCCB.svg",
+    "wordmark": "/library/pay/KCCCB_wordmark.svg",
+    "url": "http://www.ccfccb.cn/"
+  },
+  {
+    "title": "泸州银行",
+    "category": "金融支付",
+    "route": "/library/pay/LZB.svg",
+    "wordmark": "/library/pay/LZB_wordmark.svg",
+    "url": "https://www.lzccb.cn/"
+  },
+  {
+    "title": "华融湘江银行",
+    "category": "金融支付",
+    "route": "/library/pay/HRXJB.svg",
+    "wordmark": "/library/pay/HRXJB_wordmark.svg",
+    "url": "https://www.hunan-bank.com/"
+  },
+  {
+    "title": "上饶银行",
+    "category": "金融支付",
+    "route": "/library/pay/SRBANK.svg",
+    "wordmark": "/library/pay/SRBANK_wordmark.svg",
+    "url": "https://www.srbank.cn/"
+  },
+  {
+    "title": "杭州银行",
+    "category": "金融支付",
+    "route": "/library/pay/HZCB.svg",
+    "wordmark": "/library/pay/HZCB_wordmark.svg",
+    "url": "https://www.hzbank.com.cn/"
+  },
+  {
+    "title": "鞍山银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOAS.svg",
+    "wordmark": "/library/pay/BOAS_wordmark.svg",
+    "url": "http://www.bankofas.com/"
+  },
+  {
+    "title": "邯郸银行",
+    "category": "金融支付",
+    "route": "/library/pay/HDBANK.svg",
+    "wordmark": "/library/pay/HDBANK_wordmark.svg",
+    "url": "https://www.hdcb.cn/"
+  },
+  {
+    "title": "贵阳银行",
+    "category": "金融支付",
+    "route": "/library/pay/GYCCB.svg",
+    "wordmark": "/library/pay/GYCCB_wordmark.svg",
+    "url": "https://www.bankgy.cn/"
+  },
+  {
+    "title": "重庆银行",
+    "category": "金融支付",
+    "route": "/library/pay/CQBANK.svg",
+    "wordmark": "/library/pay/CQBANK_wordmark.svg",
+    "url": "https://trip.cqcbank.com/"
+  },
+  {
+    "title": "枣庄银行",
+    "category": "金融支付",
+    "route": "/library/pay/ZZB.svg",
+    "wordmark": "/library/pay/ZZB_wordmark.svg",
+    "url": "https://www.zaozhuangbank.com/"
+  },
+  {
+    "title": "福建海峡银行",
+    "category": "金融支付",
+    "route": "/library/pay/FJHXBC.svg",
+    "wordmark": "/library/pay/FJHXBC_wordmark.svg",
+    "url": "https://www.fjhxbank.com/"
+  },
+  {
+    "title": "龙江银行",
+    "category": "金融支付",
+    "route": "/library/pay/LJBANK.svg",
+    "wordmark": "/library/pay/LJBANK_wordmark.svg",
+    "url": "https://www.lj-bank.com/"
+  },
+  {
+    "title": "内蒙古银行",
+    "category": "金融支付",
+    "route": "/library/pay/H3CB.svg",
+    "wordmark": "/library/pay/H3CB_wordmark.svg",
+    "url": "https://www.myrbank.com/"
+  },
+  {
+    "title": "北京银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOB.svg",
+    "wordmark": "/library/pay/BOB_wordmark.svg",
+    "url": "https://www.bankofbeijing.com.cn/"
+  },
+  {
+    "title": "恒丰银行",
+    "category": "金融支付",
+    "route": "/library/pay/EGBANK.svg",
+    "wordmark": "/library/pay/EGBANK_wordmark.svg",
+    "url": "https://hfcommercialbank.com/cn/homepage"
+  },
+  {
+    "title": "浙商银行",
+    "category": "金融支付",
+    "route": "/library/pay/CZBANK.svg",
+    "wordmark": "/library/pay/CZBANK_wordmark.svg",
+    "url": "http://www.czbank.com/"
+  },
+  {
+    "title": "广发银行",
+    "category": "金融支付",
+    "route": "/library/pay/GDB.svg",
+    "wordmark": "/library/pay/GDB_wordmark.svg",
+    "url": "https://www.cgbchina.com.cn/"
+  },
+  {
+    "title": "浦发银行",
+    "category": "金融支付",
+    "route": "/library/pay/SPDB.svg",
+    "wordmark": "/library/pay/SPDB_wordmark.svg",
+    "url": "https://www.spdb.com.cn/"
+  },
+  {
+    "title": "中信银行",
+    "category": "金融支付",
+    "route": "/library/pay/CITIC.svg",
+    "wordmark": "/library/pay/CITIC_wordmark.svg",
+    "url": "https://www.citicbank.com/"
+  },
+  {
+    "title": "中国民生银行",
+    "category": "金融支付",
+    "route": "/library/pay/CMBC.svg",
+    "wordmark": "/library/pay/CMBC_wordmark.svg",
+    "url": "http://www.cmbc.com.cn/"
+  },
+  {
+    "title": "渤海银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOHAIB.svg",
+    "wordmark": "/library/pay/BOHAIB_wordmark.svg",
+    "url": "https://www.cbhb.com.cn/"
+  },
+  {
+    "title": "兴业银行",
+    "category": "金融支付",
+    "route": "/library/pay/CIB.svg",
+    "wordmark": "/library/pay/CIB_wordmark.svg",
+    "url": "https://www.cib.com.cn/"
+  },
+  {
+    "title": "平安银行",
+    "category": "金融支付",
+    "route": "/library/pay/SPABANK.svg",
+    "wordmark": "/library/pay/SPABANK_wordmark.svg",
+    "url": "https://bank.pingan.com/"
+  },
+  {
+    "title": "华夏银行",
+    "category": "金融支付",
+    "route": "/library/pay/HXB.svg",
+    "wordmark": "/library/pay/HXB_wordmark.svg",
+    "url": "https://www.hxb.com.cn/"
+  },
+  {
+    "title": "招商银行",
+    "category": "金融支付",
+    "route": "/library/pay/CMB.svg",
+    "wordmark": "/library/pay/CMB_wordmark.svg",
+    "url": "https://www.cmbchina.com/"
+  },
+  {
+    "title": "中国光大银行",
+    "category": "金融支付",
+    "route": "/library/pay/CEB.svg",
+    "wordmark": "/library/pay/CEB_wordmark.svg",
+    "url": "https://www.cebbank.com/"
+  },
+  {
+    "title": "中国邮政储蓄银行",
+    "category": "金融支付",
+    "route": "/library/pay/PSBC.svg",
+    "wordmark": "/library/pay/PSBC_wordmark.svg",
+    "url": "https://www.psbc.com/"
+  },
+  {
+    "title": "中国工商银行",
+    "category": "金融支付",
+    "route": "/library/pay/ICBC.svg",
+    "wordmark": "/library/pay/ICBC_wordmark.svg",
+    "url": "https://www.icbc.com.cn/"
+  },
+  {
+    "title": "中国农业银行",
+    "category": "金融支付",
+    "route": "/library/pay/ABC.svg",
+    "wordmark": "/library/pay/ABC_wordmark.svg",
+    "url": "https://www.abchina.com/"
+  },
+  {
+    "title": "中国建设银行",
+    "category": "金融支付",
+    "route": "/library/pay/CCB.svg",
+    "wordmark": "/library/pay/CCB_wordmark.svg",
+    "url": "http://www.ccb.com/"
+  },
+  {
+    "title": "中国银行",
+    "category": "金融支付",
+    "route": "/library/pay/BOC.svg",
+    "wordmark": "/library/pay/BOC_wordmark.svg",
+    "url": "https://www.boc.cn/"
+  },
+  {
+    "title": "交通银行",
+    "category": "金融支付",
+    "route": "/library/pay/COMM.svg",
+    "wordmark": "/library/pay/COMM_wordmark.svg",
+    "url": "https://www.bankcomm.com/"
+  },
+  {
+    "title": "中国进出口银行",
+    "category": "金融支付",
+    "route": "/library/pay/EIBOF.svg",
+    "wordmark": "/library/pay/EIBOF_wordmark.svg",
+    "url": "http://www.eximbank.gov.cn/"
+  },
+  {
+    "title": "国家开发银行",
+    "category": "金融支付",
+    "route": "/library/pay/CDB.svg",
+    "wordmark": "/library/pay/CDB_wordmark.svg",
+    "url": "https://www.cdb.com.cn/"
+  },
+  {
+    "title": "中国人民银行",
+    "category": "金融支付",
+    "route": "/library/pay/PBOC.svg",
+    "wordmark": "/library/pay/PBOC_wordmark.svg",
+    "url": "http://www.pbc.gov.cn/"
+  },
+  {
+    "title": "中国农业发展银行",
+    "category": "金融支付",
+    "route": "/library/pay/ADBC.svg",
+    "url": "https://www.adbc.com.cn/"
+  },
+  {
+    "title": "小鹅通",
+    "category": "工具产品",
+    "route": "/library/tools/XET.svg",
+    "url": "https://www.xiaoe-tech.com/"
+  },
   // 2025.02.20
   {
     "title": "阿玛尼",
     "category": "美妆品牌",
     "route": "/library/cosmetic/ArmaniCaiZhuang.svg",
-    "url": "https://www.giorgioarmanibeauty.com."
+    "url": "https://www.giorgioarmanibeauty.com"
   },
   {
     "title": "欧珀莱",
@@ -357,19 +1432,19 @@ export const svgs: iSVG[] = [
   // 2025.02.10
   {
     "title": "支付宝",
-    "category": "支付平台",
+    "category": "金融支付",
     "route": "/library/pay/zhifubao.svg",
     "url": "https://www.alipay.com/"
   },
   {
     "title": "花呗",
-    "category": "支付平台",
+    "category": "金融支付",
     "route": "/library/pay/huabei.svg",
     "url": "https://www.alipay.com/"
   },
   {
     "title": "微信支付",
-    "category": "支付平台",
+    "category": "金融支付",
     "route": "/library/pay/weixinpay.svg",
     "url": "https://pay.weixin.qq.com/"
   },
