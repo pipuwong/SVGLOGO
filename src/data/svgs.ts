@@ -1,6 +1,63 @@
 import type { iSVG } from '../types/svg';
 
 export const svgs: iSVG[] = [
+  // 2025.03.10
+  {
+    "title": "网商银行",
+    "category": "金融支付",
+    "route": "/library/pay/Mybank.svg",
+    "wordmark": "/library/pay/Mybank_wordmark.svg",
+    "url": "https://www.mybank.cn/"
+  },
+  {
+    "title": "芝麻信用",
+    "category": "金融支付",
+    "route": "/library/pay/zhimaxinyong.svg",
+    "wordmark": "/library/pay/zhimaxinyong_wordmark.svg",
+    "url": "https://www.xin.xin/"
+  },
+  {
+    "title": "余额宝",
+    "category": "金融支付",
+    "route": "/library/pay/yuebao.svg",
+    "wordmark": "/library/pay/yuebao_wordmark.svg",
+    "url": "https://help.alipay.com/lab/help_detail.htm?help_id=257914"
+  },
+  {
+    "title": "借呗",
+    "category": "金融支付",
+    "route": "/library/pay/jiebei.svg",
+    "wordmark": "/library/pay/jiebei_wordmark.svg",
+    "url": "https://render.alipay.com/p/f/fd-jhsyufl9/index.html"
+  },
+  {
+    "title": "蚂蚁森林",
+    "category": "工具产品",
+    "route": "/library/tools/AntForest.svg",
+    "wordmark": "/library/tools/AntForest_wordmark.svg",
+    "url": "https://www.antgroup.com/"
+  },
+  {
+    "title": "蚂蚁链",
+    "category": "工具产品",
+    "route": "/library/tools/Antchan.svg",
+    "wordmark": "/library/tools/Antchan_wordmark.svg",
+    "url": "https://www.antgroup.com/"
+  },
+  {
+    "title": "蚂蚁集团",
+    "category": "企业组织",
+    "route": "/library/company/AntGroup.svg",
+    "wordmark": "/library/company/AntGroup_wordmark.svg",
+    "url": "https://www.antgroup.com/"
+  },
+  {
+    "title": "蚂蚁公益基金会",
+    "category": "企业组织",
+    "route": "/library/company/AntFoundation.svg",
+    "wordmark": "/library/company/AntFoundation_wordmark.svg",
+    "url": "https://www.antfoundation.org.cn/"
+  },
   // 2025.03.09
   {
     "title": "西安银行",
@@ -104,13 +161,6 @@ export const svgs: iSVG[] = [
     "route": "/library/pay/GWB.svg",
     "wordmark": "/library/pay/GWB_wordmark.svg",
     "url": "https://www.gwbank.com.cn/"
-  },
-  {
-    "title": "洛阳银行",
-    "category": "金融支付",
-    "route": "/library/pay/BLY.svg",
-    "wordmark": "/library/pay/BLY_wordmark.svg",
-    "url": "http://www.bankofluoyang.com.cn/"
   },
   {
     "title": "江西银行",
@@ -1432,7 +1482,7 @@ export const svgs: iSVG[] = [
   // 2025.02.10
   {
     "title": "支付宝",
-    "category": "金融支付",
+    "category": ['金融支付','工具产品'],
     "route": "/library/pay/zhifubao.svg",
     "url": "https://www.alipay.com/"
   },
@@ -1440,6 +1490,7 @@ export const svgs: iSVG[] = [
     "title": "花呗",
     "category": "金融支付",
     "route": "/library/pay/huabei.svg",
+    "wordmark": "/library/pay/huabei_wordmark.svg",
     "url": "https://www.alipay.com/"
   },
   {
@@ -1475,46 +1526,46 @@ export const svgs: iSVG[] = [
   },
   {
     "title": "奈雪的茶",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/NaiXueDeCha.svg",
     "url": "https://www.naixue.com/"
   },
   {
     "title": "中国电信",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/chinatelecom.svg",
     "url": "http://www.chinatelecom.com.cn/"
   },
   {
     "title": "中国联通",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/chinaunicom.svg",
     "url": "https://www.chinaunicom.com.cn/"
   },
   {
     "title": "增长超人",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/zengzhangchaoren.svg",
     "wordmark": "/library/company/zengzhangchaoren_wordmark.svg",
     "url": "https://www.growthman.cn/"
   },
   {
     "title": "凡科互动",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/fankehudong.svg",
     "wordmark": "/library/company/fankehudong_wordmark.svg",
     "url": "https://hd.fkw.com/"
   },
   {
     "title": "华为",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/huawei.svg",
     "wordmark": "/library/company/huawei_wordmark.svg",
     "url": "https://www.huawei.com/cn/"
   },
   {
     "title": "DeepSeek",
-    "category": "国内企业",
+    "category": ['企业组织','工具产品'],
     "route": "/library/tools/deepseek.svg",
     "wordmark": "/library/tools/deepseek_wordmark.svg",
     "url": "https://www.deepseek.com/"
@@ -1659,76 +1710,76 @@ export const svgs: iSVG[] = [
   },
 
 
-  // 国内企业
+  // 企业组织
   {
     "title": "广州锦杨科技有限公司",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/KamyangTechnology.svg",
     "wordmark": "/library/company/KamyangTechnology_wordmark.svg",
     "url": "https://www.kamyang.com/"
   },
   {
     "title": "深物业集团",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/SZPRD.svg",
     "wordmark": "/library/company/SZPRD_wordmark.svg",
     "url": "https://www.szwuye.com.cn/"
   },
   {
     "title": "小米",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/xiaomi.svg",
     "url": "https://www.mi.com/"
   },
   {
     "title": "中国石化",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/Sinopec.svg",
     "url": "http://www.sinopec.com/"
   },
   {
     "title": "五粮液",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/Wuliangye.svg",
     "wordmark": "/library/company/Wuliangye_wordmark.svg",
     "url": "https://www.wuliangye.com.cn/"
   },
   {
     "title": "浪潮",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/inspur.svg",
     "url": "https://www.inspur.com/"
   },
   {
     "title": "字节跳动",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/bytedance.svg",
     "wordmark": "/library/company/bytedance_wordmark.svg",
     "url": "https://www.bytedance.com/"
   },
   {
     "title": "腾讯",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/Tencent.svg",
     "url": "https://www.tencent.com.cn/"
   },
   {
     "title": "中国移动",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/chinaMobile.svg",
     "wordmark": "/library/company/chinaMobile_wordmark.svg",
     "url": "https://www.chinamobileltd.com/"
   },
   {
     "title": "中国人寿",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/chinaLife.svg",
     "wordmark": "/library/company/chinaLife_wordmark.svg",
     "url": "https://www.chinalife.com.cn/"
   },
   {
     "title": "国家电网",
-    "category": "国内企业",
+    "category": "企业组织",
     "route": "/library/company/stateGrid.svg",
     "wordmark": "/library/company/stateGrid_wordmark.svg",
     "url": "http://www.sgcc.com.cn:8000/"
