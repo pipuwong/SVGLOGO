@@ -27,6 +27,8 @@ description: 专注收录国内矢量 LOGO
 [预警信号ICON](https://www.figma.com/community/file/1133299341246601360) @岩鸣杨子<br>
 
 ## 更新日志
+### 2025.06.19
+#### ✨ 增加 landing page
 ### 2025.03.11
 #### ✨ 增加图标
 蚂蚁集团全线产品图标 **@凯伦** <br>
