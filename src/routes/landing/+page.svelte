@@ -6,7 +6,10 @@
   // 导入真实的SVG数据
   import { svgs } from '@/data/svgs';
   
-  // 获取最新的8个图标 - 从数组末尾取（假设最新的在后面）
+  // 导入博客数据
+  import { getLatestPosts } from '@/data/blogs';
+  
+  // 获取最新的8个图标
   const recentUpdates = svgs.slice(-16).reverse().map((svg, index) => {
     // 处理route字段，支持ThemeOptions类型
     const getImagePath = (route) => {
@@ -34,30 +37,8 @@
       url: svg.url
     };
   });
-  
-  const blogPosts = [
-    {
-      id: 1,
-      title: '如何选择合适的矢量LOGO格式',
-      excerpt: '深入了解SVG、AI、EPS等矢量格式的特点和应用场景，帮助设计师做出最佳选择。',
-      date: '2024.08.25',
-      readTime: '5 min'
-    },
-    {
-      id: 2,
-      title: '国内品牌LOGO设计趋势分析',
-      excerpt: '分析近年来国内知名品牌LOGO的设计变化，探讨简约化、扁平化的设计趋势。',
-      date: '2024.08.20',
-      readTime: '8 min'
-    },
-    {
-      id: 3,
-      title: 'SVGLOGO网站更新日志',
-      excerpt: '记录网站功能更新、新增图标和用户体验优化的详细信息。',
-      date: '2024.08.15',
-      readTime: '3 min'
-    }
-  ];
+
+  let blogPostsPromise = getLatestPosts(3);
 </script>
 
 <svelte:head>
@@ -67,7 +48,7 @@
 
 <!-- Hero Section - 保持全宽 -->
 <section class="bg-white dark:bg-neutral-900 bg-[url('/images/hero-pattern_light.svg')] dark:bg-[url('/images/hero-pattern_dark.svg')]">
-  <div class="py-16 px-4 mx-auto max-w-screen-xl text-center lg:py-24 z-10 relative">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-12 z-10 relative">
     <div class="flex items-center justify-center mb-6">
       <span class={cn(badgeStyles, 'text-sm')}>
         <Sparkles size={14} class="mr-1.5" />
@@ -80,11 +61,11 @@
     </h1>
     
     <p class="mb-8 text-xl font-normal text-neutral-600 lg:text-2xl sm:px-16 lg:px-48 dark:text-neutral-300 text-balance">
-      免费下载矢量LOGO素材，专注收录国内矢量LOGO
+      免费在线下载矢量LOGO素材，专注收录国内矢量LOGO
     </p>
     
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-      <a href="/" class={cn(buttonStyles, 'bg-neutral-900 text-white hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100')}>
+      <a href="/?view=original" data-sveltekit-reload class={cn(buttonStyles, 'bg-neutral-900 text-white hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100')}>
         <span>开始探索</span>
         <ArrowUpRight size={16} />
       </a>
@@ -134,13 +115,13 @@
   </section>
 
   <!-- Recent Updates Section -->
-  <section class="py-16 border-t border-neutral-200 dark:border-neutral-800">
+  <section class="py-8 border-t border-neutral-200 dark:border-neutral-800">
     <div class="max-w-6xl mx-auto">
       <div class="flex items-center justify-between mb-8">
         <h2 class="text-3xl font-bold text-neutral-900 dark:text-white">
           最近更新
         </h2>
-        <a href="/" class="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors text-sm flex items-center whitespace-nowrap">
+        <a data-sveltekit-reload href="/?view=original" class="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors text-base hover:underline flex items-center whitespace-nowrap">
           查看全部
           <ArrowUpRight size={16} class="ml-1" />
         </a>
@@ -170,52 +151,66 @@
   </section>
 
   <!-- Blog Section -->
-  <section class="py-16 border-t border-neutral-200 dark:border-neutral-800">
-    <div class="max-w-6xl mx-auto px-4">
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto">
       <div class="flex items-center justify-between mb-8">
         <h2 class="text-3xl font-bold text-neutral-900 dark:text-white">
-          博客
+          最新文章
         </h2>
-        <a href="/blog" class="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors text-sm flex items-center whitespace-nowrap">
-          查看全部文章
-          <ArrowUpRight size={16} class="ml-1" />
+        <a href="/blog" class="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors text-base hover:underline flex items-center whitespace-nowrap">
+          查看全部
+          <ArrowUpRight size={14} class="ml-1" />
         </a>
       </div>
       
-      <!-- 三列卡片布局 -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {#each blogPosts as post}
-          <article class="group bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl p-6 hover:border-neutral-300 dark:hover:border-neutral-700 hover:shadow-lg transition-all duration-200 flex flex-col h-full">
-            <!-- 标题和日期 -->
-            <div class="mb-4">
-              <h3 class="text-lg font-semibold text-neutral-900 dark:text-white group-hover:text-neutral-700 dark:group-hover:text-neutral-200 transition-colors mb-3 line-clamp-2">
-                {post.title}
-              </h3>
-              <div class="flex items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
-                <span class="flex items-center">
-                  <Calendar size={14} class="mr-1.5" />
-                  {post.date}
-                </span>
-                <span class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded-full text-xs">
-                  {post.readTime}
-                </span>
-              </div>
+        {#await blogPostsPromise}
+          <!-- 加载状态 -->
+          {#each Array(3) as _}
+            <div class="animate-pulse">
+              <div class="h-48 bg-neutral-200 dark:bg-neutral-700 rounded-xl"></div>
             </div>
-            
-            <!-- 摘要 -->
-            <p class="text-neutral-600 dark:text-neutral-400 leading-relaxed text-sm flex-grow line-clamp-3">
-              {post.excerpt}
-            </p>
-            
-            <!-- 阅读更多按钮 -->
-            <div class="mt-4 pt-4 border-t border-neutral-100 dark:border-neutral-800">
-              <button class="text-neutral-900 dark:text-white text-sm font-medium hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors flex items-center group/btn whitespace-nowrap">
-                阅读更多
-                <ArrowUpRight size={14} class="ml-1 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
-              </button>
-            </div>
-          </article>
-        {/each}
+          {/each}
+        {:then blogPosts}
+          {#each blogPosts as post}
+            <article class="group">
+              <a 
+                href="/blog/{post.slug}" 
+                class="block h-full p-6 bg-white dark:bg-neutral-800 rounded-xl border border-neutral-200 dark:border-neutral-700 hover:border-neutral-300 dark:hover:border-neutral-600 transition-all duration-200 hover:shadow-lg flex flex-col"
+              >
+                <div class="flex-shrink-0 mb-4">
+                  <h3 class="text-lg font-semibold text-neutral-900 dark:text-white group-hover:text-neutral-700 dark:group-hover:text-neutral-200 transition-colors mb-3 line-clamp-2">
+                    {post.title}
+                  </h3>
+                  <div class="flex items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
+                    <span class="flex items-center">
+                      <Calendar size={14} class="mr-1.5" />
+                      {new Date(post.date).toLocaleDateString('zh-CN')}
+                    </span>
+                    <!-- <span class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded-full text-xs">
+                      {post.readTime}
+                    </span> -->
+                  </div>
+                </div>
+                
+                <p class="text-neutral-600 dark:text-neutral-400 leading-relaxed text-sm flex-grow line-clamp-3">
+                  {post.description}
+                </p>
+                
+                <div class="mt-4 pt-4 border-t border-neutral-100 dark:border-neutral-800">
+                  <button class="text-neutral-900 dark:text-white text-sm font-medium hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors flex items-center group/btn whitespace-nowrap">
+                    查看详情
+                    <ArrowUpRight size={14} class="ml-1 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
+                  </button>
+                </div>
+              </a>
+            </article>
+          {/each}
+        {:catch error}
+          <div class="col-span-full text-center py-8">
+            <p class="text-neutral-500 dark:text-neutral-400">加载博客文章失败</p>
+          </div>
+        {/await}
       </div>
     </div>
   </section>
@@ -223,7 +218,7 @@
 
 <!-- Footer - 保持全宽背景 -->
 <footer class="bg-neutral-50 dark:bg-neutral-900 border-t border-neutral-200 dark:border-neutral-800 mt-16">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+  <div class="max-w-6xl mx-auto  py-12 lg:py-16">
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
       <!-- 品牌信息区域 -->
       <div class="lg:col-span-2 text-center lg:text-left">
