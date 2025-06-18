@@ -11,5 +11,9 @@
 		"src/routes/directory/[slug]/+page.ts",
 		"src/routes/+layout.server.ts",
 		"src/routes/+layout.server.ts"
+	],
+	"/landing": [
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
 	]
 }

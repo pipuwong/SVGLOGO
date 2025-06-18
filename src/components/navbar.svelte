@@ -71,7 +71,7 @@
     </div>
     <div class="flex items-center space-x-0 md:space-x-7">
       <div
-        class="flex items-center md:space-x-4 divide-x divide-neutral-300 dark:divide-neutral-700"
+        class="flex items-center md:space-x-4 divide-x divide-neutral-300 dark:divide-neutral-700 whitespace-nowrap"
       >
         {#each externalLinks as link}
           <a
