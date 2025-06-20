@@ -3,6 +3,7 @@ title: 中国品牌Logo的设计趋势与文化内涵
 description: 中国品牌Logo近年来经历了显著的变革，既注重文化传承，也不断融入现代设计理念和全球化趋势，形成了独具中国特色的视觉语言。
 date: 2025-02-15
 readTime: 5 min
+cover: https://huazispace.s3.bitiful.net/2025/06/cd91090bb2cf07db3a585a50f1d541ad.png
 tags: ["品牌", "趋势"]
 published: true
 ---

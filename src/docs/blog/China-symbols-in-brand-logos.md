@@ -3,6 +3,7 @@ title: 哪些中国符号适合用在现代品牌logo中？
 description: 在当今全球化的商业环境中，越来越多的品牌开始注重文化特色，而中国传统符号因其独特的文化内涵和视觉表现力，成为现代品牌logo设计的重要灵感来源。
 date: 2025-05-22
 readTime: 5 min
+cover: https://huazispace.s3.bitiful.net/2025/06/f0a7142cdf2f3caede34291779c6b557.png
 tags: ["符号", "logo"]
 published: true
 ---

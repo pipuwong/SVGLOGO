@@ -3,6 +3,7 @@ title: 2024年国内最值得关注的 12 个新Logo
 description: 2024年的国内品牌标志变更呈现出鲜明趋势：本土品牌在传递核心价值的同时，注重结合科技感、国际化与文化底蕴。
 date: 2025-01-02
 readTime: 5 min
+cover: https://huazispace.s3.bitiful.net/2025/06/e599ba2985e62e6ff99fe830c8c0d68a.png
 tags: ["趋势", "2024"]
 published: true
 ---

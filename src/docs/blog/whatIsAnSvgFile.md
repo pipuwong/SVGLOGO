@@ -3,6 +3,7 @@ title: 什么是SVG文件？
 description: 有一种特殊的文件格式被广泛使用，它能带给你前所未有的设计体验，那就是SVG文件。
 date: 2024-08-24
 readTime: 5 min
+cover: https://huazispace.s3.bitiful.net/2025/06/e93f7787625f36bfa05bd0667130e1e5.png
 tags: ["svg", "文件格式"]
 published: true
 ---

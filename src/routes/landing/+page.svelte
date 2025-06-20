@@ -176,32 +176,44 @@
             <article class="group">
               <a 
                 href="/blog/{post.slug}" 
-                class="block h-full p-6 bg-white dark:bg-neutral-800 rounded-xl border border-neutral-200 dark:border-neutral-700 hover:border-neutral-300 dark:hover:border-neutral-600 transition-all duration-200 hover:shadow-lg flex flex-col"
+                class="block h-full bg-white dark:bg-neutral-800 rounded-xl border border-neutral-200 dark:border-neutral-700 hover:border-neutral-300 dark:hover:border-neutral-600 transition-all duration-200 hover:shadow-lg flex flex-col overflow-hidden"
               >
-                <div class="flex-shrink-0 mb-4">
-                  <h3 class="text-lg font-semibold text-neutral-900 dark:text-white group-hover:text-neutral-700 dark:group-hover:text-neutral-200 transition-colors mb-3 line-clamp-2">
-                    {post.title}
-                  </h3>
-                  <div class="flex items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
-                    <span class="flex items-center">
-                      <Calendar size={14} class="mr-1.5" />
-                      {new Date(post.date).toLocaleDateString('zh-CN')}
-                    </span>
-                    <!-- <span class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded-full text-xs">
-                      {post.readTime}
-                    </span> -->
+                {#if post.metadata?.cover}
+                  <div class="h-44 w-full overflow-hidden">
+                    <img 
+                      src={post.metadata.cover} 
+                      alt={post.title} 
+                      class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      loading="lazy"
+                    />
                   </div>
-                </div>
-                
-                <p class="text-neutral-600 dark:text-neutral-400 leading-relaxed text-sm flex-grow line-clamp-3">
-                  {post.description}
-                </p>
-                
-                <div class="mt-4 pt-4 border-t border-neutral-100 dark:border-neutral-800">
-                  <button class="text-neutral-900 dark:text-white text-sm font-medium hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors flex items-center group/btn whitespace-nowrap">
-                    查看详情
-                    <ArrowUpRight size={14} class="ml-1 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
-                  </button>
+                {/if}
+                <div class="p-6 flex-grow flex flex-col">
+                  <div class="flex-shrink-0 mb-4">
+                    <h3 class="text-lg font-semibold text-neutral-900 dark:text-white group-hover:text-neutral-700 dark:group-hover:text-neutral-200 transition-colors mb-3 line-clamp-2">
+                      {post.title}
+                    </h3>
+                    <div class="flex items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
+                      <span class="flex items-center">
+                        <Calendar size={14} class="mr-1.5" />
+                        {new Date(post.date).toLocaleDateString('zh-CN')}
+                      </span>
+                      <!-- <span class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded-full text-xs">
+                        {post.readTime}
+                      </span> -->
+                    </div>
+                  </div>
+                  
+                  <p class="text-neutral-600 dark:text-neutral-400 leading-relaxed text-sm flex-grow line-clamp-3">
+                    {post.description}
+                  </p>
+                  
+                  <div class="mt-4 pt-4 border-t border-neutral-100 dark:border-neutral-800">
+                    <button class="text-neutral-900 dark:text-white text-sm font-medium hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors flex items-center group/btn whitespace-nowrap">
+                      查看详情
+                      <ArrowUpRight size={14} class="ml-1 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
+                    </button>
+                  </div>
                 </div>
               </a>
             </article>

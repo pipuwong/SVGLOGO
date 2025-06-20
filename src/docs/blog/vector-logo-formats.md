@@ -3,6 +3,7 @@ title: 如何选择合适的矢量LOGO格式
 description: 深入了解SVG、AI、EPS等矢量格式的特点和应用场景，帮助设计师做出最佳选择
 date: 2024-08-25
 readTime: 5 min
+cover: https://huazispace.s3.bitiful.net/2025/06/2a7b2df3c5ded023db02e28de0c7f339.png
 tags: ["设计", "SVG", "教程"]
 published: true
 ---

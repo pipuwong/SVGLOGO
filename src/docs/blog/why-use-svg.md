@@ -3,6 +3,7 @@ title: 公司LOGO为何一定要用SVG格式？
 description: 每个公司一般都会有自己的品牌，每个品牌都有自己的LOGO，LOGO是品牌的标识之一，是企业品牌形象之一。LOGO在企业中的地位是很重要的，LOGO会应用到各种场景中，公司LOGO设计一定要SVG格式。
 date: 2024-06-14
 readTime: 5 min
+cover: https://huazispace.s3.bitiful.net/2025/06/1500f3fae866fb402ac5d0d1e2bd3700.png
 tags: ["svg", "公司logo"]
 published: true
 ---
