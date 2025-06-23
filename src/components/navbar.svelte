@@ -74,27 +74,21 @@
         class="flex items-center md:space-x-4 divide-x divide-neutral-300 dark:divide-neutral-700 whitespace-nowrap"
       >
         {#each externalLinks as link}
-          <a
-            href={link.url}
-            target={link.external ? '_blank' : ''}
-            aria-label={link.label ?? link.name}
-            class={cn(
-              'flex items-center opacity-80 hover:opacity-100 transition-opacity text-[15px] pl-2 md:pl-3 group',
-              currentPath === link.url &&
-                'underline underline-offset-8 decoration-dotted decoration-neutral-500'
-            )}
-          >
-            {#if !link.external}
-              <svelte:component
-                this={link.icon}
-                size={16}
-                strokeWidth={1.5}
-                class="mr-2"
-                name={link.name}
-              />
-            {/if}
-            <span class={cn('hidden md:block', !link.external && 'block')}>{link.name}</span>
-            {#if link.external}
+          {#if link.name === '提交图标'}
+            <!-- Tally popup button for 提交图标 -->
+            <button
+              data-tally-open="3qOv78"
+              data-tally-align-left="1"
+              data-tally-hide-title="1"
+              data-tally-overlay="1"
+              data-tally-emoji-text="👋"
+              data-tally-emoji-animation="tada"
+              aria-label={link.label ?? link.name}
+              class={cn(
+                'flex items-center opacity-80 hover:opacity-100 transition-opacity text-[15px] pl-2 md:pl-3 group cursor-pointer'
+              )}
+            >
+              <span class="hidden md:block">{link.name}</span>
               <svelte:component
                 this={link.icon}
                 size={16}
@@ -102,8 +96,40 @@
                 strokeWidth={1.5}
                 class="ml-1 transition-transform duration-300 group-hover:-translate-y-[1px] group-hover:translate-x-[1px] hidden md:block"
               />
-            {/if}
-          </a>
+            </button>
+          {:else}
+            <!-- Regular links -->
+            <a
+              href={link.url}
+              target={link.external ? '_blank' : ''}
+              aria-label={link.label ?? link.name}
+              class={cn(
+                'flex items-center opacity-80 hover:opacity-100 transition-opacity text-[15px] pl-2 md:pl-3 group',
+                currentPath === link.url &&
+                  'underline underline-offset-8 decoration-dotted decoration-neutral-500'
+              )}
+            >
+              {#if !link.external}
+                <svelte:component
+                  this={link.icon}
+                  size={16}
+                  strokeWidth={1.5}
+                  class="mr-2"
+                  name={link.name}
+                />
+              {/if}
+              <span class={cn('hidden md:block', !link.external && 'block')}>{link.name}</span>
+              {#if link.external}
+                <svelte:component
+                  this={link.icon}
+                  size={16}
+                  name="External link"
+                  strokeWidth={1.5}
+                  class="ml-1 transition-transform duration-300 group-hover:-translate-y-[1px] group-hover:translate-x-[1px] hidden md:block"
+                />
+              {/if}
+            </a>
+          {/if}
         {/each}
       </div>
       <div class="flex items-center space-x-4">
