@@ -8,14 +8,57 @@ import { cn } from "@/utils/cn";
 import { ModeWatcher, mode } from "mode-watcher";
 import { sidebarCategoryCountStyles } from "@/ui/styles";
 import { sidebarItemStyles } from "@/ui/styles";
-import { onMount } from 'svelte';
-import { X } from "lucide-svelte";
+import { onMount, onDestroy } from 'svelte'; // 导入onDestroy
+import { X, ChevronLeft, ChevronRight } from "lucide-svelte";
 
 // 广告弹窗状态
 let showAdPopup = true;
 const closeAdPopup = () => {
   showAdPopup = false;
 };
+
+// Banner数据
+const banners = [
+  {
+    id: 1,
+    imageUrl: "https://huazispace.s3.bitiful.net/2025/02/5fe4e4e7b9f554b781ef566a9adc80f2.png",
+    link: "https://xiaobot.net/p/DesignStroll",
+    alt: "设计漫步周刊"
+  },
+  {
+    id: 2,
+    imageUrl: "https://huazispace.s3.bitiful.net/2025/07/efb43de563174a798867fbc016e280a8.png", // 替换为第二个banner图片
+    link: "https://bizihu.com/?ref=www.huazi.space", // 替换为第二个链接
+    alt: "壁纸湖"
+  }
+];
+
+// 轮播状态
+let currentBannerIndex = 0;
+let autoplayInterval: ReturnType<typeof setInterval>;
+
+// 切换到下一个banner
+function nextBanner() {
+  currentBannerIndex = (currentBannerIndex + 1) % banners.length;
+}
+
+// 切换到上一个banner
+function prevBanner() {
+  currentBannerIndex = (currentBannerIndex - 1 + banners.length) % banners.length;
+}
+
+// 自动轮播
+function startAutoplay() {
+  stopAutoplay(); // 确保在启动前清除任何现有定时器
+  autoplayInterval = setInterval(() => {
+    nextBanner();
+  }, 5000); // 调整为5秒切换一次，与注释保持一致
+}
+
+// 停止自动轮播
+function stopAutoplay() {
+  clearInterval(autoplayInterval);
+}
 
 // 移除原有的 onMount 检查广告显示逻辑
 
@@ -51,6 +94,9 @@ let visitorCount = '';
 let loading = true;
 
 onMount(async () => {
+  startAutoplay(); // 确保在组件挂载后立即启动自动轮播
+  
+  // 其他原有的onMount逻辑
   try {
     const response = await fetch("https://v6-widget.51.la/v6/Kdb6i5hQGkAkkUoZ/quote.js");
     const data = await response.text();
@@ -63,6 +109,11 @@ onMount(async () => {
   } finally {
     loading = false;
   }
+});
+
+// 组件销毁时清除定时器
+onDestroy(() => {
+  stopAutoplay();
 });
 </script>
 
@@ -122,57 +173,6 @@ onMount(async () => {
       <div
         class="mb-[30px] flex flex-col items-center gap-1.5 px-6 py-4 md:px-0"
       >
-        <!-- <a
-          href="https://xiaobot.net/p/DesignStroll?refer=716d310a-b4f6-4948-be9c-fae68715e1c4"
-          target="_blank"
-          rel="noopener noreferrer"
-          class={cn(
-            sidebarItemStyles,
-            'text-neutral-500 hover:text-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-200',
-            'group transition-colors'
-          )}
-        >
-          设计漫步周刊
-          <ArrowUpRight
-            size={16}
-            strokeWidth={1.5}
-            class="ml-1 transition-transform duration-300 group-hover:-translate-y-[1px] group-hover:translate-x-[1px]"
-          />
-        </a>
-        <a
-          href="https://www.figma.com/community/plugin/1427264808426368845/magic-text"
-          target="_blank"
-          rel="noopener noreferrer"
-          class={cn(
-            sidebarItemStyles,
-            'text-neutral-500 hover:text-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-200',
-            'group transition-colors'
-          )}
-        >
-          MagicText
-          <ArrowUpRight
-            size={16}
-            strokeWidth={1.5}
-            class="ml-1 transition-transform duration-300 group-hover:-translate-y-[1px] group-hover:translate-x-[1px]"
-          />
-        </a>
-        <a
-          href="https://xiaobot.osguider.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class={cn(
-            sidebarItemStyles,
-            'text-neutral-500 hover:text-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-200',
-            'group transition-colors'
-          )}
-        >
-          小报童排行榜
-          <ArrowUpRight
-            size={16}
-            strokeWidth={1.5}
-            class="ml-1 transition-transform duration-300 group-hover:-translate-y-[1px] group-hover:translate-x-[1px]"
-          />
-        </a> -->
         <div
           id="statistic"
           class={cn(
@@ -193,9 +193,14 @@ onMount(async () => {
     </div>
   </aside>
   
-  <!-- 广告弹窗 -->
+  <!-- 广告弹窗 - 改为轮播Banner -->
   {#if showAdPopup}
-    <div class="hidden md:block fixed bottom-12 left-4 w-48 bg-white dark:bg-neutral-800 rounded-lg shadow-lg border border-neutral-200 dark:border-neutral-700 overflow-hidden z-[100]">
+    <div 
+      class="hidden md:block fixed bottom-12 left-4 w-48 bg-white dark:bg-neutral-800 rounded-lg shadow-lg border border-neutral-200 dark:border-neutral-700 overflow-hidden z-[100]"
+      role="banner"
+      on:mouseenter={stopAutoplay}
+      on:mouseleave={startAutoplay}
+    >
       <button
         on:click={closeAdPopup}
         class="absolute top-2 right-2 p-1 hover:bg-neutral-100 dark:hover:bg-neutral-700 rounded-full bg-white/80 dark:bg-neutral-800/80 z-10"
@@ -204,17 +209,37 @@ onMount(async () => {
         <X size={10} class="text-neutral-600 dark:text-neutral-400" />
       </button>
       
-      <div class="w-full">
-        <a href="https://xiaobot.net/p/DesignStroll?refer=716d310a-b4f6-4948-be9c-fae68715e1c4" target="_blank" rel="noopener noreferrer">
-          <img 
-            src="https://huazispace.s3.bitiful.net/2025/02/5fe4e4e7b9f554b781ef566a9adc80f2.png"
-            alt="设计漫步周刊" 
-            class="w-full h-auto"
-          />
-        </a>
+      <div class="w-full relative">
+        <!-- 轮播内容 -->
+        <div class="w-full transition-transform duration-300 ease-in-out" style="transform: translateX(-{currentBannerIndex * 100}%)"> <!-- 修改了这里 -->
+          <div class="flex">
+            {#each banners as banner}
+              <div class="w-full flex-shrink-0">
+                <a href={banner.link} target="_blank" rel="noopener noreferrer">
+                  <img 
+                    src={banner.imageUrl}
+                    alt={banner.alt} 
+                    class="w-full h-auto"
+                  />
+                </a>
+              </div>
+            {/each}
+          </div>
+        </div>
+        
+        <!-- 导航按钮已移除 -->
+        
+        <!-- 指示器 -->
+        <div class="absolute bottom-1 left-0 right-0 flex justify-center gap-1">
+          {#each banners as banner, index}
+            <button 
+              class="w-1.5 h-1.5 rounded-full ${currentBannerIndex === index ? 'bg-neutral-800 dark:bg-white' : 'bg-neutral-300 dark:bg-neutral-600'}"
+              on:click={() => currentBannerIndex = index}
+              aria-label={`切换到第${index + 1}个广告`}
+            ></button>
+          {/each}
+        </div>
       </div>
-      
-
     </div>
   {/if}
   
