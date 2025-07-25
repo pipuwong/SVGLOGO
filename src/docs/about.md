@@ -27,6 +27,13 @@ description: 专注收录国内矢量 LOGO
 [预警信号ICON](https://www.figma.com/community/file/1133299341246601360) @岩鸣杨子<br>
 
 ## 更新日志
+### 2025.07.25
+#### ✨ 增加图标
+卡奥斯COSMOPlat **@Minami** <br>
+京东科技 **@Alinyeee** <br>
+昱宁 **@小宁同学** <br>
+花再 **@looooow** <br>
+亚太财险和很多 AI工具 的图标
 ### 2025.06.19
 #### ✨ 增加 landing page
 ### 2025.03.11
