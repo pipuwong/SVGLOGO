@@ -2436,7 +2436,7 @@ export const svgs: iSVG[] = [
   },
   {
     "title": "DeepSeek",
-    "category": ['企业组织','工具产品'],
+    "category": ['企业组织','AI产品'],
     "route": "/library/tools/deepseek.svg",
     "wordmark": "/library/tools/deepseek_wordmark.svg",
     "url": "https://www.deepseek.com/"
@@ -4453,4 +4453,440 @@ export const svgs: iSVG[] = [
     "wordmark": "/library/aigc/OpenAI_wordmark.svg",
     "url": "https://openai.com/"
   },
+  {
+    "title": "Baseten",
+    "category": "AI产品",
+    "route": "/library/aigc/Baseten.svg",
+    "wordmark": "/library/aigc/Baseten_wordmark.svg",
+    "url": "https://baseten.co/"
+  },
+  {
+    "title": "Microsoft Bing",
+    "category": "AI产品",
+    "route": "/library/aigc/Bing.svg",
+    "wordmark": "/library/aigc/Bing_wordmark.svg",
+    "url": "https://bing.com/"
+  },
+  {
+    "title": "BurnCloud",
+    "category": "AI产品",
+    "route": "/library/aigc/BurnCloud.svg",
+    "wordmark": "/library/aigc/BurnCloud_wordmark.svg",
+    "url": "https://ai.burncloud.com/"
+  },
+  {
+    "title": "CentML",
+    "category": "AI产品",
+    "route": "/library/aigc/CentML.svg",
+    "wordmark": "/library/aigc/CentML_wordmark.svg",
+    "url": "https://centml.ai/"
+  },
+  {
+    "title": "Cerebras",
+    "category": "AI产品",
+    "route": "/library/aigc/Cerebras.svg",
+    "wordmark": "/library/aigc/Cerebras_wordmark.svg",
+    "url": "https://cerebras.ai/"
+  },
+  {
+    "title": "Civitai",
+    "category": "AI产品",
+    "route": "/library/aigc/Civitai.svg",
+    "wordmark": "/library/aigc/Civitai_wordmark.svg",
+    "url": "https://civitai.com/"
+  },
+  {
+    "title": "Cline",
+    "category": "AI产品",
+    "route": "/library/aigc/Cline.svg",
+    "wordmark": "/library/aigc/Cline_wordmark.svg",
+    "url": "https://cline.bot/"
+  },
+  {
+    "title": "Coze",
+    "category": "AI产品",
+    "route": "/library/aigc/Coze.svg",
+    "wordmark": "/library/aigc/Coze_wordmark.svg",
+    "url": "https://coze.com/"
+  },
+  {
+    "title": "Coqui",
+    "category": "AI产品",
+    "route": "/library/aigc/Coqui.svg",
+    "wordmark": "/library/aigc/Coqui_wordmark.svg",
+    "url": "https://github.com/coqui-ai/TTS"
+  },
+  {
+    "title": "CopilotKit",
+    "category": "AI产品",
+    "route": "/library/aigc/CopilotKit.svg",
+    "wordmark": "/library/aigc/CopilotKit_wordmark.svg",
+    "url": "https://copilotkit.ai/"
+  },
+  {
+    "title": "ComfyUI",
+    "category": "AI产品",
+    "route": "/library/aigc/ComfyUI.svg",
+    "wordmark": "/library/aigc/ComfyUI_wordmark.svg",
+    "url": "https://comfy.org/"
+  },
+  {
+    "title": "Google Colab",
+    "category": "AI产品",
+    "route": "/library/aigc/Colab.svg",
+    "wordmark": "/library/aigc/Colab_wordmark.svg",
+    "url": "https://colab.research.google.com/"
+  },
+  {
+    "title": "CogView",
+    "category": "AI产品",
+    "route": "/library/aigc/CogView.svg",
+    "wordmark": "/library/aigc/CogView_wordmark.svg",
+    "url": "https://github.com/THUDM/CogView3"
+  },
+  {
+    "title": "CogVideo",
+    "category": "AI产品",
+    "route": "/library/aigc/CogVideo.svg",
+    "wordmark": "/library/aigc/CogVideo_wordmark.svg",
+    "url": "https://github.com/THUDM/CogVideo"
+  },
+  {
+    "title": "CodeGeeX",
+    "category": "AI产品",
+    "route": "/library/aigc/CodeGeeX.svg",
+    "wordmark": "/library/aigc/CodeGeeX_wordmark.svg",
+    "url": "https://codegeex.cn/"
+  },
+  {
+    "title": "Cloudflare",
+    "category": "AI产品",
+    "route": "/library/aigc/Cloudflare.svg",
+    "wordmark": "/library/aigc/Cloudflare_wordmark.svg",
+    "url": "https://cloudflare.com/"
+  },
+  {
+    "title": "Clipdrop",
+    "category": "AI产品",
+    "route": "/library/aigc/Clipdrop.svg",
+    "wordmark": "/library/aigc/Clipdrop_wordmark.svg",
+    "url": "https://clipdrop.co/"
+  },
+  {
+    "title": "DreamMachine",
+    "category": "AI产品",
+    "route": "/library/aigc/DreamMachine.svg",
+    "wordmark": "/library/aigc/DreamMachine_wordmark.svg",
+    "url": "https://lumalabs.ai/dream-machine"
+  },
+  {
+    "title": "DocSearch",
+    "category": "AI产品",
+    "route": "/library/aigc/DocSearch.svg",
+    "wordmark": "/library/aigc/DocSearch_wordmark.svg",
+    "url": "https://docsearch.algolia.com/"
+  },
+  {
+    "title": "Doc2X",
+    "category": "AI产品",
+    "route": "/library/aigc/Doc2X.svg",
+    "wordmark": "/library/aigc/Doc2X_wordmark.svg",
+    "url": "https://doc2x.noedgeai.com/"
+  },
+  {
+    "title": "Dify",
+    "category": "AI产品",
+    "route": "/library/aigc/Dify.svg",
+    "wordmark": "/library/aigc/Dify_wordmark.svg",
+    "url": "https://dify.ai/"
+  },
+  {
+    "title": "DeepMind",
+    "category": "AI产品",
+    "route": "/library/aigc/DeepMind.svg",
+    "wordmark": "/library/aigc/DeepMind_wordmark.svg",
+    "url": "https://deepmind.google/"
+  },
+  {
+    "title": "DeepInfra",
+    "category": "AI产品",
+    "route": "/library/aigc/DeepInfra.svg",
+    "wordmark": "/library/aigc/DeepInfra_wordmark.svg",
+    "url": "https://deepinfra.com/"
+  },
+  {
+    "title": "DeepAI",
+    "category": "AI产品",
+    "route": "/library/aigc/DeepAI.svg",
+    "wordmark": "/library/aigc/DeepAI_wordmark.svg",
+    "url": "hhttps://deepai.org"
+  },
+  {
+    "title": "DBRX",
+    "category": "AI产品",
+    "route": "/library/aigc/DBRX.svg",
+    "wordmark": "/library/aigc/DBRX_wordmark.svg",
+    "url": "https://databricks.com/"
+  },
+  {
+    "title": "Cursor",
+    "category": "AI产品",
+    "route": "/library/aigc/Cursor.svg",
+    "wordmark": "/library/aigc/Cursor_wordmark.svg",
+    "url": "https://cursor.com/"
+  },
+  {
+    "title": "Crusoe",
+    "category": "AI产品",
+    "route": "/library/aigc/Crusoe.svg",
+    "wordmark": "/library/aigc/Crusoe_wordmark.svg",
+    "url": "https://crusoe.ai/"
+  },
+  {
+    "title": "CrewAI",
+    "category": "AI产品",
+    "route": "/library/aigc/CrewAI.svg",
+    "wordmark": "/library/aigc/CrewAI_wordmark.svg",
+    "url": "https://crewai.com/"
+  },
+  {
+    "title": "ElevenLabs",
+    "category": "AI产品",
+    "route": "/library/aigc/ElevenLabs.svg",
+    "wordmark": "/library/aigc/ElevenLabs_wordmark.svg",
+    "url": "https://elevenlabs.io/"
+  },
+  {
+    "title": "11x",
+    "category": "AI产品",
+    "route": "/library/aigc/11x.svg",
+    "wordmark": "/library/aigc/11x_wordmark.svg",
+    "url": "https://11x.ai/"
+  },
+  {
+    "title": "Exa",
+    "category": "AI产品",
+    "route": "/library/aigc/Exa.svg",
+    "wordmark": "/library/aigc/Exa_wordmark.svg",
+    "url": "https://exa.ai/"
+  },
+  {
+    "title": "Fal",
+    "category": "AI产品",
+    "route": "/library/aigc/Fal.svg",
+    "wordmark": "/library/aigc/Fal_wordmark.svg",
+    "url": "https://fal.ai/"
+  },
+  {
+    "title": "FastGPT",
+    "category": "AI产品",
+    "route": "/library/aigc/FastGPT.svg",
+    "wordmark": "/library/aigc/FastGPT_wordmark.svg",
+    "url": "https://tryfastgpt.ai/"
+  },
+  {
+    "title": "Featherless.ai",
+    "category": "AI产品",
+    "route": "/library/aigc/FeatherlessAI.svg",
+    "wordmark": "/library/aigc/FeatherlessAI_wordmark.svg",
+    "url": "https://featherless.ai/"
+  },
+  {
+    "title": "FishAudio",
+    "category": "AI产品",
+    "route": "/library/aigc/FishAudio.svg",
+    "wordmark": "/library/aigc/FishAudio_wordmark.svg",
+    "url": "https://github.com/fishaudio"
+  },
+  {
+    "title": "Flora",
+    "category": "AI产品",
+    "route": "/library/aigc/Flora.svg",
+    "wordmark": "/library/aigc/Flora_wordmark.svg",
+    "url": "https://florafauna.ai/"
+  },
+  {
+    "title": "Flowith",
+    "category": "AI产品",
+    "route": "/library/aigc/Flowith.svg",
+    "wordmark": "/library/aigc/Flowith_wordmark.svg",
+    "url": "https://flowith.io/"
+  },
+  {
+    "title": "Gradio",
+    "category": "AI产品",
+    "route": "/library/aigc/Gradio.svg",
+    "wordmark": "/library/aigc/Gradio_wordmark.svg",
+    "url": "https://gradio.app/"
+  },
+  {
+    "title": "Goose",
+    "category": "AI产品",
+    "route": "/library/aigc/Goose.svg",
+    "wordmark": "/library/aigc/Goose_wordmark.svg",
+    "url": "https://block.github.io/goose"
+  },
+  {
+    "title": "Glif",
+    "category": "AI产品",
+    "route": "/library/aigc/Glif.svg",
+    "wordmark": "/library/aigc/Glif_wordmark.svg",
+    "url": "https://glif.app/"
+  },
+  {
+    "title": "Glama",
+    "category": "AI产品",
+    "route": "/library/aigc/Glama.svg",
+    "wordmark": "/library/aigc/Glama_wordmark.svg",
+    "url": "https://glama.ai/"
+  },
+  {
+    "title": "Github Copilot",
+    "category": "AI产品",
+    "route": "/library/aigc/GithubCopilot.svg",
+    "wordmark": "/library/aigc/GithubCopilot_wordmark.svg",
+    "url": "https://github.com/features/copilot"
+  },
+  {
+    "title": "GiteeAI",
+    "category": "AI产品",
+    "route": "/library/aigc/GiteeAI.svg",
+    "wordmark": "/library/aigc/GiteeAI_wordmark.svg",
+    "url": "https://ai-assets.gitee.com/"
+  },
+  {
+    "title": "Friendli",
+    "category": "AI产品",
+    "route": "/library/aigc/Friendli.svg",
+    "wordmark": "/library/aigc/Friendli_wordmark.svg",
+    "url": "https://friendli.ai/"
+  }, 
+  {
+    "title": "Kimi",
+    "category": "AI产品",
+    "route": "/library/aigc/Kimi.svg",
+    "wordmark": "/library/aigc/Kimi_wordmark.svg",
+    "url": "https://kimi.moonshot.cn/"
+  },
+  {
+    "title": "Kera",
+    "category": "AI产品",
+    "route": "/library/aigc/Kera.svg",
+    "wordmark": "/library/aigc/Kera_wordmark.svg",
+    "url": "https://kera.ai/"
+  },
+  {
+    "title": "Jina AI",
+    "category": "AI产品",
+    "route": "/library/aigc/JinaAI.svg",
+    "wordmark": "/library/aigc/JinaAI_wordmark.svg",
+    "url": "https://jina.ai/"
+  },
+  {
+    "title": "即梦",
+    "category": "AI产品",
+    "route": "/library/aigc/Jimeng.svg",
+    "wordmark": "/library/aigc/Jimeng_wordmark.svg",
+    "url": "https://jimeng.jianying.com/"
+  },
+  {
+    "title": "书生",
+    "category": "AI产品",
+    "route": "/library/aigc/InternLM.svg",
+    "wordmark": "/library/aigc/InternLM_wordmark.svg",
+    "url": "https://internlm.intern-ai.org.cn/"
+  },
+  {
+    "title": "Inflection",
+    "category": "AI产品",
+    "route": "/library/aigc/Inflection.svg",
+    "wordmark": "/library/aigc/Inflection_wordmark.svg",
+    "url": "https://inflection.ai/"
+  },
+  {
+    "title": "无问芯穹",
+    "category": "AI产品",
+    "route": "/library/aigc/Infinigence.svg",
+    "wordmark": "/library/aigc/Infinigence_wordmark.svg",
+    "url": "https://cloud.infini-ai.com/"
+  },
+  {
+    "title": "Infermatic",
+    "category": "AI产品",
+    "route": "/library/aigc/Infermatic.svg",
+    "wordmark": "/library/aigc/Infermatic_wordmark.svg",
+    "url": "https://infermatic.ai/"
+  },
+  {
+    "title": "Inference",
+    "category": "AI产品",
+    "route": "/library/aigc/Inference.svg",
+    "wordmark": "/library/aigc/Inference_wordmark.svg",
+    "url": "https://inference.net/"
+  },
+  {
+    "title": "Ideogram",
+    "category": "AI产品",
+    "route": "/library/aigc/Ideogram.svg",
+    "wordmark": "/library/aigc/Ideogram_wordmark.svg",
+    "url": "https://ideogram.ai/"
+  },
+  {
+    "title": "讯飞开放平台",
+    "category": "AI产品",
+    "route": "/library/aigc/IFlyTekCloud.svg",
+    "wordmark": "/library/aigc/IFlyTekCloud_wordmark.svg",
+    "url": "https://xfyun.cn/"
+  },
+  {
+    "title": "Hyperbolic",
+    "category": "AI产品",
+    "route": "/library/aigc/Hyperbolic.svg",
+    "wordmark": "/library/aigc/Hyperbolic_wordmark.svg",
+    "url": "https://hyperbolic.xyz/"
+  },
+  {
+    "title": "腾讯混元",
+    "category": "AI产品",
+    "route": "/library/aigc/Hunyuan.svg",
+    "wordmark": "/library/aigc/Hunyuan_wordmark.svg",
+    "url": "https://hunyuan.tencent.com/"
+  },
+  {
+    "title": "Higress",
+    "category": "AI产品",
+    "route": "/library/aigc/Higress.svg",
+    "wordmark": "/library/aigc/Higress_wordmark.svg",
+    "url": "https://higress.cn/"
+  },
+  {
+    "title": "Hedra",
+    "category": "AI产品",
+    "route": "/library/aigc/Hedra.svg",
+    "wordmark": "/library/aigc/Hedra_wordmark.svg",
+    "url": "https://hedra.com/"
+  },
+  {
+    "title": "Haiper",
+    "category": "AI产品",
+    "route": "/library/aigc/Haiper.svg",
+    "wordmark": "/library/aigc/Haiper_wordmark.svg",
+    "url": "https://haiper.ai/"
+  },
+  {
+    "title": "海螺",
+    "category": "AI产品",
+    "route": "/library/aigc/Hailuo.svg",
+    "wordmark": "/library/aigc/Hailuo_wordmark.svg",
+    "url": "https://hailuoai.video/"
+  },
+  {
+    "title": "Greptile",
+    "category": "AI产品",
+    "route": "/library/aigc/Greptile.svg",
+    "wordmark": "/library/aigc/Greptile_wordmark.svg",
+    "url": "https://greptile.com/"
+  },
+
+
 ];

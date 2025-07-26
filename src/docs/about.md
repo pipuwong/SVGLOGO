@@ -27,6 +27,9 @@ description: 专注收录国内矢量 LOGO
 [预警信号ICON](https://www.figma.com/community/file/1133299341246601360) @岩鸣杨子<br>
 
 ## 更新日志
+### 2025.07.26
+#### ✨ 增加图标
+今天又库库更新了一大波AI产品的Logo
 ### 2025.07.25
 #### ✨ 增加图标
 卡奥斯COSMOPlat **@Minami** <br>
