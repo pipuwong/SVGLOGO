@@ -1346,7 +1346,7 @@ export const svgs: iSVG[] = [
     "url": "http://www.cugb.edu.cn"
   },
   {
-    "title": "中国石油大学（华东）",
+    "title": "中国石油大学（北京）",
     "category": "大学校徽",
     "route": "/library/school/CUP.svg",
     "wordmark": "/library/school/CUP_wordmark.svg",
@@ -1842,7 +1842,7 @@ export const svgs: iSVG[] = [
     "url": "http://www.nottingham.edu.cn"
   },
   {
-    "title": "中国石油大学（北京）",
+    "title": "中国石油大学（华东）",
     "category": "大学校徽",
     "route": "/library/school/UPC.svg",
     "wordmark": "/library/school/UPC_wordmark.svg",

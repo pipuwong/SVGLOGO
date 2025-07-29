@@ -135,7 +135,7 @@ onDestroy(() => {
         class="flex flex-1 items-center space-x-1 overflow-y-auto px-6 pb-2 pt-2 md:mb-3 md:flex-col md:space-x-0 md:space-y-1 md:overflow-y-visible md:px-0 md:pt-0"
       >
         <a
-          href="/"
+          href="/?view=original"
           class={cn(
             sidebarItemStyles,
             data.pathname === '/'
